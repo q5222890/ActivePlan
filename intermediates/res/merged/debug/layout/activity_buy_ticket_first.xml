@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_header_new" />
+
+  <!--     <com.accuvally.hdtui.ui.CustomerScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10.0dip"
+        android:layout_weight="1.0" >-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="left|center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0dip"
+                    android:background="@drawable/bug_ticket_first_phone_icon_bg" />
+
+                <com.xz.activeplan.views.ClearableEditText
+                    android:id="@id/edDialogPhone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/check_user_edit_left_bg"
+                    android:hint="您的手机号"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:padding="5.0dip"
+                    android:singleLine="true"
+                    android:textSize="@dimen/sixteen_sp" />
+
+                <TextView
+                    android:id="@id/sendCheckNumTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12.0dip"
+                    android:background="@drawable/selector_wane_green"
+                    android:gravity="center"
+                    android:padding="8.0dip"
+                    android:text="@string/details_dialog2_text3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/little_14" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="13.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="13.0dip" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bug_ticket_first_num_icon_bg" />
+
+                <com.xz.activeplan.views.ClearableEditText
+                    android:id="@id/edCheckNum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:drawableLeft="@drawable/check_user_edit_left_bg"
+                    android:hint="请输入您收到的验证码"
+                    android:inputType="number"
+                    android:padding="5.0dip"
+                    android:singleLine="true"
+                    android:textSize="@dimen/sixteen_sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+        </LinearLayout>
+  <!--    </com.accuvally.hdtui.ui.CustomerScrollView>-->
+
+    <TextView
+        android:id="@id/tvFirstNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/txt_green"
+        android:gravity="center"
+        android:padding="15.0dip"
+        android:text="@string/details_next"
+        android:textColor="@color/white"
+        android:textSize="@dimen/little_18"
+        android:textStyle="bold" />
+
+</LinearLayout>

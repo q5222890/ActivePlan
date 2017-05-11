@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BBFE"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+
+        <TextView
+            android:id="@id/tvUpLoadTitle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="活动形式"
+            android:textColor="@color/white"
+            android:textSize="@dimen/little_18" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/txt_green" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@drawable/selector_click_btn"
+        android:padding="10.0dip"
+        android:text="沙龙"
+        android:textColor="@color/txt_gray"
+        android:textSize="@dimen/sixteen_sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.100000024dip"
+        android:background="@drawable/details_icon_line2" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@drawable/selector_click_btn"
+        android:padding="10.0dip"
+        android:text="会议"
+        android:textColor="@color/txt_gray"
+        android:textSize="@dimen/sixteen_sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.100000024dip"
+        android:background="@drawable/details_icon_line2"
+        android:paddingBottom="10.0dip" />
+
+</LinearLayout>

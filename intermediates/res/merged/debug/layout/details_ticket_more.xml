@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电话:" />
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:id="@id/tv_phone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="邮箱:" />
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:id="@id/tv_email" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="票种:" />
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/orange" android:id="@id/tv_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="票价:" />
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:id="@id/tv_price" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="有效期限:" />
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:id="@id/tv_expired_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/details_ticket_instructions" android:lineSpacingExtra="3.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="活动行官网:" />
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/orange" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/website_url" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/service_telephone" />
+</LinearLayout>

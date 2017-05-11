@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_out.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\fragment_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\base_slide_right_out.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\base_slide_right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\base_slide_right_in.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\base_slide_right_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\reverse_anim.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\reverse_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\zoomout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\zoomout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\expandable_hide.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\expandable_hide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\left2right_in.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\left2right_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\loading.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\transition_out.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\transition_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_scale.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\zoom_scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\menu_button_open.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\menu_button_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\list_anim_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\list_anim_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\left2right_out.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\left2right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\rotating.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\rotating.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\zoomin.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\zoomin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_in.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\fragment_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\list_anim.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\list_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_enter_anim.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\dialog_enter_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_exit_anim.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\dialog_exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\expandable_show.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\expandable_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\loading2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\loading2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\anim\\menu_button_cancel.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\anim\\menu_button_cancel.xml"
+    }
+]

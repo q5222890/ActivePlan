@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="com.xz.activeplan.ui.live.activity.SendLiveActivity">
+    <SurfaceView
+        android:id="@+id/live_surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/live_frame"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/transparent"
+            android:orientation="vertical"
+            android:visibility="visible">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/live_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="取消"
+                    android:textColor="@color/home_left_color"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="创建直播"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/live_fengmian"
+                    android:layout_width="150dp"
+                    android:layout_height="87dp"
+                    android:background="@drawable/setfengmian"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <!--标题-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:gravity="center_vertical"
+               android:orientation="horizontal">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingRight="15dp"
+                   android:text="标题"
+                   android:textColor="@color/header_blue"
+                   android:textSize="16sp"/>
+               <EditText
+                   android:id="@+id/live_etTitle"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@null"
+                   android:hint="@string/hint_live"
+                   android:maxLength="16"
+                   android:maxLines="1"
+                   android:singleLine="true"
+                   android:textColor="@color/txt_gray"
+                   android:textColorHint="@color/home_item_txt"
+                   android:textSize="14sp" />
+           </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.05dp"
+            android:background="@color/push_share_details_line"
+            />
+
+        <LinearLayout
+            android:id="@+id/live_llStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题"
+                android:textColor="#107adc"
+                android:textSize="20sp"
+                android:visibility="gone" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/starttime_live"
+                android:drawablePadding="10dp"
+                android:text="开始时间"
+                android:textColor="@color/gary_title"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/live_tv_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="立即直播"
+                android:textColor="@color/home_item_txt"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.05dp"
+            android:background="@color/push_share_details_line"
+            />
+        <LinearLayout
+            android:id="@+id/live_llCanSee"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题"
+                android:textColor="#107adc"
+                android:textSize="20sp"
+                android:visibility="gone" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/permissions_live"
+                android:drawablePadding="10dp"
+                android:text="谁可以看"
+                android:textColor="@color/gary_title"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/live_see"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="公开"
+                android:textColor="@color/home_item_txt"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.05dp"
+            android:background="@color/push_share_details_line"
+            />
+        <LinearLayout
+            android:id="@+id/live_llClassify"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题"
+                android:textColor="#107adc"
+                android:textSize="20sp"
+                android:visibility="gone" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/category_live"
+                android:drawablePadding="10dp"
+                android:text="分类"
+                android:textColor="@color/gary_title"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/live_classify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="活动现场"
+                android:textColor="@color/home_item_txt"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.05dp"
+            android:background="@color/push_share_details_line"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="#107adc"
+        android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:orientation="horizontal"
+           android:paddingTop="5dp">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="25dp"
+             android:gravity="center"
+             android:text="分享到" />
+           <ImageView
+               android:id="@+id/send_ivSina"
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:layout_marginLeft="10dp"
+               android:src="@drawable/icon_sina_default" />
+           <ImageView
+               android:id="@+id/send_ivQQ"
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:layout_marginLeft="10dp"
+               android:src="@drawable/icon_qq_default" />
+           <ImageView
+               android:id="@+id/send_ivWenxin"
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:layout_marginLeft="10dp"
+               android:src="@drawable/icon_wechat_default" />
+           <ImageView
+               android:id="@+id/send_ivFriend"
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:layout_marginLeft="10dp"
+               android:src="@drawable/icon_wefri_default" />
+       </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center">
+      <Button
+          android:id="@+id/live_bt_start_live"
+          android:layout_width="260dp"
+          android:layout_height="35dp"
+          android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+          android:background="@drawable/shape_btn_bg_selected"
+          android:text="立即直播"
+          android:textColor="@color/header_blue"
+          android:textSize="16sp" />
+  </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.oginotihiro.cropview.CropView
+        android:id="@+id/cropView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnlay"
+        android:background="@color/white"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/btnlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消" />
+        <Button
+            android:id="@+id/doneBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定" />
+    </LinearLayout>
+
+
+</RelativeLayout>

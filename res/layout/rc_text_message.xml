@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="7dp">
+
+    <com.xz.activeplan.views.CircleImageView
+        android:id="@+id/rc_header"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/default_head_bg" />
+    <LinearLayout
+        android:id="@+id/rc_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rc_ic_bubble_left"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/rc_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/rc_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

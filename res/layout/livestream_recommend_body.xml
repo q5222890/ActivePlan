@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srl_livestream_recommend"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffecedec"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="160dip">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager_liverecommend"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <LinearLayout
+                android:id="@+id/line_cicleIndicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10.0dip"
+                android:gravity="center"
+                android:orientation="horizontal" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="推荐直播"
+            android:background="@color/all_backgroud"
+            android:layout_marginLeft="5.0dp"
+            android:textColor="@color/red2"
+            android:gravity="center_vertical"
+            />
+
+        <com.xz.activeplan.views.MyGridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </com.xz.activeplan.views.MyGridView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

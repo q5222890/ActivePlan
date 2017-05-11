@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xz.activeplan.ui.personal.activity.MessageActivity">
+    <!--头部-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/id_LineHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/activity_header_new"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/id_LineHead"
+        android:padding="@dimen/five_dip"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--系统消息-->
+        <LinearLayout
+            android:id="@+id/id_LineSystem"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_weight="2"
+                android:layout_marginTop="@dimen/five_dip"
+                android:src="@drawable/system_message"
+                android:id="@+id/id_ImageActivityMessage"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="@dimen/fifty_dip" />
+            <ImageView
+                android:layout_marginLeft="@dimen/_five_dp"
+                android:id="@+id/id_ImageSystemSignRed"
+                android:layout_width="@dimen/ten_dp"
+                android:layout_height="@dimen/ten_dp"
+                android:src="@drawable/main_bottom_mine_unread_bg"
+                android:visibility="gone" />
+            <LinearLayout
+                android:layout_weight="12"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:orientation="vertical"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="match_parent">
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_toLeftOf="@+id/id_TextViewSystemTime"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/id_TextSystemMessageTitle"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:text="@string/System_Message"
+                    android:textSize="@dimen/fifteen_sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                        android:paddingBottom="@dimen/one_dp"
+                        android:paddingTop="@dimen/one_dp"
+                        android:paddingRight="@dimen/two_dp"
+                        android:paddingLeft="@dimen/two_dp"
+                        android:layout_marginLeft="@dimen/five_dip"
+                        android:textSize="@dimen/eight_dp"
+                        android:background="@color/header_blue"
+                        android:text="@string/System_Official"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/id_TextViewSystemTime"
+                    android:textColor="@color/textColor"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:text="17:56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+                <TextView
+                    android:id="@+id/id_TextViewSystemMessage"
+                    android:textColor="@color/textColor"
+                    android:layout_marginTop="@dimen/five_dip"
+                    android:text="用户你好！欢迎你使用约吧！"
+                    android:layout_below="@+id/id_TextSystemMessageTitle"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_LineSystemView"
+            android:paddingLeft="@dimen/ten_dp"
+            android:paddingRight="@dimen/ten_dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/five_dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_weight="12"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="wrap_content">
+              <include layout="@layout/view"
+            />
+                </LinearLayout>
+        </LinearLayout>
+
+        <!--私人消息-->
+        <LinearLayout
+            android:id="@+id/id_LinePrivate"
+            android:layout_marginTop="@dimen/five_dip"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_weight="2"
+                android:layout_marginTop="@dimen/five_dip"
+                android:src="@drawable/private_chat"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="@dimen/fifty_dip" />
+            <ImageView
+                android:id="@+id/id_ImagepPivateSignRed"
+                android:layout_marginLeft="@dimen/_five_dp"
+                android:layout_width="@dimen/ten_dp"
+                android:layout_height="@dimen/ten_dp"
+                android:src="@drawable/main_bottom_mine_unread_bg"
+                android:visibility="gone" />
+            <LinearLayout
+                android:layout_weight="12"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/id_ImageOrderSignRed"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_toLeftOf="@+id/id_TextViewPrivateChatTime"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/id_TextViewPrivate"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:text="@string/string_private_chat"
+                        android:textSize="@dimen/fifteen_sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginRight="@dimen/five_dip"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/id_TextViewPrivateChatTime"
+                        android:textColor="@color/textColor"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:text="23:12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/id_TextViewPrivateMessage"
+                    android:textColor="@color/textColor"
+                    android:layout_marginTop="@dimen/five_dip"
+                    android:text=" 交易成功！"
+                    android:layout_below="@+id/id_TextOrderMessageTitle"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_LinePrivateView"
+            android:paddingLeft="@dimen/ten_dp"
+            android:paddingRight="@dimen/ten_dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/five_dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_weight="12"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="wrap_content">
+                <include layout="@layout/view"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--群聊-->
+        <LinearLayout
+            android:id="@+id/id_LineGroup"
+            android:layout_marginTop="@dimen/five_dip"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_weight="2"
+                android:layout_marginTop="@dimen/five_dip"
+                android:src="@drawable/group_chat"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="@dimen/fifty_dip" />
+            <ImageView
+                android:id="@+id/id_ImageGroupSignRed"
+                android:layout_marginLeft="@dimen/_five_dp"
+                android:layout_width="@dimen/ten_dp"
+                android:layout_height="@dimen/ten_dp"
+                android:src="@drawable/main_bottom_mine_unread_bg"
+                android:visibility="gone" />
+            <LinearLayout
+                android:layout_weight="12"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/two_dp"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/id_ImageOrderSignRed"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                       android:layout_toLeftOf="@+id/id_TextViewGroupChatTime"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:text="@string/string_group_chat"
+                        android:textSize="@dimen/fifteen_sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginRight="@dimen/five_dip"
+                        android:id="@+id/id_TextViewGroupChatTime"
+                        android:textColor="@color/textColor"
+                        android:layout_alignParentRight="true"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:text="23:12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/id_TextViewGroupChat"
+                    android:textColor="@color/textColor"
+                    android:layout_marginTop="@dimen/five_dip"
+                    android:text=" 交易成功！"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/id_LineGroupView"
+            android:paddingLeft="@dimen/ten_dp"
+            android:paddingRight="@dimen/ten_dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/five_dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_weight="12"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="wrap_content">
+                <include layout="@layout/view"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/rc_conversation_list_empty_prompt"
+        android:layout_centerInParent="true"
+        android:id="@+id/id_TextViewNoMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#999999"
+        android:textSize="16dp"
+        android:visibility="visible" />
+</RelativeLayout>

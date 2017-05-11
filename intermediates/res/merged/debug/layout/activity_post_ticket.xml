@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_header_new" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#f9f9f9"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="基本信息"
+                android:textColor="#01bbff"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <EditText
+                android:id="@+id/ed_ticket_name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:hint="票务名称"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:textColor="#000000"
+                android:textColorHint="#ccc"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:visibility="visible" >
+
+                <EditText
+                    android:id="@+id/ed_yes_momey"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:gravity="center_vertical|left"
+                    android:hint="收费票种（默认不收费）"
+                    android:inputType="numberDecimal"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:focusable="false"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </EditText>
+
+                <CheckBox
+                    android:id="@+id/ck_yes_momey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            
+             <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <EditText
+                android:id="@+id/ed_money"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:hint="收费金额(元)"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:textColor="#000000"
+                android:inputType="numberDecimal"
+                android:textColorHint="#ccc"
+                android:visibility="gone"
+                android:textSize="15sp" />
+            
+             <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+             
+             <EditText
+                android:id="@+id/ed_intro"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:hint="票务说明"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:textColor="#000000"
+                android:textColorHint="#ccc"
+                android:textSize="15sp" />
+            
+             <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+             
+             <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:visibility="gone" >
+
+                <EditText
+                    android:id="@+id/ed_is_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:gravity="center_vertical|left"
+                    android:hint="是否要审核(默认审核)"
+                    android:inputType="numberDecimal"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:textColor="#000000"
+                    android:focusable="false"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </EditText>
+
+                <CheckBox
+                    android:id="@+id/ck_is_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            
+              <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:visibility="gone" 
+                android:background="#ccc" />
+              
+              <EditText
+                android:id="@+id/ed_personnum"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:hint="人数限制"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:textColor="#000000"
+                android:inputType="number"
+                android:textColorHint="#ccc"
+                android:textSize="15sp" />
+            
+             <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+            
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="25dp"
+                android:background="#fff" >
+
+                <Button
+                    android:id="@+id/btn_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_bt_bg"
+                    android:text="确定"
+                    android:textColor="#fff" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

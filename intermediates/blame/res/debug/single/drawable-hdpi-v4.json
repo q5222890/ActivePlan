@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_top.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_top.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_horizontal_line.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_horizontal_line.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_play_normal.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_play_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_play_click.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_play_click.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_back.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_play.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_loading.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_loading.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_play_complete_bg.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_play_complete_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_bottom.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_bottom.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xlistview_arrow.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\drawable-hdpi-v4\\xlistview_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\update_background.9.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\update_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_playprogress_seek_thumb_press.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_playprogress_seek_thumb_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_playprogress_seek_thumb_normal.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_playprogress_seek_thumb_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_logo.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_pause.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vp_fullscreen.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\vp_fullscreen.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

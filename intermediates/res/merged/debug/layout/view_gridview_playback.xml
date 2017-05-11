@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/id_Rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/thumb"
+        android:id="@+id/id_ImageGrideNew"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:background="#747474"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:id="@+id/id_Line"
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+            <TextView
+                android:gravity="center_vertical"
+                android:textSize="@dimen/twelve_sp"
+                android:textColor="@color/white"
+                android:id="@+id/id_TextTime"
+                android:layout_marginLeft="@dimen/little_10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:textSize="@dimen/twelve_sp"
+        android:layout_below="@+id/id_Rel"
+        android:id="@+id/id_TextViewTiele"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/two_dp"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/ten_sp"
+        android:layout_below="@+id/id_TextViewTiele"
+        android:id="@+id/id_TextViewContent"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="aa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

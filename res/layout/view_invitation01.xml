@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!--付款内容-->
+    <LinearLayout
+        android:layout_marginTop="@dimen/ten_dp"
+        android:layout_below="@+id/id_LineSpeedOfProgress"
+        android:id="@+id/id_LineContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_TextViewTechnologyShareTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fifteen_sp"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/seventeen_sp" />
+
+        <TextView
+            android:layout_marginBottom="@dimen/twenty_dip"
+            android:id="@+id/id_TextViewMoneyHours01"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/thirty_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:background="@drawable/shape_price_red"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:paddingLeft="@dimen/ten_dp"
+            android:paddingRight="@dimen/ten_dp"
+            android:singleLine="true"
+            android:textColor="@color/textColor_Black"
+            android:textSize="@dimen/seventeen_sp" />
+        <!--地点-->
+        <RelativeLayout
+            android:paddingLeft="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:background="@drawable/shape_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+
+            android:textColorHint="@color/gary5"
+            android:id="@+id/id_TexViewtAddress"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/id_ImgaeAddress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/thirty_five_dip"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/Please_Addrss"
+            android:padding="@dimen/two_dp"
+            android:textSize="@dimen/fifteen_dp" />
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/id_ImgaeAddress"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/location_gps"
+                android:layout_width="@dimen/twenty_five_dip"
+                android:layout_height="@dimen/twenty_five_dip" />
+
+        </RelativeLayout>
+        <!--开始时间-->
+        <RelativeLayout
+            android:paddingLeft="@dimen/ten_dp"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:background="@drawable/shape_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColorHint="@color/gary5"
+                android:id="@+id/id_TextViewStartTime"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/id_ImgaeStratTime"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/thirty_five_dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/Start_Time"
+                android:padding="@dimen/two_dp"
+                android:textSize="@dimen/fifteen_dp" />
+            <ImageView
+                android:layout_marginRight="2.5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/id_ImgaeStratTime"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/start_time"
+                android:layout_width="@dimen/twenty_dip"
+                android:layout_height="@dimen/twenty_dip" />
+
+        </RelativeLayout>
+        <!--结束时间-->
+        <LinearLayout
+
+            android:id="@+id/id_LineStopeTime"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+            <TextView
+
+                android:background="@drawable/shape_line"
+                android:id="@+id/id_TextViewHrous"
+                android:layout_weight="7"
+                android:textColorHint="@color/gary5"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/id_LineChanganTime"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/thirty_five_dip"
+                android:gravity="center_vertical"
+                android:hint="@string/Stop_Time"
+                android:padding="@dimen/two_dp"
+                android:textSize="@dimen/fifteen_sp" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:id="@+id/id_ImgaeStropTime"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/strop_time"
+                android:layout_width="@dimen/twenty_dip"
+                android:layout_height="@dimen/twenty_dip" />
+            <LinearLayout
+                android:padding="@dimen/three_dp"
+                android:gravity="center_vertical"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:id="@+id/id_LineChanganTime"
+                android:layout_width="@dimen/zero_sp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginRight="@dimen/two_dp"
+                    android:layout_weight="5"
+                    android:id="@+id/id_ImageAddHours"
+                    android:src="@drawable/image_add"
+                    android:layout_width="@dimen/zero_sp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_weight="5"
+                    android:id="@+id/id_ImageReduceHours"
+                    android:src="@drawable/image_reduce"
+                    android:layout_width="@dimen/zero_sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="@dimen/eight_dp"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:textColor="@color/yellow"
+            android:text="@string/string_EstimatedAmount"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/gary5"
+            android:id="@+id/id_TextViewEstimatedAmount"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/seventeen_sp" />
+    </LinearLayout>
+
+    <!--联系方式-->
+    <LinearLayout
+        android:id="@+id/id_LineContactInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_LineContent"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fifteen_sp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:drawablePadding="@dimen/ten_dp"
+            android:drawableRight="@drawable/star"
+            android:ellipsize="none"
+            android:singleLine="true"
+            android:text="@string/YouName"
+            android:textColor="@color/textColor_Black"
+            android:textSize="@dimen/seventeen_sp" />
+
+        <EditText
+            android:id="@+id/id_EditName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/thirty_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:background="@drawable/shape_line"
+            android:ellipsize="none"
+            android:paddingLeft="@dimen/five_dip"
+            android:paddingRight="@dimen/five_dip"
+            android:singleLine="true"
+            android:textSize="@dimen/fifteen_sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fifteen_sp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:layout_marginTop="@dimen/fifteen_sp"
+            android:drawablePadding="@dimen/ten_dp"
+            android:drawableRight="@drawable/star"
+            android:ellipsize="none"
+            android:singleLine="true"
+            android:text="@string/YouPhoneNum"
+            android:textSize="@dimen/seventeen_sp" />
+
+        <EditText
+            android:id="@+id/id_EditTel"
+            android:layout_width="match_parent"
+            android:layout_height= "@dimen/thirty_dp"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:background="@drawable/shape_line"
+            android:ellipsize="none"
+            android:paddingLeft="@dimen/five_dip"
+            android:paddingRight="@dimen/five_dip"
+            android:singleLine="true"
+            android:textSize="@dimen/fifteen_sp" />
+
+
+    </LinearLayout>
+
+    <!--邀请名人做什么-->
+    <LinearLayout
+        android:id="@+id/id_LineInvitationCelebrityContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_LineContactInformation"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/ten_dp"
+        android:paddingRight="@dimen/ten_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/fifteen_sp"
+            android:layout_marginTop="@dimen/fifteen_sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/Invitation_CuaranteeWhatDoing"
+                android:textColor="@color/textColor_Black"
+                android:textSize="@dimen/seventeen_sp" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/id_TextViewLess20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/five_dip"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:text="@string/CantNull"
+                android:textColor="@color/red2"
+                android:textSize="@dimen/twelve_dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_LineCuaranteeWhatDoing"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_hundred_and_twenty_dip"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:background="@drawable/shape_line"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/id_TextViewInvitationCelebriteTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@null"
+                android:hint="@string/Invitation_CuaranteeWhatDoingExample"
+                android:textSize="@dimen/seventeen_sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--说一下你活动遇到的问题-->
+    <LinearLayout
+        android:id="@+id/id_LineYouProblem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_LineInvitationCelebrityContent"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/ten_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/ten_dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/TellMeYouProblem"
+                android:textSize="@dimen/seventeen_sp" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/id_TextViewNoCantNull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five_dip"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:text="@string/Less100Words"
+                android:textColor="@color/red2"
+                android:textSize="@dimen/twelve_dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_LineMyProblemContent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_hundred_and_twenty_dip"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:background="@drawable/shape_line"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/id_TextViewMyProblemContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@null"
+                android:hint="@string/strings_MyProblem"
+                android:textSize="@dimen/seventeen_sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.xz.activeplan.views.JustifyTextView
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:lineSpacingExtra="@dimen/two_dp"
+        android:lineSpacingMultiplier="1.2"
+        android:id="@+id/id_TextViewRemind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_LineYouProblem"
+        android:layout_marginBottom="@dimen/fifty_dip"
+        android:layout_marginTop="@dimen/fifteen_sp"
+        android:gravity="center"
+        android:paddingBottom="@dimen/fifteen_sp"
+        android:paddingTop="@dimen/fifteen_sp"
+        android:text="@string/strings_YouMessage"
+        android:textSize="@dimen/fifteen_sp" />
+    </LinearLayout>
+</ScrollView>

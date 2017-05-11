@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xz.activeplan.ui.personal.activity.AddAcountActivity">
+
+
+    <include layout="@layout/activity_header_new" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="@string/bindacount"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/selector_shape_strokeblue"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名"
+                android:textSize="18sp"
+                android:textColor="@color/black_pressed"
+                android:layout_marginRight="5dp"/>
+
+            <com.xz.activeplan.views.ClearableEditText
+                android:id="@+id/clearedt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_shape_strokeblue"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账号"
+                android:textColor="@color/black_pressed"
+                android:textSize="18sp"
+                android:layout_marginRight="5dp"/>
+
+            <com.xz.activeplan.views.ClearableEditText
+                android:id="@+id/clearedt_acount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bingacounthint"
+            android:textColor="@color/gary_title"
+            android:gravity="center_horizontal"
+            android:layout_margin="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/shape_blue"/>
+
+    </LinearLayout>
+</LinearLayout>

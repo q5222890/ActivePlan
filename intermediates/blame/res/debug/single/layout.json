@@ -1,0 +1,1138 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_input_menu_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_public_service_input_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_at.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_at.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_organizers.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_organizers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_information_notification_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_information_notification_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_row.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_photo.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_home_recommend.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_home_recommend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_category_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_category_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_home_robticket.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_home_robticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_subconversationlist_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_subconversationlist_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_no_network.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_no_network.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_block_popup.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_block_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_webview.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_ac_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_friends.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\ticket_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\ticket_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_ticket.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_post_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_accuvally_details.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_accuvally_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_albums.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_albums.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_conversation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_media_controller_landscape_vod.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_media_controller_landscape_vod.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_listview_teacher.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_listview_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clip.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_clip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_buy_ticket_first.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_buy_ticket_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_friends.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_home_category_type1.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_home_category_type1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_discussion_conversation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_discussion_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\invalid_ticket.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\invalid_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_active_category.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_active_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_calledside_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_calledside_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_basic_info.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_basic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_item_cycle.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_main_item_cycle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_sel.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_sel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_home_recommend.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_home_recommend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_host.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_modify_host.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_page.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_live_tv.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_live_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_select_accuvally.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_select_accuvally.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_activity_style.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_activity_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_password.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_update_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_ext_pager.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_ext_pager.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ticket_list.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_ticket_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_share_success.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_share_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_topic_detail.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_topic_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_conversationlist.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_conversationlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_base_conversation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_base_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_recommend_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_recommend_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_organizers.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_organizers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\picker_date.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\picker_date.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\danmaku_frame.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\danmaku_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_gridview_playback.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_gridview_playback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\bf_list_view_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\bf_list_view_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\softupdate_progress.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\softupdate_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send_live.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_send_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_conversation_list_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_conversation_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_news_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fragment_base_setting.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fragment_base_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_money_account.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_money_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_gps_location.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_gps_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_chart_info.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_chart_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_city.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_choose_city.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\host_top_tab.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\host_top_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_app_service_conversation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_app_service_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_image_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_image_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_new.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_main_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_test.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_data.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_update_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_dialog_location_map.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_dialog_location_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_conversation_member_list.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_conversation_member_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_multi_rich_content_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_public_service_multi_rich_content_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_location_map.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_location_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_play_complete.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_play_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_emoji_grid.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_emoji_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_attend.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_attend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_share.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_money_detail.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_money_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_three_login.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_three_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_item_weekcharts.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\gridview_item_weekcharts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_collection.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_status_controller.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_status_controller.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tommorrow_person.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_tommorrow_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_progress.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_report.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_recommend.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_recommend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_guide1.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\layout_guide1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_discussion_notification_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_discussion_notification_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_vo_provider.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_vo_provider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_history.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sure_order.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_sure_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_select_photo.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_select_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\custom_classify_dialog.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\custom_classify_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_headbg_green.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_headbg_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_remind.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_remind.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_messagelist.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_messagelist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_personal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_radio.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_home_category.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_home_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_definition_panel.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_definition_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_video_live_player.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_video_live_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_host_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_host_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_vo_popup.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_vo_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guan_zhu_blank.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_guan_zhu_blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_find_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\location_tip.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\location_tip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_dialog_alter.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_dialog_alter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_input_menu.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_public_service_input_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_media_controller_landscape_live.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_media_controller_landscape_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listiten_example.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listiten_example.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\p2p_data_show_frame.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\p2p_data_show_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_weekcharts.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\list_item_weekcharts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_conversation_member.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_conversation_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_success2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_pay_success2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_input_menus.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_public_service_input_menus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\media_center_demo.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\media_center_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_tickets.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_tickets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_voice_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_voice_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\loading_failure.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\loading_failure.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_ticket.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\list_item_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_public_service_search.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_public_service_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_system_conversation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_system_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\pay_result.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\pay_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_block.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_block.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_messageinput.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_messageinput.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_circle.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_callside_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_callside_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\details_ticket_more.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\details_ticket_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_play_historyctivity.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_play_historyctivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_detail.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_user_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_imageperson_celebrity.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_imageperson_celebrity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_gridview_teacher.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_gridview_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_home_topic.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_home_topic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_selected_pictrue.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_ac_selected_pictrue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_header_new.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_header_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_error_frame.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_error_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_robticket.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_robticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_home_sponsor.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_home_sponsor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_group_conversation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_group_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_preview.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_ac_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\griditem_city.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\griditem_city.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_charts_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\gridview_charts_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start_live.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_start_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_header.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tixin.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_tixin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_text_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_text_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\loading_progress.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\loading_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_celebrity.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_celebrity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_expandable.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_expandable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_plugins.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_plugins.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\ticket_tab_chat.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\ticket_tab_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_square_top_list.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_square_top_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_header.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sponsor_detail.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_sponsor_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_user_commment_info.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_user_commment_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_setting.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_user_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_space.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_space.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_explain.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_explain.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_accuvallydetail_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_accuvallydetail_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_account_detail.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_account_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picture.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_picture.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\xlistview_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_head.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\refresh_head.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_web.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reg_accuvally.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_reg_accuvally.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_unfinish.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_unfinish.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_can_see.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_can_see.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_city.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_city.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_home_category_type2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_home_category_type2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_ticket_list.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_ticket_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\movie_recorder_view.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\movie_recorder_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_collect.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_collect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_details_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_details_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_home_type.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_home_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_public_service_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listview.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\livestream_recommend_body.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\livestream_recommend_body.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_albums.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_ac_albums.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_rich_content_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_rich_content_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_activite_theme.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_activite_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_transparent.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_notification_loading.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_notification_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_teacher_dtl.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_teacher_dtl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_gridview_livetv_guanzhu.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_gridview_livetv_guanzhu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_detail_interest.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_detail_interest.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_textview_student.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_textview_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tommorrow.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_tommorrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_location_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_location_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ticket_tab.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_ticket_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_conversation_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_conversation_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_list.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_public_service_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_buy_ticket_second.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_buy_ticket_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_home_new.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_home_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_content.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_media_controller_potrait_vod.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_media_controller_potrait_vod.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_update_sex.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_update_sex.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\ticket_no_login_header.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\ticket_no_login_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_recommend.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_recommend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_app.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\item_list_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\slide_view_merge.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\slide_view_merge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_member.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_group_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_video_vod_player.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_video_vod_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_active.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_post_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vod.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_vod.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\frist_list_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\frist_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_notice.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_notice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_guide2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\layout_guide2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hybrid.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_hybrid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_public_service_inf.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_public_service_inf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_conversation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\ticket_top_tab.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\ticket_top_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_ticket_volume.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_ticket_volume.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\ebm__menu.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\ebm__menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\linearlayout_footer.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\linearlayout_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\banner_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\banner_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_public_service_sub_list.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_public_service_sub_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_topics.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_topics.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_person_popwindow.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_person_popwindow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_activity.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\tomorrow_list_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\tomorrow_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_teacher.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_teacher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_place_holder.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_place_holder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feedback.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_classfly.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_classfly.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_text_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_text_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\load_more.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\load_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ui_voice_cover.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_ui_voice_cover.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\view_gridview_live.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\view_gridview_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_new.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_login_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_live.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_recommend_head.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_recommend_head.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_accuvally.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_about_accuvally.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\include_select_tab.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\include_select_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_input.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_recommendation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_recommendation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_local_play.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_local_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\grid_view_city_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\grid_view_city_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_search.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_public_service_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_media_controller_potrait_live.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_media_controller_potrait_live.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_singup_ticket_layout.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_singup_ticket_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_conversation.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_public_service_conversation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ticket_volume_details.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_ticket_volume_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_session.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_activite_complete.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_activite_complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_header.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_accu.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_user_accu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_txt_provider.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_txt_provider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_teacher_list.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_search_teacher_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find_password.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_find_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_preview_fragment.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_preview_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_person.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_update_city.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_update_city.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_photo2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_fr_photo2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_emoji_txt.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_wi_emoji_txt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_camera.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_ac_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_rich_content_message.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\layout\\rc_item_public_service_rich_content_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_anchor.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_anchor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_guide3.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\layout_guide3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_details_layout2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\fragment_details_layout2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\vp_definition_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\vp_definition_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_success.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\activity_pay_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\common_datetime.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\common_datetime.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_city.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\listitem_city.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_attention.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\layout\\dialog_attention.xml"
+    }
+]

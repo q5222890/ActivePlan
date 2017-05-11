@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--编号时间-->
+    <LinearLayout
+        android:id="@+id/id_lineOne"
+        android:layout_marginLeft="@dimen/five_dip"
+        android:layout_marginTop="@dimen/five_dip"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/twelve_dp"
+            android:textColor="@color/textColor"
+            android:layout_weight="1"
+            android:text="编号：00001"
+            android:id="@+id/id_TextViewNumber"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/twelve_dp"
+            android:textColor="@color/textColor"
+            android:layout_weight="1"
+            android:text="时间：2016-02-03"
+            android:id="@+id/id_TextViewTime"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!--头像内容-->
+    <RelativeLayout
+        android:layout_below="@+id/id_lineOne"
+        android:id="@+id/id_RelativeInvitationDetailed"
+        android:background="@color/gary3"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/ten_dp"
+        android:paddingBottom="@dimen/ten_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <com.xz.activeplan.views.CircleImageView
+
+           android:layout_marginLeft="@dimen/five_dip"
+           android:id="@+id/id_ImageInvitationHead"
+           android:src="@drawable/rc_default_portrait"
+           android:layout_width="@dimen/fifty_dip"
+           android:layout_height="@dimen/fifty_dip" />
+        <LinearLayout
+            android:layout_toLeftOf="@+id/id_ImageMore"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/id_ImageInvitationHead"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/id_TextViewName"
+                android:textColor="@color/textColor_Black"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="王力宏"
+                android:textSize="@dimen/fifteen_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/id_TextViewTheme"
+                android:layout_marginTop="@dimen/five_dip"
+                android:textColor="@color/textColor"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="邀请主题内容"
+                android:textSize="@dimen/fifteen_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+       <ImageView
+           android:id="@+id/id_ImageMore"
+           android:layout_marginRight="@dimen/five_dip"
+           android:layout_centerVertical="true"
+           android:layout_alignParentRight="true"
+           android:src="@drawable/arrow_right"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <!--状态-->
+    <TextView
+        android:id="@+id/id_TextViewState"
+        android:singleLine="true"
+        android:ellipsize="none"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/id_RelativeInvitationDetailed"
+        android:textColor="@color/yellow"
+        android:text="@string/string_WaitConfirm"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

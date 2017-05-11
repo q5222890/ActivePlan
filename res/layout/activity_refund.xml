@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+>    <include android:id="@+id/id_ViewHead"
+        layout="@layout/activity_header_new" />
+    <LinearLayout
+        android:layout_below="@+id/id_ViewHead"
+        android:id="@+id/relativeLayout_mid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--个人信息-->
+        <LinearLayout
+            android:id="@+id/id_LineUserMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten_dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/twenty_five_dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fifteen_sp"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_marginTop="@dimen/fifteen_sp"
+                android:drawablePadding="@dimen/ten_dp"
+                android:drawableRight="@drawable/star"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:text="@string/string_RefundReason"
+                android:textSize="@dimen/fifteen_sp" />
+            <!--退款说明-->
+            <RelativeLayout
+                android:background="@drawable/shape_line"
+                android:paddingRight="@dimen/five_dip"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:textSize="@dimen/fifteen_sp"
+                    android:layout_margin="@dimen/five_dip"
+                    android:background="@null"
+                    android:layout_toLeftOf="@+id/id_ImageMore001"
+                    android:hint="@string/title_RefundReason01"
+                    android:id="@+id/id_EditRefundReason"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:singleLine="true"
+                    />
+                   <ImageView
+                       android:background="@drawable/down"
+                       android:id="@+id/id_ImageMore001"
+                       android:layout_centerVertical="true"
+                       android:layout_alignParentRight="true"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fifteen_sp"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_marginTop="@dimen/fifteen_sp"
+                android:drawablePadding="@dimen/ten_dp"
+                android:drawableRight="@drawable/star"
+                android:ellipsize="none"
+                android:singleLine="true"
+                android:text="@string/string_RefundMoney"
+                android:textSize="@dimen/fifteen_sp" />
+
+            <EditText
+                android:padding="@dimen/five_dip"
+                android:hint="@string/title_RefundReason02"
+                android:id="@+id/id_EditRefundAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:background="@drawable/shape_line"
+                android:ellipsize="none"
+                android:paddingLeft="@dimen/five_dip"
+                android:paddingRight="@dimen/five_dip"
+                android:singleLine="true"
+                android:textSize="@dimen/fifteen_sp" />
+            <RelativeLayout
+                android:layout_marginBottom="@dimen/fifteen_sp"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_marginTop="@dimen/fifteen_sp"
+                android:drawablePadding="@dimen/ten_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:singleLine="true"
+                    android:text="@string/string_RefundExplain"
+                    android:textSize="@dimen/fifteen_sp" />
+                <TextView
+                    android:drawablePadding="@dimen/ten_dp"
+                    android:drawableRight="@drawable/question"
+                    android:textColor="@color/header_blue"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:singleLine="true"
+                    android:text="@string/string_RefundExplain"
+                    android:textSize="@dimen/fifteen_sp" />
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/id_LineRefundInstructions"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/one_hundre_and_sixty"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:background="@drawable/shape_line">
+
+                <EditText
+                    android:hint="@string/title_RefundReason03"
+                    android:id="@+id/id_EditRefundInstructionsss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/five_dip"
+                    android:background="@null"
+                    android:focusable="true"
+                    android:textSize="@dimen/fifteen_sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--确认提交-->
+    <TextView
+        android:textSize="@dimen/fifteen_dp"
+        android:paddingBottom="@dimen/twelve_dp"
+        android:paddingTop="@dimen/twelve_dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/string_SubmitRefund"
+        android:id="@+id/id_TextViewSubmitRefund"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red2"
+        />
+</RelativeLayout>

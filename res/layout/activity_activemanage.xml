@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/id_ViewHeadTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twenty_five_dip"
+        android:background="@color/header_blue"/>
+    <RelativeLayout
+        android:id="@+id/id_RelativeThree"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dip"
+        android:layout_below="@+id/id_ViewHeadTitle"
+        android:background="@color/header_blue">
+
+        <ImageView
+            android:id="@+id/iv_backhome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_click_btn"
+            android:paddingLeft="@dimen/ten_dp"
+            android:paddingRight="@dimen/ten_dp"
+            android:src="@drawable/vp_back" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_involved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_shape_changeleft"
+                android:padding="@dimen/five_dip"
+                android:paddingRight="-1dp"
+                android:text="@string/involved"
+                android:textColor="@color/header_blue"/>
+
+            <TextView
+                android:id="@+id/tv_sponsor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_shape_changeright"
+                android:padding="@dimen/five_dip"
+                android:text="@string/sponsor"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_scanqrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="@dimen/twelve_dp"
+            android:paddingTop="@dimen/twelve_dp"
+            android:src="@drawable/zxing_scan" />
+    </RelativeLayout>
+
+    <!--头部字体-->
+    <LinearLayout
+        android:id="@+id/id_LineSponsor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dip"
+        android:layout_below="@+id/id_RelativeThree"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/id_LineActiveManager"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/id_TextViewActiviteMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/string_activemanage"
+                android:textColor="@color/header_blue"
+                android:textSize="@dimen/fifteen_sp"/>
+            <ImageView
+                android:id="@+id/id_ImageActiviteMessage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_marginTop="@dimen/two_dp"
+                android:background="@color/header_blue" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/five_dip"
+            android:layout_marginTop="@dimen/five_dip"
+            android:background="@color/gray"
+            />
+
+        <RelativeLayout
+            android:id="@+id/id_LineSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/id_TextViewSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/string_signupmanage"
+                android:textColor="@color/textColor_Black"
+                android:textSize="@dimen/fifteen_sp"/>
+            <ImageView
+                android:id="@+id/id_ImageSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_marginTop="@dimen/two_dp"
+                android:background="@color/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_LineFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_LineSponsor">
+    <include layout="@layout/view"/>
+    </LinearLayout>
+  <!--  android:text="@string/rc_conversation_list_empty_prompt"
+    android:layout_centerInParent="true"
+    android:id="@+id/id_TextViewNoMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="113dp"
+    android:gravity="center"
+    android:textColor="#999999"
+    android:textSize="16dp"
+    android:visibility="visible"-->
+    <TextView
+        android:id="@+id/id_TextViewNoData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="暂无数据"
+        android:textColor="#999999"
+        android:textSize="16dp"
+      />
+
+    <com.xz.activeplan.views.xlistview.XListView
+        android:id="@+id/id_ListViewActiveManage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_LineFour"
+        android:paddingLeft="@dimen/five_dip"
+        android:paddingRight="@dimen/five_dip">
+    </com.xz.activeplan.views.xlistview.XListView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_ListViewActiveManage"
+        android:paddingLeft="@dimen/five_dip"
+        android:paddingRight="@dimen/five_dip">
+        <include layout="@layout/view"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

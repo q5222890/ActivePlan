@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffecedec"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="116.5dip" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@id/viewpager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            
+            <LinearLayout
+                android:id="@id/cicleIndicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10.0dip" />
+
+           <!--   <com.accuvally.hdtui.ui.CirclePageIndicator
+                android:id="@id/cicleIndicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10.0dip" />-->
+        </RelativeLayout>
+
+        <!--    <include layout="@layout/include_home_type" />-->
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:background="@color/white"
+            android:layout_height="180dip" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager_point"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            
+            <LinearLayout
+                android:id="@+id/cicleIndicator_point"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10.0dip" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/include_home_robticket" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10.0dip"
+            android:background="#ffecedec"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <GridView
+                android:id="@id/grid"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:horizontalSpacing="0.5dip"
+                android:listSelector="#00000000"
+                android:numColumns="2"
+                android:scrollbars="none"
+                android:verticalSpacing="0.5dip" />
+        </LinearLayout>
+
+      <!--    <include layout="@layout/include_home_topic" />-->
+      <include layout="@layout/include_home_category"/>
+
+        <include layout="@layout/include_home_recommend" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        ptr:ptrAnimationStyle="flip"
+        android:scrollbars="none"
+        android:id="@+id/id_PullToRefreshScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/one_hundre_and_sixty" >
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/id_ViewPager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"/>
+                <LinearLayout
+                    android:id="@+id/id_LinePage_ViewPager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/ten_dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/five_dip"
+                    android:gravity="center"
+                    android:orientation="horizontal" />
+            </RelativeLayout>
+           <LinearLayout
+               android:gravity="center"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:layout_weight="1"
+                   android:src="@drawable/fieldactivity_a"
+                   android:id="@+id/id_ImageFieldactivity"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent" />
+               <ImageView
+                   android:layout_weight="1"
+                   android:src="@drawable/outdoors"
+                   android:id="@+id/id_ImageOutDorrs"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent" />
+               <ImageView
+                   android:layout_weight="1"
+                   android:src="@drawable/all_live"
+                   android:id="@+id/id_ImageAllLive"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent" />
+               <ImageView
+                   android:layout_weight="1"
+                   android:src="@drawable/all_kind"
+                   android:id="@+id/id_ImageAllKind"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent" />
+           </LinearLayout>
+            <include layout="@layout/view"
+                />
+            <TextView
+                android:layout_marginTop="@dimen/ten_dp"
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:textColor="@color/black"
+                android:text="最新直播"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <include layout="@layout/view"/>
+            <com.xz.activeplan.views.MyGridView
+                android:horizontalSpacing="@dimen/five_sp"
+                android:verticalSpacing="@dimen/five_sp"
+                android:gravity="center"
+                android:numColumns="2"
+                android:id="@+id/id_GraidViewNewLive"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.xz.activeplan.views.MyGridView>
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/id_ImageAdvertisement"
+                android:src="@drawable/default_details_image"
+                android:layout_marginTop="@dimen/five_dip"
+                android:layout_marginBottom="@dimen/five_dip"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/one_hundre_and_sixty" />
+            <include layout="@layout/view"/>
+            <TextView
+                android:layout_marginTop="@dimen/ten_dp"
+                android:layout_marginBottom="@dimen/ten_dp"
+                android:textColor="@color/black"
+                android:text="最新回放"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <include layout="@layout/view"/>
+            <com.xz.activeplan.views.MyGridView
+                android:horizontalSpacing="@dimen/five_sp"
+                android:verticalSpacing="@dimen/five_sp"
+                android:gravity="center"
+                android:numColumns="2"
+                android:id="@+id/id_GraidViewNewPlayBack"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </com.xz.activeplan.views.MyGridView>
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="@dimen/ten_dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/id_TextViewTitleDialog"
+        android:paddingLeft="@dimen/ten_dp"
+        android:textSize="@dimen/fifteen_sp"
+        android:textColor="@color/white"
+        android:text="@string/string_WarmReminderd"
+        android:gravity="center_vertical"
+        android:background="@color/header_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dip" />
+    <LinearLayout
+        android:id="@+id/id_LinePopup"
+        android:orientation="vertical"
+        android:padding="@dimen/ten_dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_hundred_and_twenty_dip">
+        <EditText
+            android:textColor="@color/textColor_Black"
+            android:background="@null"
+            android:id="@+id/id_EditRefundRefuse"
+            android:textSize="@dimen/seventeen_sp"
+            android:text="@string/string_WarmReminderdContent"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/white"
+        android:padding="@dimen/ten_dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/id_TextViewAgree"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fifteen_sp"
+            android:background="@drawable/shape_delete"
+            android:padding="@dimen/fifteen_sp"
+            android:text="@string/string_Yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f7f7"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrMode="both"
+        android:id="@+id/ptr_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/one_hundre_and_sixty">
+
+                <include
+                    android:id="@+id/id_ViewViewPager"
+                    layout="@layout/view_pager" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/id_ImageFieldactivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/fieldactivity_a" />
+
+                <ImageView
+                    android:id="@+id/id_ImageOutDorrs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/outdoors" />
+
+                <ImageView
+                    android:id="@+id/id_ImageAllLive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/all_live" />
+
+                <ImageView
+                    android:id="@+id/id_ImageAllKind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/all_kind" />
+            </LinearLayout>
+
+            <include layout="@layout/view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ten_dp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginTop="@dimen/ten_dp"
+                    android:layout_weight="1"
+                    android:text="最新直播"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_morenewlive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:drawableRight="@drawable/more_live"
+                    android:padding="10dp"
+                    android:text="更多"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <include layout="@layout/view" />
+
+            <com.xz.activeplan.views.MyGridView
+                android:id="@+id/id_GraidViewNewLive"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="2"
+                android:verticalSpacing="5dp">
+
+            </com.xz.activeplan.views.MyGridView>
+
+            <ImageView
+                android:id="@+id/id_ImageAdvertisement"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/one_hundre_and_sixty"
+                android:layout_marginBottom="@dimen/five_dip"
+                android:layout_marginTop="@dimen/five_dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_details_image" />
+
+            <include layout="@layout/view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ten_dp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginTop="@dimen/ten_dp"
+                    android:layout_weight="1"
+                    android:text="最新回放"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_moreplayback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:drawableRight="@drawable/more_live"
+                    android:padding="10dp"
+                    android:text="更多"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <include layout="@layout/view" />
+
+            <com.xz.activeplan.views.MyGridView
+                android:id="@+id/id_GraidViewNewPlayBack"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="2"
+                android:verticalSpacing="5dp">
+
+            </com.xz.activeplan.views.MyGridView>
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</RelativeLayout>

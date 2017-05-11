@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/selector_click_btn"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@id/ivRobImage"
+            android:layout_width="120.0dip"
+            android:layout_height="73.0dip"
+            android:layout_gravity="center"
+            android:layout_margin="10.0dip"
+            android:background="@drawable/default_home_image"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.0dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/tvRobTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="relaxed 周末"
+                android:textColor="#ff484848"
+                android:textSize="16.0sp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@id/tvRobAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:singleLine="true"
+                        android:text="海淀"
+                        android:textColor="#ffa0a0a0"
+                        android:textSize="12.0sp" />
+
+                    <View
+                        android:layout_width="1.0dip"
+                        android:layout_height="9.0dip"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_marginRight="5.0dip"
+                        android:visibility="gone"
+                        android:background="#ffbdbdbd" />
+
+                    
+                </LinearLayout>
+
+                <TextView
+                    android:id="@id/tvRobVisitNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="bottom|left|center"
+                    android:layout_marginRight="15.0dip"
+                    android:drawableLeft="@drawable/yanjing"
+                    android:drawablePadding="2.0dip"
+                    android:gravity="bottom|left|center"
+                    android:text="10012"
+                    android:textColor="@color/gary_title"
+                    android:textSize="@dimen/little_14"
+                    android:visibility="gone" />
+            </RelativeLayout>
+            
+            <TextView
+                        android:id="@id/tvRobTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="90天后开始"
+                        android:textColor="#ffa0a0a0"
+                        android:textSize="12.0sp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3.0dip"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@id/tvRobPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="免费"
+                        android:textColor="#00baff"
+                        android:textSize="13.0sp" />
+
+                    <TextView
+                        android:id="@id/tvPrimeCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="原价529"
+                        android:visibility="gone"
+                        android:textColor="#ffbdbdbd"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvRobState"
+                    android:layout_width="65.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/rush_img_green"
+                    android:gravity="center"
+                    android:text="正在热抢"
+                    android:textColor="#ffffffff"
+                    android:textSize="13.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#ffecedec" />
+
+</LinearLayout>

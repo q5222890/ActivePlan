@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.xz.activeplan.ui.personal.activity.FaceDetectionActivity">
+
+    <include android:id="@+id/face_header"
+        layout="@layout/activity_header_new"/>
+
+    <RelativeLayout
+        android:id="@+id/face_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/face_header"
+        android:background="@color/header_blue">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/face_input" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/face_rl"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/face_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/face_btInput"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/face_tv"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_round_edt2"
+            android:text="确定录入"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <com.xz.activeplan.views.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/face_btInput"
+            android:layout_margin="30dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="@dimen/two_dp"
+            android:text="@string/face_inputContent"
+            android:textColor="#848383"
+             />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_marginBottom="30dp"
+             android:gravity="center_horizontal"
+             android:text="@string/face_inputFeat"
+             android:textColor="#bfbfbf" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

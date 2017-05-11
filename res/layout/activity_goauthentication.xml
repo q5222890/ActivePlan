@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xz.activeplan.ui.personal.activity.GoAuthenticationActivity">
+
+    <include layout="@layout/activity_header_new" />
+
+    <RelativeLayout
+        android:id="@+id/relative_idcardphoto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:background="@drawable/selector_click_btn"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="身份证照片"
+            android:textColor="@color/txt_gray"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/ivfrontphoto"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/ivbackphoto"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head" />
+
+        <ImageView
+            android:id="@+id/ivbackphoto"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/iv_settingarrow"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head" />
+
+        <ImageView
+            android:id="@+id/iv_settingarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="6dp"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+    <include layout="@layout/include_view" />
+
+    <RelativeLayout
+        android:id="@+id/relative_idcardname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_click_btn"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="姓名"
+            android:textColor="@color/txt_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_edtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_settingarrow2"
+            android:textColor="@color/black_pressed" />
+
+        <ImageView
+            android:id="@+id/iv_settingarrow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="6dp"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+    <include layout="@layout/include_view" />
+
+    <RelativeLayout
+        android:id="@+id/relative_borndate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_click_btn"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="出身日期"
+            android:textColor="@color/txt_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_borandate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_settingarrow3"
+            android:textColor="@color/edge_gray" />
+
+        <ImageView
+            android:id="@+id/iv_settingarrow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="6dp"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+    <include layout="@layout/include_view" />
+
+    <RelativeLayout
+        android:id="@+id/relative_idcardNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_click_btn"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="身份证号码"
+            android:textColor="@color/txt_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_edtidnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_settingarrow4"
+            android:textColor="@color/edge_gray" />
+
+        <ImageView
+            android:id="@+id/iv_settingarrow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="6dp"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/shape_noticebg"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/anthenticationhint"
+        android:textColor="@color/tvcolor_home_normal" />
+
+    <TextView
+        android:id="@+id/tv_addalipayacount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_click_btn"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="添加支付宝账号"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/line_addacount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="姓名:  " />
+
+            <TextView
+                android:id="@+id/tv_alipayname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+        </LinearLayout>
+
+        <include layout="@layout/view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="账户:  " />
+
+            <TextView
+                android:id="@+id/tv_alipayacount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/shape_noticebg"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/acounthint"
+        android:textColor="@color/tvcolor_home_normal" />
+
+    <TextView
+        android:id="@+id/tv_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_roundblue"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/tijiao"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xz.activeplan.ui.live.activity.StartLiveActivity">
+
+    <!--开始直播页面（默认采用横屏界面）-->
+    <com.xz.activeplan.ui.live.view.MySurfaceView
+        android:id="@+id/start_live_surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/start_live_change"
+            android:text="切换"
+            android:layout_alignRight="@+id/start_live_close"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginRight="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/start_live_change_audio"
+            android:text="声音"
+            android:layout_alignRight="@+id/start_live_close"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/start_live_close"
+            android:text="关闭"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </RelativeLayout>
+</RelativeLayout>

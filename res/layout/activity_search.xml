@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twenty_five_dip"
+        android:background="@color/header_blue" />
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/header_blue" >
+
+        <ImageView
+            android:id="@+id/id_ImageHeadTitleBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_click_btn"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/vp_back" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/id_ImageHeadTitleBlack"
+            android:background="@drawable/shape_round_edt" >
+
+            <EditText
+                android:id="@+id/edt_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0a000000"
+                android:hint="名师"
+                android:imeOptions="actionSearch"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="30dp"
+                android:paddingTop="2dp"
+                android:singleLine="true" >
+            </EditText>
+
+            <ImageView
+                android:id="@+id/imgsearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/search_city_bg" />
+        </RelativeLayout>
+    </RelativeLayout>
+<GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:horizontalSpacing="25dip"
+        android:listSelector="#00000000"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:verticalSpacing="15dip"
+        android:visibility="gone"
+       />
+
+</LinearLayout>

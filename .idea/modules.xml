@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActivePlan.iml" filepath="$PROJECT_DIR$/ActivePlan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rong_IMKit_v2_7_0_dev/Rong_IMKit_v2_7_0_dev.iml" filepath="$PROJECT_DIR$/Rong_IMKit_v2_7_0_dev/Rong_IMKit_v2_7_0_dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+    </modules>
+  </component>
+</project>

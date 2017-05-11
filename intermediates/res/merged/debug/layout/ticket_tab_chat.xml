@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:id="@+id/txt_nodata"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="当前日期没有完成的票务噢"
+	    android:textColor="#FF0000"
+	    android:textSize="16sp"
+	    android:gravity="center"
+	    android:layout_centerInParent="true"
+	    ></TextView>
+	
+	<com.xz.activeplan.views.xlistview.XListView 
+	    android:id="@+id/listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:scrollbars="none"
+	    android:overScrollMode="never"
+	    ></com.xz.activeplan.views.xlistview.XListView>
+
+</RelativeLayout>

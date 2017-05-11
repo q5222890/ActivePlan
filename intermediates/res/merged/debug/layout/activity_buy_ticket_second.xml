@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_header_new" />
+
+    <ScrollView
+        android:id="@id/buy_ticket_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_weight="1.0"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip" >
+
+        <LinearLayout
+            android:id="@id/lyAddForm"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:orientation="vertical" >
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="手  机"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/red"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    />
+                <EditText 
+                    android:id="@+id/ed_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:hint="请输入手机号码"
+                    android:background="#00000000"
+                    />
+            </LinearLayout>
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc"
+                />
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="微  信"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/red"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    />
+                <EditText 
+                    android:id="@+id/ed_weixin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="请输入微信号码"
+                    android:background="#00000000"
+                    />
+            </LinearLayout>
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc"
+                />
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="职  业"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/red"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    />
+                <EditText 
+                    android:id="@+id/ed_zhiye"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="请输入职业名称"
+                    android:background="#00000000"
+                    />
+            </LinearLayout>
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc"
+                />
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="公  司"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="@color/red"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    />
+                <EditText 
+                    android:id="@+id/ed_gs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="请输入公司名称"
+                    android:background="#00000000"
+                    />
+            </LinearLayout>
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc"
+                />
+            
+            <LinearLayout 
+                android:id="@+id/llyt_bz"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                >
+                <TextView 
+                   android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="备注"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="@color/red"
+                    android:visibility="invisible"
+                    />
+                <EditText 
+                    android:id="@+id/ed_bz"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="请输入备注"
+                    android:background="#00000000"
+                    />
+            </LinearLayout>
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc"
+                />
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@id/tvSecondNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/txt_green"
+        android:gravity="center"
+        android:padding="15.0dip"
+        android:text="@string/details_next"
+        android:textColor="@color/white"
+        android:textSize="@dimen/little_18"
+        android:textStyle="bold" />
+
+</LinearLayout>

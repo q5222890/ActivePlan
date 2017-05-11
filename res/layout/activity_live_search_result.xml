@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include android:id="@+id/search_header" layout="@layout/activity_header_new" />
+    <!--相关主播-->
+    <RelativeLayout
+        android:id="@+id/search_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_header"
+        android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/liveSearch_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="相关主播"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/search_tvMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="10dp"
+            android:text="更多"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+     <com.xz.activeplan.views.MyGridView
+         android:id="@+id/search_gridView"
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:layout_below="@+id/liveSearch_ll1"
+         android:listSelector="@color/transparent"
+         android:numColumns="4"
+         android:scrollbars="none"/>
+    <View
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.05dp"
+        android:layout_below="@+id/search_gridView"
+        android:layout_marginTop="5dp"
+        android:background="@color/alertdialog_line"
+        android:visibility="visible"/>
+    </RelativeLayout>
+   <!--相关视频-->
+    <RelativeLayout
+        android:id="@+id/liveSearch_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_rl">
+    <LinearLayout
+        android:id="@+id/search_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="相关视频"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/search_tvOrderBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="3dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="综合排序"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/heard"
+            android:textColor="@color/textColor" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/search_gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_ll"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:verticalSpacing="5dp">
+    </GridView>
+    </RelativeLayout>
+
+    <!--无数据加载显示-->
+    <ImageView
+        android:id="@+id/search_iv_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_header"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/search_no"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>

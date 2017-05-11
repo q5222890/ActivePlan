@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/line_buttom_famons"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_marginTop="@dimen/two_dp"
+            android:background="@color/white"
+            android:id="@+id/id_LineMessage"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom">
+            <ImageView
+                android:layout_margin="@dimen/five_dip"
+                android:layout_weight="1"
+                android:src="@drawable/message_gray"
+                android:layout_width="@dimen/twenty_dip"
+                android:layout_height="@dimen/twenty_dip" />
+            <TextView
+                android:textSize="@dimen/ten_dp"
+                android:text="@string/Chat"
+                android:textColor="#ff666666"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/id_TextViewInvitation"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/Invitation_TA"
+            android:background="@drawable/buttom_invate"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="2"
+            />
+        <LinearLayout
+            android:layout_marginTop="@dimen/two_dp"
+            android:background="@color/white"
+            android:id="@+id/id_LineVedioToCelebrite"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            >
+            <ImageView
+                android:layout_margin="@dimen/five_dip"
+                android:layout_weight="1"
+                android:src="@drawable/vdeio_gray"
+                android:layout_width="@dimen/twenty_dip"
+                android:layout_height="@dimen/twenty_dip" />
+            <TextView
+                android:textSize="@dimen/ten_dp"
+                android:text="@string/Vedio"
+                android:textColor="#ff666666"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

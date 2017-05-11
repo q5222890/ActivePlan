@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffecedec"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@id/id_ImageHeadTitleBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_click_btn"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:src="@drawable/back_arrows" />
+
+        <TextView
+            android:id="@id/id_TextViewHeadTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="资料设置"
+            android:textColor="#ff484848"
+            android:textSize="18.0sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical"
+            android:padding="10.0dip"
+            android:visibility="visible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="加入黑名单"
+                android:textColor="#ff484848"
+                android:textSize="15.0sp" />
+
+            <CheckBox
+                android:id="@id/cbBlacklist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@drawable/selector_toggle" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@drawable/details_icon_line2" />
+
+        <LinearLayout
+            android:id="@id/linReport"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:background="@drawable/selector_click_btn"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="10.0dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableRight="@drawable/details_jiantou_bg"
+                android:text="举报"
+                android:textColor="#ff484848"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.100000024dip"
+            android:background="@drawable/details_icon_line2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="bottom"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip" >
+
+        <Button
+            android:id="@id/btUnfollow"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:background="@drawable/shape_delete"
+            android:text="删除"
+            android:textColor="#ffffffff"
+            android:textSize="16.0sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

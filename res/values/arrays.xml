@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string-array name="default_smiley_texts">
+        <item>[新]</item>
+        <item>[精]</item>
+        <item>[火]</item>
+    </string-array>
+    <string-array name="di_zhi">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>甲</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="tian_gan">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+    <string-array name="jia_zi">
+        <item>乙丑</item>
+        <item>丙寅</item>
+        <item>丁卯</item>
+        <item>戊辰</item>
+        <item>己巳</item>
+        <item>庚午</item>
+        <item>辛未</item>
+        <item>壬申</item>
+        <item>癸酉</item>
+        <item>甲戌</item>
+        <item>乙亥</item>
+    </string-array>
+    <string-array name="sel_time">
+        <item>全时段</item>
+        <item>今天</item>
+        <item>明天</item>
+        <item>本周</item>
+        <item>本周末</item>
+        <item>本月</item>
+    </string-array>
+    <string-array name="sel_type">
+        <item>全类型</item>
+        <item>创业</item>
+        <item>商务</item>
+        <item>公益</item>
+        <item>社交</item>
+        <item>亲子</item>
+        <item>电影</item>
+        <item>娱乐</item>
+        <item>生活</item>
+        <item>音乐</item>
+        <item>科技</item>
+        <item>运动</item>
+        <item>课程</item>
+        <item>校园</item>
+        <item>其它</item>
+    </string-array>
+    
+    <string-array name="city_data">
+         <item>北京市</item>
+         <item>上海市</item>
+         <item>深圳市</item>
+         <item>广州市</item>
+         <item>杭州市</item>
+         <item>成都市</item>
+         <item>天津市</item>
+         <item>南京市</item>
+         <item>苏州市</item>
+         <item>宁波市</item>
+         <item>西安市</item>
+         <item>重庆市</item>
+         <item>厦门市</item>
+         <item>武汉市</item>
+         <item>全国</item>
+    </string-array>
+     <string-array name="example_data">
+         <item>全类型</item>
+         <item>创业</item>
+         <item>商务</item>
+         <item>公益</item>
+         <item>社交</item>
+         <item>亲子</item>
+         <item>娱乐</item>
+         <item>生活</item>
+         <item>音乐</item>
+         <item>其他</item>
+         <item>科技</item>
+         <item>运动</item>
+         <item>课程</item>
+         <item>校园</item>
+    </string-array>
+    <array name="Arrays_celebrity">
+        <item>互联网</item>
+        <item>金融</item>
+        <item>投资</item>
+        <item>户外</item>
+        <item>汽车</item>
+        <item>娱乐</item>
+        <item>旅游</item>
+        <item>儿童</item>
+        <item>明星</item>
+        <item>其他</item>
+    </array>
+    <array name="Arrays_field">
+        <item>深圳</item>
+        <item>广州</item>
+        <item>北京</item>
+        <item>上海</item>
+        <item>杭州</item>
+
+    </array>
+    <array name="Arrays_StudentGuarrantee">
+        <item>1.在于名人确约见后，学员才需付款。</item>
+        <item>2.付款后，学员可以通过私聊与名人沟通见面细节。</item>
+        <item>3.如果时间有变，学员可以在见面前24小时随时取消预约并退款。</item>
+        <item>4.如果对预约效果不满意或对名人失约等问题可以联系客服申请退款。</item>
+        <item>5.客服热线: 4000-85-8787      邮箱: kf@yueba.cc</item>
+    </array>
+
+    <array name="Arrays_CelebriteGuarrantee">
+        <item>1.在确定活动方邀请时，约吧互动会为你提供免费保险服务。</item>
+        <item>2.如果时间有变，受邀请方可在72小内随时取消或更改预约。</item>
+        <item>3.每天为你免费提供订单推荐，了解最新详情。</item>
+        <item>4.客服热线:4000-85-8787      邮箱:kf@yueba.cc</item>
+    </array>
+</resources>

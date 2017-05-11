@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <include
+        android:id="@+id/id_LineHead"
+        layout="@layout/activity_header_new" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/id_ScrollViewPlayHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id_LineHead"
+        ptr:ptrAnimationStyle="flip">
+
+        <RelativeLayout
+            android:id="@+id/id_RelativeOneWeekF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:id="@+id/id_RelativeOneWeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five_dip"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <include layout="@layout/view" />
+
+                <TextView
+                    android:id="@+id/id_TextViewOnWeek"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/five_dip"
+                    android:layout_marginTop="@dimen/five_dip"
+                    android:text="@string/PlayHistory_OneWeekHistory"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/view" />
+
+                <com.xz.activeplan.views.MyGridView
+                    android:id="@+id/id_GridViewHistoryOnWeek"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnWidth="5dp"
+                    android:horizontalSpacing="@dimen/one_dp"
+                    android:numColumns="2"
+                    android:verticalSpacing="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_RelativeOneWeekAgo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_RelativeOneWeek"
+                android:layout_marginTop="@dimen/five_dip"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <include layout="@layout/view" />
+
+                <TextView
+                    android:id="@+id/id_TextViewOnWeekAgo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/five_dip"
+                    android:text="@string/PlayHistory_OneWeekHistoryAgo"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/view" />
+
+                <com.xz.activeplan.views.MyGridView
+                    android:id="@+id/id_GridViewHistoryOnWeekAgo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnWidth="5dp"
+                    android:horizontalSpacing="@dimen/one_dp"
+                    android:numColumns="2"
+                    android:verticalSpacing="5dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+    <!--没用播放记录-->
+    <RelativeLayout
+        android:id="@+id/id_RelativeNoPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id_LineHead"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/id_ImageViewTiem"
+                android:layout_width="@dimen/eighty_dip"
+                android:layout_height="@dimen/eighty_dip"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_ImageViewTiem"
+                android:gravity="center"
+                android:text="@string/PlayHistory_NoPlay"
+                android:textSize="@dimen/fifteen_sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

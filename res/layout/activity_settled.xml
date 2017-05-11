@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brackground"
+    android:orientation="vertical"
+    tools:context="com.xz.activeplan.ui.news.activity.SettledActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twenty_five_dip"
+        android:background="@color/header_blue"
+        />
+
+    <!--头部-->
+    <RelativeLayout
+        android:id="@+id/id_RelativeLayoutHead"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dip"
+        android:layout_below="@+id/view"
+        android:background="@drawable/navigation_bar">
+
+        <ImageView
+            android:id="@+id/id_ImageSettledBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_click_btn"
+            android:paddingLeft="15dp"
+            android:src="@drawable/black"/>
+        <TextView
+            android:id="@+id/id_TextViewTitleHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/Settled"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp"
+            />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/id_RelativeLayoutHead"
+        android:layout_weight="1"
+        android:scrollbars="none">
+        <RelativeLayout
+            android:id="@+id/relativeLayout_mid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--个人信息-->
+            <LinearLayout
+                android:id="@+id/id_LineUserMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ten_dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/twenty_five_dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/fifteen_sp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:layout_marginTop="@dimen/fifteen_sp"
+                    android:drawablePadding="@dimen/ten_dp"
+                    android:drawableRight="@drawable/star"
+                    android:ellipsize="none"
+                    android:singleLine="true"
+                    android:text="@string/PleaseSetYouName"
+                    android:textSize="@dimen/fifteen_sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/thirty_dp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:background="@drawable/shape_line"
+                    android:ellipsize="none"
+                    android:paddingLeft="@dimen/five_dip"
+                    android:paddingRight="@dimen/five_dip"
+                    android:singleLine="true"
+                    android:textSize="@dimen/fifteen_sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/fifteen_sp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:layout_marginTop="@dimen/fifteen_sp"
+                    android:drawablePadding="@dimen/ten_dp"
+                    android:drawableRight="@drawable/star"
+                    android:ellipsize="none"
+                    android:singleLine="true"
+                    android:text="@string/PleaseSetYouTelPhoneNum"
+                    android:textSize="@dimen/fifteen_sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/thirty_dp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:background="@drawable/shape_line"
+                    android:ellipsize="none"
+                    android:paddingLeft="@dimen/five_dip"
+                    android:paddingRight="@dimen/five_dip"
+                    android:singleLine="true"
+                    android:textSize="@dimen/fifteen_sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/fifteen_sp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:layout_marginTop="@dimen/fifteen_sp"
+                    android:drawablePadding="@dimen/ten_dp"
+                    android:drawableRight="@drawable/star"
+                    android:ellipsize="none"
+                    android:singleLine="true"
+                    android:text="@string/PleaseSetYouAddress"
+                    android:textSize="@dimen/fifteen_sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/thirty_dp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:background="@drawable/shape_line"
+                    android:ellipsize="none"
+                    android:paddingLeft="@dimen/five_dip"
+                    android:paddingRight="@dimen/five_dip"
+                    android:singleLine="true"
+                    android:textSize="@dimen/fifteen_sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/fifteen_sp"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:layout_marginTop="@dimen/fifteen_sp"
+                    android:drawablePadding="@dimen/ten_dp"
+                    android:drawableRight="@drawable/star"
+                    android:ellipsize="none"
+                    android:singleLine="true"
+                    android:text="@string/PleaseSetYouIntroduce"
+                    android:textSize="@dimen/fifteen_sp" />
+
+                <LinearLayout
+                    android:id="@+id/id_LineEditeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/one_hundre_and_sixty"
+                    android:layout_marginLeft="@dimen/ten_dp"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:background="@drawable/shape_line">
+
+                    <EditText
+                        android:id="@+id/id_EditTextIntroduce"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/five_dip"
+                        android:background="@null"
+                        android:focusable="true"
+                        android:textSize="@dimen/fifteen_sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/id_TextViewSendYouData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_LineUserMessage"
+                android:layout_marginTop="@dimen/twenty_dip"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/SendYouData"
+                android:textSize="@dimen/ten_dp" />
+
+            <TextView
+                android:layout_marginBottom="@dimen/fifteen_sp"
+                android:id="@+id/id_TextViewRememberYouUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_TextViewSendYouData"
+                android:layout_marginTop="@dimen/five_dip"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/RememberYouUserName"
+                android:textSize="@dimen/ten_dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <!--确认提交-->
+        <ImageView
+            android:id="@+id/id_ImageComfirmSettled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/id_RelativeLayoutHead"
+            android:layout_alignParentBottom="true"
+            android:background="#12B7F5"
+            android:src="@drawable/confirm_settled"
+            />
+
+</LinearLayout>

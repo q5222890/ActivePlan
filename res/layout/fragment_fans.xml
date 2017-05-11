@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xz.activeplan.ui.personal.fragment.FansFragment">
+
+    <TextView
+        android:textColor="#999999"
+        android:textSize="16dp"
+        android:id="@+id/tv_noData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂无数据"
+        android:layout_gravity="center" />
+    <com.xz.activeplan.views.xlistview.XListView
+        android:id="@+id/xlistview_fans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.xz.activeplan.views.xlistview.XListView>
+
+</FrameLayout>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BBFE"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+
+        <TextView
+            android:id="@id/tvUpLoadTitle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="活动分类"
+            android:textColor="@color/white"
+            android:textSize="@dimen/little_18" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="@color/txt_green" />
+
+            <TextView
+                android:id="@+id/category1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="爱心吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@+id/category2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="相亲吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2"
+                android:paddingBottom="10.0dip" />
+
+            <TextView
+                android:id="@+id/category3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="商务吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@+id/category4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="老乡吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2"
+                android:paddingBottom="10.0dip" />
+
+            <TextView
+                android:id="@+id/category5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="创业吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@+id/category6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="运动吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2"
+                android:paddingBottom="10.0dip" />
+
+            <TextView
+                android:id="@+id/category7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="学习吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@+id/category8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="旅游吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2"
+                android:paddingBottom="10.0dip" />
+
+            <TextView
+                android:id="@+id/category9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="生活吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@+id/category10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="校园吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2"
+                android:paddingBottom="10.0dip" />
+
+            <TextView
+                android:id="@+id/category11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="群星吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@+id/category12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="同性吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2"
+                android:paddingBottom="10.0dip" />
+
+            <TextView
+                android:id="@+id/category13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_click_btn"
+                android:padding="10.0dip"
+                android:text="其他吧"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2"
+                android:paddingBottom="10.0dip" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

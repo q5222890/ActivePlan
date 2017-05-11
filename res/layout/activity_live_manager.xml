@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xz.activeplan.ui.personal.activity.LiveManagerActivity">
+
+    <!--头部布局-->
+    <LinearLayout
+        android:id="@+id/id_LineHeadOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/activity_header_new"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_LineSponsor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dip"
+        android:layout_below="@+id/id_LineHeadOne"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+     <!--我的视频-->
+        <RelativeLayout
+            android:id="@+id/rlMyVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvMyVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="我的视频"
+                android:textColor="@color/header_blue"
+                android:textSize="@dimen/fifteen_sp"/>
+            <ImageView
+                android:id="@+id/ivLine1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:background="@color/header_blue"
+                android:visibility="visible" />
+        </RelativeLayout>
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/five_dip"
+            android:layout_marginTop="@dimen/five_dip"
+            android:background="@color/gray"
+            />
+    <!--已购买视频-->
+        <RelativeLayout
+            android:id="@+id/rlBuyVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvBuyVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="已购买视频"
+                android:textColor="@color/textColor_Black"
+                android:textSize="@dimen/fifteen_sp"/>
+            <ImageView
+                android:id="@+id/ivLine2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/two_dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_marginTop="@dimen/two_dp"
+                android:background="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/id_LineHeadOne">
+    <com.xz.activeplan.ui.personal.viewpagetest.TitleIndicator
+        android:id="@+id/liveManager_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#e7e7e4"/>
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#b6b5b5" />
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/rl"
+        android:background="#b6b5b5" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/liveManager_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

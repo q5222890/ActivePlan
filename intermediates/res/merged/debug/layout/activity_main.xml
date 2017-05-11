@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ebm="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff" >
+
+    <RadioGroup
+        android:id="@+id/main_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/main_radio_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/fragment_bottom_home_selected"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="推荐"
+            android:textColor="#b8b8b8"
+            android:textSize="10sp" />
+
+       
+
+        <RadioButton
+            android:id="@+id/main_radio_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/fragment_bottom_select_normal"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="发现"
+            android:textColor="#b8b8b8"
+            android:textSize="10sp" />
+
+
+        <RadioButton
+            android:id="@+id/main_radio_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/fragment_bottom_manager_normal"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="消息"
+            android:textColor="#b8b8b8"
+            android:textSize="10sp" />
+
+       
+
+        <RadioButton
+            android:id="@+id/main_radio_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/fragment_bottom_circle_normal"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="我的"
+            android:textColor="#b8b8b8"
+            android:textSize="10sp" />
+
+      
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_radio_group" >
+    </FrameLayout>
+
+    <com.xz.activeplan.test.ExpandableMenuOverlay
+        android:id="@+id/button_menu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circle_home"
+        ebm:bottomPad="0.02"
+        ebm:dimAmount="0.8"
+        ebm:distanceX="0.15"
+        ebm:distanceY="0.12"
+        ebm:otherButtonSize="0.18"
+        ebm:mainButtonSize="0.15"
+
+        ebm:closeButtonSrc="@drawable/circle_close"
+        ebm:leftButtonSrc="@drawable/circle_1"
+        ebm:midButtonSrc="@drawable/circle_2"
+        ebm:rightButtonSrc="@drawable/circle_3"
+
+        ebm:rightButtonText="@string/action_right"
+        ebm:leftButtonText="@string/action_left"
+        ebm:midButtonText="@string/action_mid"/>
+   
+</RelativeLayout>

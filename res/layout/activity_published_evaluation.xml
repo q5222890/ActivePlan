@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <include layout="@layout/activity_header_new" />
+   <LinearLayout
+       android:padding="@dimen/ten_dp"
+       android:background="@color/white"
+       android:orientation="vertical"
+       android:id="@+id/id_LineEvaluation"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <EditText
+           android:textColor="@color/textColor_Black"
+           android:background="@null"
+           android:hint="@string/string_WriteEvaluate"
+           android:id="@+id/id_EditTextEvaluationContent"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:padding="@dimen/ten_dp"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/string_CelebriteEvaluate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/id_ImageStarOne"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:src="@drawable/star_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/id_ImageStarTwo"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:src="@drawable/star_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/id_ImageStarThree"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:src="@drawable/star_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/id_ImageStarFour"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:src="@drawable/star_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/id_ImageStarFive"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:src="@drawable/star_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_TextViewSendEvaluate"
+        android:padding="@dimen/five_dip"
+        android:layout_marginTop="@dimen/twenty_sp"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:gravity="center"
+        android:textSize="@dimen/twenty_five_dip"
+        android:text="@string/string_SendEvaluate"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

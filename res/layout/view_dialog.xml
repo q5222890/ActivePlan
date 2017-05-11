@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:paddingLeft="@dimen/ten_dp"
+        android:textSize="@dimen/fifteen_sp"
+        android:textColor="@color/white"
+        android:text="@string/string_RefuseCause"
+        android:gravity="center_vertical"
+        android:background="@color/header_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dip" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/five_dip"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_hundred_and_twenty_dip">
+        <!--没时间-->
+        <LinearLayout
+            android:id="@+id/id_LineNoTime"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/id_ImageNoTime"
+                android:src="@drawable/alipay_right_bg_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+     <TextView
+         android:layout_marginLeft="@dimen/ten_dp"
+         android:textSize="@dimen/seventeen_sp"
+         android:textColor="@color/textColor_Black"
+         android:gravity="center"
+         android:text="@string/string_NoTime"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+        </LinearLayout>
+        <!--档期已满-->
+        <LinearLayout
+            android:id="@+id/id_LineSchedulePull"
+            android:layout_marginTop="@dimen/fifteen_sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/id_ImageSchedulePull"
+                android:src="@drawable/alipay_right_bg_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:textSize="@dimen/seventeen_sp"
+                android:textColor="@color/textColor_Black"
+                android:gravity="center"
+                android:text="@string/string_SchedulePull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <!--其他-->
+        <LinearLayout
+            android:id="@+id/id_LineOther"
+            android:layout_marginTop="@dimen/fifteen_sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/id_ImageOther"
+                android:src="@drawable/alipay_right_bg_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:textSize="@dimen/seventeen_sp"
+                android:textColor="@color/textColor_Black"
+                android:gravity="center"
+                android:text="@string/string_Other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/id_TextViewInSee"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/textColor_Black"
+            android:textSize="@dimen/fifteen_sp"
+            android:background="@color/brackground"
+            android:padding="@dimen/ten_dp"
+            android:text="@string/string_ThinkAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fifty_dip" />
+        <TextView
+            android:id="@+id/id_TextViewDetermineCancel"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fifteen_sp"
+            android:background="@color/red2"
+            android:padding="@dimen/ten_dp"
+            android:text="@string/string_Yes"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fifty_dip" />
+    </LinearLayout>
+</LinearLayout>

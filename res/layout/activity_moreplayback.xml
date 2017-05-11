@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xz.activeplan.ui.live.activity.MorePlaybackActivity">
+
+        <include layout="@layout/activity_header_new" />
+
+        <com.handmark.pulltorefresh.library.PullToRefreshGridView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrMode="both"
+            android:id="@+id/pulltorefreshgridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="@dimen/five_sp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="2"
+            android:verticalSpacing="@dimen/five_sp"
+            >
+
+        </com.handmark.pulltorefresh.library.PullToRefreshGridView>
+
+</LinearLayout>

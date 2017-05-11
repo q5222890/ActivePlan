@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xz.activeplan.ui.live.activity.LiveSearchActivity">
+
+    <View
+        android:id="@+id/searchLive_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twenty_five_dip"
+        android:background="@color/header_blue" />
+
+    <RelativeLayout
+        android:id="@+id/liveSearch_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_below="@+id/searchLive_view"
+        android:background="@color/header_blue">
+
+        <ImageView
+            android:id="@+id/id_ImageHeadTitleBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_click_btn"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/vp_back" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/id_ImageHeadTitleBlack"
+            android:background="@drawable/shape_round_edt">
+
+            <EditText
+                android:id="@+id/edt_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0a000000"
+                android:hint="搜索直播、主播"
+                android:imeOptions="actionSearch"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="30dp"
+                android:paddingTop="2dp"
+                android:singleLine="true"></EditText>
+
+            <ImageView
+                android:id="@+id/imgsearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/search_city_bg" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--热门搜索-->
+    <LinearLayout
+        android:id="@+id/liveSearch_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liveSearch_rl"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="热门搜索"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+        <com.xz.activeplan.ui.live.view.FlowLayout
+            android:id="@+id/id_flowlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+        </com.xz.activeplan.ui.live.view.FlowLayout>
+
+    </LinearLayout>
+
+    <!--搜索历史-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/liveSearch_ll1"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="搜索历史"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/liveSearch_llClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/search_delete_icon_bg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="清空"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/gary"></View>
+
+        <ListView
+            android:id="@+id/liveSearch_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:divider="@color/gary"
+            android:dividerHeight="1px"
+            android:listSelector="@color/transparent"
+            android:scrollbars="none">
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

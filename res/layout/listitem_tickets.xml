@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5.0dip"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@drawable/ticket_status_left_bg"
+        android:orientation="vertical"
+        android:padding="10.0dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@id/tvTicketPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="免费"
+                    android:textColor="@color/txt_green"
+                    android:textSize="16.0sp" />
+                <TextView
+                    android:id="@id/tvLineationPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5.0dip"
+                    android:text="原价"
+                    android:textColor="#ffbdbdbd"
+                    android:textSize="11.0sp"
+                    android:visibility="visible" />
+            </LinearLayout>
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@id/tvTicketTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="left|center"
+                android:maxLines="2"
+                android:text="@string/ticketname"
+                android:textColor="@color/gary4"
+                android:textSize="@dimen/sixteen_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剩余票数:"
+                android:textSize="11sp"
+                android:textColor="#ffbdbdbd"/>
+            <TextView
+                android:id="@+id/tv_surplusTickets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/header_blue"/>
+            </LinearLayout>
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/details_icon_line2" />
+            <TextView
+                android:id="@id/tvTicketContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingExtra="5.0dip"
+                android:lines="2"
+                android:padding="5.0dip"
+                android:text="@string/describe"
+                android:textColor="@color/gary"
+                android:textSize="@dimen/little_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/tvTicketStatus"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_shape_bg"
+        android:gravity="center"
+        android:text="购票"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sixteen_sp" />
+
+</LinearLayout>

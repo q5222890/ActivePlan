@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view_top"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/header_blue"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/header_blue">
+        <!--返回键-->
+        <ImageView
+            android:id="@+id/id_ImageHeadTitleBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/selector_click_btn"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/vp_back" />
+        <!--中间字-->
+        <TextView
+            android:id="@+id/id_TextViewHeadTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/little_18" />
+        <!--小框按键-->
+        <ImageButton
+            android:id="@+id/id_ImageHead"
+            android:layout_width="@dimen/twenty_dip"
+            android:layout_height="@dimen/twenty_dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/five_dip"
+            android:layout_toLeftOf="@id/id_TextViewHeadTitle"
+            android:visibility="gone" />
+        <!--分享按键-->
+        <LinearLayout
+            android:id="@+id/share_ly"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_click_btn"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:visibility="gone">
+            <!--two_img-->
+            <ImageView
+                android:id="@+id/two_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/share_bottom" />
+        </LinearLayout>
+        <!--摄像头前后切换-->
+        <LinearLayout
+            android:id="@+id/header_llCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_click_btn"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:visibility="gone">
+            <!--two_img-->
+            <ImageView
+                android:id="@+id/header_ivCamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scan_change" />
+        </LinearLayout>
+        <!--保存-->
+        <RelativeLayout
+            android:id="@+id/save_ly"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_click_btn"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10.0dip"
+            >
+
+            <TextView
+                android:id="@+id/tvLoginAndReg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10.0dip"
+                android:text="保存"
+                android:textColor="@color/white"
+                android:textSize="@dimen/little_14"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

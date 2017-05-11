@@ -1,0 +1,2 @@
+include ':Rong_IMKit_v2_7_0_dev'
+include ':library'

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@+id/relativeLayout_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/header_blue">
+        <!--返回键-->
+        <ImageView
+            android:id="@+id/id_ImageHeadTitleBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_click_btn"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/vp_back" />
+        <!--中间字-->
+        <TextView
+            android:id="@+id/id_TextViewHeadTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxLength="12"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/little_18" />
+        <!--小框按键-->
+        <ImageView
+            android:id="@+id/id_ImageHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/pop_group"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+    <fragment
+        android:id="@+id/conversation"
+        android:name="io.rong.imkit.fragment.ConversationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout_toolbar" />
+</RelativeLayout>

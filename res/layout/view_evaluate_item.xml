@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/five_dip">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.xz.activeplan.views.CircleImageView
+            android:id="@+id/id_ImageHead"
+            android:layout_width="@dimen/thirty_five_dip"
+            android:layout_height="@dimen/thirty_five_dip"
+            android:src="@drawable/default_head_bg" />
+        <TextView
+            android:id="@+id/id_TextViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_toLeftOf="@+id/id_TextViewTime"
+            android:layout_toRightOf="@+id/id_ImageHead"
+            android:ellipsize="none"
+            android:singleLine="true"
+            android:textColor="@color/textColor_Black"
+            android:textSize="@dimen/fifteen_dp"
+            />
+            <TextView
+                android:id="@+id/id_TextViewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/five_dip"
+                android:text="2016.07.08"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/ten_dp" />
+    </RelativeLayout>
+   <TextView
+       android:id="@+id/id_TextViewEvaluateContent"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/five_dip"
+       android:ellipsize="none"
+       android:singleLine="true"
+       android:text="这里很赞！！！1！"
+       android:textColor="@color/textColor_Black"
+       android:textSize="@dimen/twelve_dp" />
+    <TextView
+        android:id="@+id/id_TextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/five_dip"
+        android:ellipsize="none"
+        android:singleLine="true"
+        android:text="如何运用大数据来造福社会"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/twelve_dp" />
+</LinearLayout>

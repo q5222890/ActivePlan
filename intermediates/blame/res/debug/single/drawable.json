@@ -1,0 +1,490 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\holder_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\holder_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_check_remind.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_check_remind.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_gray.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rounded_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\shape_rounded_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_sound_off_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_sound_off_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\full_sight_bak.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\full_sight_bak.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_item_list_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_item_list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ed_public_service_search_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_ed_public_service_search_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_bg_menu.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_bg_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_wane_gray.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_wane_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\sina_selected.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\sina_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_onclick_apply_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_onclick_apply_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_delete.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\shape_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_color.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_voice.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_ic_voice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_voice.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_voice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_indeterminate_horizontal.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\vp_playprogress_seek_thumb.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\vp_playprogress_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_accu_pay_ticket.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_accu_pay_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\full_sight0.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\full_sight0.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_share_qzone_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_share_qzone_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_onclick_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_onclick_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\record_button_stop.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\record_button_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\full_sight_bak1.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\full_sight_bak1.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_dialog_radiobutton_btn4.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_home_dialog_radiobutton_btn4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_about_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_about_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_3.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_home.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\dot.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_share_message_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_share_message_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_an_voice_sent.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_an_voice_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\full_sight2.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\full_sight2.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_toggle.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\background_tab.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_hands_free_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_hands_free_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_photo_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_photo_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_gray_dark.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_gray_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_green_dark.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_green_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\serch_shpe.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\serch_shpe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_send.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_dialog_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_radiobutton_sex_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_radiobutton_sex_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_blue.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\wenxinfriend_selected.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\wenxinfriend_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\vp_status_loading.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\vp_status_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_share_sina_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_share_sina_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_preview_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_preview_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_public_service_unfollow_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_public_service_unfollow_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_dialog_radiobutton_text2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_home_dialog_radiobutton_text2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_check_down.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\icon_check_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_wane_gray3.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_wane_gray3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_public_service_enter_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_public_service_enter_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_answer_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_answer_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_quit_circle.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\shape_quit_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_blue_dark.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_blue_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_over_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_over_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_share_wxpy_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_share_wxpy_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_red_dark.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_red_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\qq_selected.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\qq_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_bg_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_bg_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_loginout_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_loginout_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_sharesuccess_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\shape_sharesuccess_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_green.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\library\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_wane_tranp.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_wane_tranp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_click_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_click_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\sharp_sharesuccess_normal.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\sharp_sharesuccess_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\white_radius.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\white_radius.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\abs__progress_medium_holo.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\abs__progress_medium_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\wenxin_selected.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\wenxin_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\vp_playprogress_seek_drawable.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\vp_playprogress_seek_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_text_color1.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_text_color1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_1.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\abs_progress_holo.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\abs_progress_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_wane_gray4.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_wane_gray4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_input.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_bg_editinput.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_bg_editinput.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_refuse_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_refuse_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_edt.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\shape_round_edt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\full_sight3.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\full_sight3.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_item_top_list_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_item_top_list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\record_button_f.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\record_button_f.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_btn_finish_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_btn_finish_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_setting.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\downtop_check.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\downtop_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_smiley.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_ic_smiley.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_close.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_home_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_main_dark.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_main_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_wane_green.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_wane_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\guanzhubut_shpe.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\guanzhubut_shpe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_bg2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\btn_shape_bg2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_keyboard.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_ic_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_an_voice_receive.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_an_voice_receive.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_extend.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_ic_extend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_wane_gray2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_wane_gray2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_update_sure_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_update_sure_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_type_textcolor.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_home_type_textcolor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\guide_round_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\guide_round_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_progressbar.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\vp_play_complete_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\vp_play_complete_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_click_btn2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_click_btn2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_update_text_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_update_text_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_dialogbg_bottom.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_dialogbg_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\full_sight1.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\full_sight1.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_switch_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\exploded-aar\\ActivePlan\\rongIMKit1\\unspecified\\res\\drawable\\rc_switch_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_home_dialog_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_home_dialog_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape_bg.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\btn_shape_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_authentication.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\shape_authentication.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_pay_type_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_pay_type_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_check_up.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\icon_check_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_red.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\circle_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\record_button_start.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\record_button_start.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_edt1.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\shape_round_edt1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_share_wx_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\selector_share_wx_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\record_button_b.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\record_button_b.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_mini.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\drawable\\progressbar_mini.xml"
+    }
+]

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/llHomeTypeHeart"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_click_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10.0dip" >
+
+            <ImageView
+                android:layout_width="43.0dip"
+                android:layout_height="43.0dip"
+                android:src="@drawable/ic_heart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7.0dip"
+                android:gravity="center"
+                android:text="爱心吧"
+                android:textColor="#ff737373"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llHomeTypeBlind"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_click_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="43.0dip"
+                android:layout_height="43.0dip"
+                android:src="@drawable/ic_blind" />
+
+            <TextView
+                android:id="@+id/tvHomeTypeBlind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7.0dip"
+                android:gravity="center"
+                android:text="相亲吧"
+                android:textColor="#ff737373"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llHomeTypeNear"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_click_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="43.0dip"
+                android:layout_height="43.0dip"
+                android:src="@drawable/ic_business" />
+
+            <TextView
+                android:id="@+id/tvHomeTypeBusiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7.0dip"
+                android:gravity="center"
+                android:text="商务吧"
+                android:textColor="#ff737373"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llHomeTypeFellow"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_click_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="43.0dip"
+                android:layout_height="43.0dip"
+                android:src="@drawable/ic_fellow" />
+
+            <TextView
+                android:id="@+id/tvHomeTypeFellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7.0dip"
+                android:gravity="center"
+                android:text="老乡吧"
+                android:textColor="#ff737373"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/llHomeTypeEnterprise"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_click_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10.0dip" >
+
+            <ImageView
+                android:layout_width="43.0dip"
+                android:layout_height="43.0dip"
+                android:src="@drawable/ic_enterprise" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7.0dip"
+                android:gravity="center"
+                android:text="创业吧"
+                android:textColor="#ff737373"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llHomeTypeSport"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_click_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="43.0dip"
+                android:layout_height="43.0dip"
+                android:src="@drawable/ic_sport" />
+
+            <TextView
+                android:id="@+id/tvHomeTypeSport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7.0dip"
+                android:gravity="center"
+                android:text="运动吧"
+                android:textColor="#ff737373"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llHomeTypeStudy"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_click_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="43.0dip"
+                android:layout_height="43.0dip"
+                android:src="@drawable/ic_study" />
+
+            <TextView
+                android:id="@+id/tvHomeTypeStudy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7.0dip"
+                android:gravity="center"
+                android:text="学习吧"
+                android:textColor="#ff737373"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llHomeTypeTravel"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_click_btn"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="43.0dip"
+                android:layout_height="43.0dip"
+                android:src="@drawable/ic_travel" />
+
+            <TextView
+                android:id="@+id/tvHomeTypeTravel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7.0dip"
+                android:gravity="center"
+                android:text="旅游吧"
+                android:textColor="#ff737373"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

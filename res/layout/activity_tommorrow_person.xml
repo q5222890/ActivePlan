@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tomorrow_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+            <!--主播信息-->
+            <RelativeLayout
+                android:id="@+id/id_RelativeHeart"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/two_hundred_and_twenty">
+
+                <ImageView
+                    android:id="@+id/id_ImageBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY" />
+                <LinearLayout
+                    android:id="@+id/id_LineBlackGround"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#403f3f"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/id_LineHead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/zero_sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4">
+
+                        <com.xz.activeplan.views.CircleImageView
+                            android:id="@+id/id_ImageViewHeadPhoto"
+                            android:layout_width="@dimen/eighty_dip"
+                            android:layout_height="@dimen/eighty_dip"
+                            android:layout_alignParentRight="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/default_userimg"
+                            app:civ_border_color="@color/white"
+                            app:civ_border_width="@dimen/two_dp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/zero_sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/ten_dp"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/id_TextViewName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="none"
+                            android:singleLine="true"
+                            android:text="Name"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sixteen_dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/five_dip"
+                            android:layout_marginTop="@dimen/twenty_dip"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+                            <!--drawable heart-->
+                            <TextView
+                                android:id="@+id/id_TextViewGuanZhuPerson"
+                                android:layout_width="@dimen/zero_sp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/ten_dp"
+                                android:layout_weight="1"
+                                android:drawableLeft="@drawable/heart"
+                                android:ellipsize="none"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/twelve_dp" />
+
+                            <TextView
+                                android:id="@+id/id_TextViewPlayMuch"
+                                android:layout_width="@dimen/zero_sp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/five_dip"
+                                android:layout_weight="2"
+                                android:drawableLeft="@drawable/paly"
+                                android:ellipsize="none"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/twelve_dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--关注-->
+                <Button
+                    android:id="@+id/id_ButtonGuanZhuPerson"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/thirty_five_dip"
+                    android:layout_below="@+id/id_LineHead"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/eighty_dip"
+                    android:layout_marginRight="@dimen/eighty_dip"
+                    android:layout_marginTop="@dimen/twenty_dip"
+                    android:background="@drawable/guanzhubut_shpe"
+                    android:text="@string/GuanZhu"
+                    android:textSize="@dimen/twelve_dp" />
+            </RelativeLayout>
+            <!--真正播放视频-->
+
+            <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+                xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/id_PullToRefreshScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ptr:ptrAnimationStyle="flip"
+                ptr:ptrMode="both"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:id="@+id/id_RelativeLiveTving"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/one_hundre_and_sixty"
+                        android:layout_marginTop="@dimen/five_dip">
+                        <ImageView
+                            android:id="@+id/id_ImageLiveTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop" />
+                       <!--视频标题-->
+                        <RelativeLayout
+                            android:id="@+id/id_RelativeBottom"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twenty_dip"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/gray"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/id_TextViewTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="@dimen/ten_dp"
+                                android:text="标题"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/twelve_dp" />
+
+                            <TextView
+                                android:id="@+id/id_TextViewPopularity"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/five_dip"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/twelve_dp" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignBottom="@+id/id_TextViewPopularity"
+                                android:layout_marginRight="@dimen/five_dip"
+                                android:layout_toLeftOf="@+id/id_TextViewPopularity"
+
+                                android:text="@string/Popularity"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/twelve_dp" />
+
+                            <TextView
+                                android:id="@+id/id_TextViewPlayDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignBottom="@+id/textView4"
+                                android:layout_marginRight="@dimen/ten_dp"
+                                android:layout_toLeftOf="@+id/textView4"
+
+                                android:text="日期"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/twelve_dp" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <!--GraiView-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/id_RelativeLiveTving">
+                    <com.xz.activeplan.views.MyGridView
+                        android:id="@+id/id_GridViewTommrorrowPerson"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:horizontalSpacing="5dp"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="2"
+                        android:verticalSpacing="5dp"
+                        />
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+    </LinearLayout>
+
+
+    <!--返回键及分享-->
+    <RelativeLayout
+        android:id="@+id/tomorrow_person_rlHeaderView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seventy_five_dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/twenty_five_dip"
+            android:gravity="center_vertical"
+            android:padding="@dimen/five_dip">
+
+            <ImageView
+                android:id="@+id/id_ImageBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/selector_click_btn"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:src="@drawable/vp_back" />
+
+            <ImageView
+                android:id="@+id/id_ImageShare"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_click_btn"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:src="@drawable/share_bottom" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

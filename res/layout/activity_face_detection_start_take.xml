@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.xz.activeplan.ui.personal.activity.FaceDetectionActivity">
+
+    <include android:id="@+id/take_header"
+        layout="@layout/activity_header_new"/>
+
+    <TextView
+        android:id="@+id/take_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/take_header"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/face_start_take"
+        android:textSize="18sp" />
+
+     <ImageView
+         android:id="@+id/take_iv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/take_tv"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="50dp"
+         android:src="@drawable/face_sao" />
+    <Button
+
+        android:id="@+id/take_btStart"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/take_iv"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_round_edt2"
+        android:text="开始拍摄"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/take_btStart"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请确保 " />
+        <TextView
+            android:id="@+id/take_tvPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 账号是本人操作" />
+    </LinearLayout>
+
+</RelativeLayout>

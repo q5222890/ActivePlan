@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/all_backgroud"
+    android:orientation="vertical"
+    android:clipToPadding="true"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="230.0dip"
+                android:background="@drawable/mine_top_bg"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="230.0dip"
+                    android:background="@drawable/mine_top_img"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <com.xz.activeplan.views.CircleImageView
+                        android:id="@+id/img_ImageHeadPhoto"
+                        android:layout_width="80.0dip"
+                        android:layout_height="80.0dip"
+                        android:layout_marginTop="15.0dip"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/default_head_bg"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:id="@+id/tvMineNickName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20.0dip"
+                        android:gravity="center"
+                        android:text="我的名字"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sixteen_sp" />
+
+                    <TextView
+                        android:id="@+id/tvMineSignature"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:gravity="center"
+                        android:text="我的签名"
+                        android:textColor="@color/gary3"
+                        android:textSize="@dimen/little_12" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btn_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/fragment_header_left_line_bg" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lyMineTicket"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_about_btn"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:padding="15.0dip" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_ticket"
+                    android:drawablePadding="5.0dip"
+                    android:drawableRight="@drawable/details_jiantou_bg"
+                    android:gravity="left|center"
+                    android:text="票券"
+                    android:textColor="@color/details_title"
+                    android:textSize="@dimen/sixteen_sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <LinearLayout
+                android:id="@+id/lyMineCollect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_about_btn"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:padding="15.0dip" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_activity"
+                    android:drawablePadding="5.0dip"
+                    android:drawableRight="@drawable/details_jiantou_bg"
+                    android:gravity="left|center"
+                    android:text="收藏的活动"
+                    android:textColor="@color/details_title"
+                    android:textSize="@dimen/sixteen_sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <LinearLayout
+                android:id="@+id/lyMineOrg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_about_btn"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:padding="15.0dip" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_zhubanfang"
+                    android:drawablePadding="5.0dip"
+                    android:drawableRight="@drawable/details_jiantou_bg"
+                    android:gravity="left|center"
+                    android:text="关注主办方"
+                    android:textColor="@color/details_title"
+                    android:textSize="@dimen/sixteen_sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <LinearLayout
+                android:id="@+id/lyMineCircle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_about_btn"
+                android:gravity="right|center"
+                android:orientation="horizontal"
+                android:padding="15.0dip"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_friends"
+                    android:drawablePadding="5.0dip"
+                    android:gravity="left|center"
+                    android:text="同伴"
+                    android:textColor="@color/details_title"
+                    android:textSize="@dimen/sixteen_sp" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="left|center" >
+
+                    <TextView
+                        android:id="@+id/tvMineUnReadNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/details_jiantou_bg" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <LinearLayout
+                android:id="@+id/lyMessageCircle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_about_btn"
+                android:gravity="right|center"
+                android:orientation="horizontal"
+                android:padding="15.0dip"
+                android:visibility="visible" >
+				<RelativeLayout 
+				    android:layout_width="60dp"
+				    android:layout_height="match_parent"
+				    >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_m_news"
+                    android:drawablePadding="5.0dip"
+                    android:gravity="left|center"
+                    android:text="消息"
+                    android:textColor="@color/details_title"
+                    android:textSize="@dimen/sixteen_sp" />
+                
+                <ImageView 
+                    android:id="@+id/imgpoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone"
+                    android:src="@drawable/main_bottom_mine_unread_bg"
+                    />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="left|center" >
+
+                    <TextView
+                        android:id="@+id/tvMessageUnReadNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/details_jiantou_bg" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+            
+             <LinearLayout
+                android:id="@+id/lyQr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_about_btn"
+                android:gravity="right|center"
+                android:orientation="horizontal"
+                android:padding="15.0dip"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_scan"
+                    android:drawablePadding="5.0dip"
+                    android:gravity="left|center"
+                    android:text="扫一扫"
+                    android:textColor="@color/details_title"
+                    android:textSize="@dimen/sixteen_sp" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="left|center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/details_jiantou_bg" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+             <LinearLayout
+                android:id="@+id/lyHost"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_about_btn"
+                android:gravity="right|center"
+                android:orientation="horizontal"
+                android:padding="15.0dip"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_zbhd"
+                    android:drawablePadding="5.0dip"
+                    android:gravity="left|center"
+                    android:text="主办活动"
+                    android:textColor="@color/details_title"
+                    android:textSize="@dimen/sixteen_sp" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="left|center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/details_jiantou_bg" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+            
+             <LinearLayout
+                android:id="@+id/lyMoney"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_about_btn"
+                android:gravity="right|center"
+                android:orientation="horizontal"
+                android:padding="15.0dip"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_balance"
+                    android:drawablePadding="5.0dip"
+                    android:gravity="left|center"
+                    android:text="余额"
+                    android:textColor="@color/details_title"
+                    android:textSize="@dimen/sixteen_sp" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_weight="1.0"
+                    android:gravity="left|center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/details_jiantou_bg" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

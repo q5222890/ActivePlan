@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/brackground"
+    android:clipToPadding="true"
+    android:orientation="vertical">
+
+    <com.xz.activeplan.views.MyScrollView
+        android:id="@+id/scrollView_personal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--头部个人资料-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/personl_blackground" />
+
+                <LinearLayout
+                    android:id="@+id/id_LinePersonCenter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.xz.activeplan.views.CircleImageView
+                        android:id="@+id/img_ImageHeadPhoto"
+                        android:layout_width="@dimen/eighty_dip"
+                        android:layout_height="@dimen/eighty_dip"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/default_head_bg"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="@dimen/two_dp" />
+
+                    <TextView
+                        android:id="@+id/tvMineNickName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/ten_dp"
+                        android:gravity="center"
+                        android:text="我的名字"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sixteen_sp" />
+                </LinearLayout>
+                <!--认证，消息，余额-->
+                <LinearLayout
+                    android:id="@+id/id_LinePersonMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sixty_dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black">
+
+                    <ImageView
+                        android:id="@+id/id_ImageAuthentication"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/unauthentication" />
+
+                    <ImageView
+                        android:layout_width="@dimen/two_dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/ten_dp"
+                        android:layout_marginTop="@dimen/ten_dp"
+                        android:background="@color/all_backgroud" />
+
+                    <RelativeLayout
+                        android:id="@+id/id_ImageMessageCircle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/id_ImageMessage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/perosn_message" />
+
+                        <ImageView
+                            android:id="@+id/id_imgpoint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/id_ImageMessage"
+                            android:src="@drawable/main_bottom_mine_unread_bg"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/two_dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/ten_dp"
+                        android:layout_marginTop="@dimen/ten_dp"
+                        android:background="@color/all_backgroud" />
+
+                    <ImageView
+                        android:id="@+id/id_ImageBalance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/balance" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="@dimen/ten_dp"
+                    android:paddingTop="@dimen/ten_dp">
+                        <TextView
+                            android:id="@+id/tv_activemanage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawablePadding="@dimen/five_dip"
+                            android:drawableTop="@drawable/activity_manager"
+                            android:gravity="center"
+                            android:src="@drawable/balance"
+                            android:text="@string/Activitiy_Manager"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/twelve_sp" />
+                        <TextView
+                            android:id="@+id/tv_liveManager"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawablePadding="@dimen/five_dip"
+                            android:drawableTop="@drawable/live_manager"
+                            android:gravity="center"
+                            android:text="@string/live_manager"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/twelve_sp" />
+                        <TextView
+                            android:id="@+id/id_TextViewActivityManager"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawablePadding="@dimen/five_dip"
+                            android:drawableTop="@drawable/celebrity_person"
+                            android:gravity="center"
+                            android:src="@drawable/balance"
+                            android:text="@string/Celebrity_Manager"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/twelve_sp" />
+                        <TextView
+                            android:id="@+id/id_TextViewMyField"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawablePadding="@dimen/five_dip"
+                            android:drawableTop="@drawable/my_field"
+                            android:gravity="center"
+                            android:src="@drawable/balance"
+                            android:text="@string/My_Field"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/twelve_sp" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:background="@drawable/selector_about_btn"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/ten_dp"
+                android:paddingRight="@dimen/ten_dp"
+              >
+
+            <!--我的好友-->
+                <LinearLayout
+                    android:id="@+id/id_LineMyFriends"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_about_btn"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/ten_dp"
+                    android:paddingTop="@dimen/ten_dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/my_friends"
+                        android:drawablePadding="@dimen/ten_dp"
+                        android:drawableRight="@drawable/details_jiantou_bg"
+                        android:gravity="left|center"
+                        android:text="@string/string_MyFans"
+                        android:textColor="@color/details_title"
+                        android:textSize="@dimen/sixteen_sp" />
+
+                </LinearLayout>
+
+                <include layout="@layout/view" />
+                <!--我的关注-->
+                <LinearLayout
+                    android:id="@+id/id_LineMyGuanZhuPerson"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_about_btn"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/ten_dp"
+                    android:paddingTop="@dimen/ten_dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/my_guanzhu_perosn"
+                        android:drawablePadding="@dimen/ten_dp"
+                        android:drawableRight="@drawable/details_jiantou_bg"
+                        android:gravity="left|center"
+                        android:text="@string/My_GuanZhu"
+                        android:textColor="@color/details_title"
+                        android:textSize="@dimen/sixteen_sp" />
+                </LinearLayout>
+                <include layout="@layout/view" />
+                <!--脸部识别-->
+                <LinearLayout
+                    android:id="@+id/id_LineMyFace"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_about_btn"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/ten_dp"
+                    android:paddingTop="@dimen/ten_dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/person_face"
+                        android:drawablePadding="@dimen/ten_dp"
+                        android:drawableRight="@drawable/details_jiantou_bg"
+                        android:gravity="left|center"
+                        android:text="脸部识别"
+                        android:textColor="@color/details_title"
+                        android:textSize="@dimen/sixteen_sp" />
+                </LinearLayout>
+                <include layout="@layout/view" />
+                <LinearLayout
+                    android:id="@+id/id_LineSetting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_about_btn"
+                    android:gravity="left|center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/ten_dp"
+                    android:paddingTop="@dimen/ten_dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/system_setting"
+                        android:drawablePadding="@dimen/ten_dp"
+                        android:drawableRight="@drawable/details_jiantou_bg"
+                        android:gravity="left|center"
+                        android:text="@string/string_SystemSetting"
+                        android:textColor="@color/details_title"
+                        android:textSize="@dimen/sixteen_sp" />
+                </LinearLayout>
+                <include layout="@layout/view" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/transparent"/>
+        </LinearLayout>
+
+    </com.xz.activeplan.views.MyScrollView>
+    <!--返回键-->
+    <RelativeLayout
+        android:id="@+id/relativeLayout_toollbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seventy_five_dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twenty_five_dip"
+            android:gravity="center_vertical"
+            android:padding="@dimen/five_dip">
+            <ImageView
+                android:id="@+id/id_ImageSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/setup"
+                android:visibility="gone" />
+            <ImageView
+                android:id="@+id/id_ImageShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/share_bottom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="个人中心"
+                android:textColor="@color/white"
+                android:textSize="@dimen/twenty_sp"
+                android:visibility="visible"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

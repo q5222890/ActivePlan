@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xz.activeplan.ui.personal.activity.IDcardPhotoActivity">
+
+    <LinearLayout
+        android:id="@+id/line_headerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/activity_header_new" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_frontphoto"
+        android:layout_below="@+id/line_headerview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_round">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/idcard_plus"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="正面照片" />
+
+        <ImageView
+            android:id="@+id/iv_photofront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_backphoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/relative_frontphoto"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_round">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/idcard_plus"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="反面照片" />
+
+        <ImageView
+            android:id="@+id/iv_photoback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative_backphoto"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_roundblue"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/baocun"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <com.oginotihiro.cropview.CropView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line_headerview"
+        android:visibility="gone"
+        android:layout_above="@+id/btnlay"
+        android:id="@+id/cropView"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:id="@+id/btnlay">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            android:id="@+id/cancelBtn" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定"
+            android:id="@+id/doneBtn" />
+    </LinearLayout>
+</RelativeLayout>

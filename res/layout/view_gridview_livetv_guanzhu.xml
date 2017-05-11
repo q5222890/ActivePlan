@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_Relative"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/selector_click_btn"
+    android:padding="2dp"
+    >
+
+    <ImageView
+
+        android:id="@+id/id_ImageGrideView_GuanZhu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/thumb"
+        />
+    <LinearLayout
+        android:id="@+id/guanzhu_llBack"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twenty_dip"
+        android:layout_alignParentBottom="true"
+        android:background="#747474"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/id_TextViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/two_dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ten_sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <ImageView
+            android:id="@+id/id_ImageViewPerSon"
+            android:layout_width="@dimen/ten_sp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/five_dip"
+            android:layout_toLeftOf="@+id/id_TextViewPersonNum"
+            android:gravity="center"
+            android:src="@drawable/person" />
+        <TextView
+            android:id="@+id/id_TextViewPersonNum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/five_dip"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ten_dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/id_TextViewName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_ImageGrideView_GuanZhu"
+        android:layout_marginLeft="@dimen/two_dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/ten_sp" />
+</RelativeLayout>

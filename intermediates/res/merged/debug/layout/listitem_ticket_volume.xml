@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/ticket_volume" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ff77c06c" android:gravity="center" android:id="@id/tvTicketTitle" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/ivCode" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/default_square_image" android:scaleType="fitCenter" android:layout_below="@id/tvTicketTitle" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_title" android:gravity="center" android:id="@id/tvCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:text="票号：" android:layout_below="@id/ivCode" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

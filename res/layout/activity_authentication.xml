@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+    <RelativeLayout
+        android:id="@+id/id_RelativeHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <include layout="@layout/activity_header_new" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/id_RelativePersonalData"
+        android:background="#74DCC7"
+        android:layout_below="@+id/id_RelativeHead"
+        android:layout_width="match_parent"
+        android:layout_height="225dp">
+
+        <LinearLayout
+            android:id="@+id/id_LinePersonCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.xz.activeplan.views.CircleImageView
+                android:id="@+id/img_ImageHeadPhoto"
+                android:layout_width="@dimen/eighty_dip"
+                android:layout_height="@dimen/eighty_dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_head_bg"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="@dimen/two_dp" />
+
+            <TextView
+                android:id="@+id/tvMineNickName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:gravity="center"
+                android:text="@string/string_UnAuthentication"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sixteen_sp" />
+        </LinearLayout>
+    </RelativeLayout>
+        <Button
+            android:id="@+id/id_ButAuthentication"
+            android:layout_below="@+id/id_RelativePersonalData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_onclick_btn"
+            android:layout_margin="10dp"
+            android:padding="10.0dip"
+            android:textSize="18sp"
+            android:text="@string/string_GoAuthentication"
+            android:textColor="@color/white"
+            />
+</RelativeLayout>

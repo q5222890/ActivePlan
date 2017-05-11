@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xz.activeplan.views.JustifyTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_TextViewActivityManager"
+    android:orientation="vertical"
+    android:textSize="12dp"
+    android:lineSpacingExtra="@dimen/two_dp"
+    android:lineSpacingMultiplier="1.2"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    </com.xz.activeplan.views.JustifyTextView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xz.activeplan.ui.personal.activity.LiveManagerInfoActivity">
+
+    <!--头部布局-->
+    <LinearLayout
+        android:id="@+id/id_LineHeadOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/activity_header_new"/>
+    </LinearLayout>
+      <RelativeLayout
+          android:id="@+id/id_rl"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/id_LineHeadOne">
+
+          <ImageView
+              android:id="@+id/liveInfo_ivCover"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:scaleType="fitXY"
+              android:src="@drawable/default_details_image" />
+                 <TextView
+                     android:id="@+id/liveInfo_tvTime"
+                     android:layout_width="match_parent"
+                     android:layout_height="40dp"
+                     android:layout_below="@+id/liveInfo_ivCover"
+                     android:background="@color/header_blue"
+                     android:gravity="center"
+                     android:textColor="@color/white" />
+      </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape_btn_bg_selected"
+                android:gravity="center"
+                android:text="观看回放"
+                android:visibility="invisible" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_btn_bg_selected"
+                android:gravity="center"
+                android:text="观看回放"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/liveInfo_tvSeeBack"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+
+                android:background="@drawable/selector_click_btn4"
+                android:gravity="center"
+                android:text="观看回放" />
+            <TextView
+                android:id="@+id/liveInfo_tvShare"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_click_btn4"
+                android:gravity="center"
+                android:text="分享视频" />
+        </LinearLayout>
+
+</RelativeLayout>

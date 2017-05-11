@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto">
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        android:scrollbars="none"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        ptr:ptrAnimationStyle="flip"
+        android:id="@+id/id_PullRefreshGridView_GuanZhu"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:gravity="fill"
+        ptr:ptrMode="both">
+    </com.handmark.pulltorefresh.library.PullToRefreshGridView>
+</RelativeLayout>

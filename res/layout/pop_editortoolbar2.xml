@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/pop_action_bold"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:gravity="center"
+                android:src="@drawable/bold_gray" />
+
+            <ImageButton
+                android:id="@+id/pop_action_underline"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:gravity="center"
+                android:src="@drawable/underline_gray" />
+
+            <ImageButton
+                android:id="@+id/pop_action_txt_color"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:gravity="center"
+                android:src="@drawable/textcolor"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/pop_action_txt_size"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:contentDescription="@null"
+                android:src="@drawable/normal_textsize" />
+
+            <ImageButton
+                android:id="@+id/pop_action_insert_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:contentDescription="@null"
+                android:src="@drawable/image_gray" />
+
+            <ImageButton
+                android:id="@+id/pop_action_insert_video"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:contentDescription="@null"
+                android:src="@drawable/video_gray" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/pop_action_garbage"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/delete_garbage" />
+
+</RelativeLayout>

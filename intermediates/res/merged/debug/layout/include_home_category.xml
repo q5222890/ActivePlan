@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="10.0dip"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/llNewTopic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lt_tuisong"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:padding="10.0dip"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/homeicon_recommend" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:text="精彩推送"
+                android:textColor="#ff3c3c3c"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/llyt_tuisong"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <!--
+                            <RelativeLayout
+                                android:id="@+id/rlyt_splendid1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/selector_home_bg"
+                                android:clickable="true" >
+
+                                <ImageView
+                                    android:id="@+id/img_splendid1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="centerCrop"/>
+
+                                <TextView
+                                    android:id="@+id/txt_splendid1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="#80000000"
+                                    android:textSize="13sp"
+                                    android:padding="2dp"
+                                    android:textColor="#fff" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/rlyt_splendid2"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/selector_home_bg"
+                                android:clickable="true" >
+
+                                <ImageView
+                                    android:id="@+id/img_splendid2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                     android:scaleType="centerCrop" />
+
+                                <TextView
+                                    android:id="@+id/txt_splendid2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="#80000000"
+                                    android:textSize="13sp"
+                                    android:padding="2dp"
+                                    android:textColor="#fff" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/rlyt_splendid3"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/selector_home_bg"
+                                android:clickable="true" >
+
+                                <ImageView
+                                    android:id="@+id/img_splendid3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="centerCrop" />
+
+                                <TextView
+                                    android:id="@+id/txt_splendid3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="#80000000"
+                                    android:textSize="13sp"
+                                    android:padding="2dp"
+                                    android:textColor="#fff" />
+                            </RelativeLayout>
+                            -->
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#ffecedec" />
+
+        <LinearLayout
+            android:id="@+id/ly_mxjs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="10.0dip"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/teacher" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:text="明星讲师"
+                android:textColor="#ff3c3c3c"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/llyt_mxjs"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <!--
+                <RelativeLayout
+                    android:id="@+id/rlyt_teacher1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_home_bg"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:id="@+id/img_teacher1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:id="@+id/txt_teacher1"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#80000000"
+                        android:textSize="13sp"
+                        android:padding="2dp"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlyt_teacher2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_home_bg"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:id="@+id/img_teacher2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/txt_teacher2"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#80000000"
+                        android:textSize="13sp"
+                        android:padding="2dp"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlyt_teacher3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_home_bg"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:id="@+id/img_teacher3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:id="@+id/txt_teacher3"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#80000000"
+                        android:textSize="13sp"
+                        android:padding="2dp"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+                -->
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#ffd8d8d8" />
+
+</LinearLayout>

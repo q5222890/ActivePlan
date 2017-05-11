@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_more"
+    android:orientation="vertical"
+    >
+
+
+        <TextView
+            android:id="@+id/textview_message"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_click_btn"
+            android:drawableLeft="@drawable/messages"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="消息"
+            android:textSize="20sp"/>
+
+        <include layout="@layout/view"/>
+
+        <TextView
+            android:id="@+id/textview_Scan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_click_btn"
+            android:drawableLeft="@drawable/scanning"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="扫一扫"
+            android:textSize="20sp"/>
+
+
+       <!-- <include layout="@layout/view"/>
+        <TextView
+            android:id="@+id/textview_tvFace"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_click_btn"
+            android:drawableLeft="@drawable/scanning"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="扫脸"
+            android:textSize="20sp"/>-->
+
+
+        <include layout="@layout/view"/>
+
+        <TextView
+            android:id="@+id/textview_cooperate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_click_btn"
+            android:drawableLeft="@drawable/cooperate"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="推广合作"
+            android:textSize="20sp"/>
+        <include layout="@layout/view"/>
+        <TextView
+            android:id="@+id/textview_sponsor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_click_btn"
+            android:drawableLeft="@drawable/sponsorcharts"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="主办方排行"
+            android:textSize="20sp"/>
+</LinearLayout>

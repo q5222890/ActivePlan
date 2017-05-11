@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--头部布局-->
+    <LinearLayout
+        android:id="@+id/id_LineHeadOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/activity_header_new" />
+    </LinearLayout>
+
+    <com.xz.activeplan.ui.personal.viewpagetest.TitleIndicator
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include layout="@layout/view"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_fans"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/ten_dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/five_dip"
+    android:paddingTop="@dimen/five_dip">
+
+    <TextView
+        android:id="@+id/tv_sponsors_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:background="@drawable/background_with_shadow_white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/seven_dip"
+        android:paddingLeft="@dimen/fifteen_sp"
+        android:paddingRight="@dimen/fifteen_sp"
+        android:paddingTop="@dimen/three_dp"
+        android:text="0人赞助"
+        android:textColor="@color/textColor_Black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp">
+
+        <TextView
+            android:id="@+id/tv_sponsortype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_sponsor_price"
+            android:singleLine="true"
+            android:text="冠名赞助（限1人）"
+            android:textColor="@color/textColor_Black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_sponsor_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="￥20000.00"
+            android:textColor="@color/red2"
+            android:textSize="18sp" />
+
+        <com.xz.activeplan.views.JustifyTextView
+            android:id="@+id/tv_payback_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_sponsor_price"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:lineSpacingExtra="@dimen/five_dip"
+            android:lines="2"
+            android:text="抢我的文档确定去我的期望·，；面对我的速度出门买菜，‘的期望地区的，都抢了我的了吗
+            威风威风 法4法4法法法34 蜂窝肺的  违反违反让我非法服务范文芳2 爱出发时从v让哥哥都是第三方违反是
+            的成本提高认识"
+            android:textColor="@color/textColor_Black" />
+
+        <TextView
+            android:id="@+id/tv_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_payback_content"
+            android:text="@string/string_See"
+            android:textColor="@color/header_blue" />
+
+    </RelativeLayout>
+
+    <View android:layout_height="0.25dp"
+        android:layout_width="match_parent"
+        android:background="#dedede"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_contactname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系人：" />
+
+        <TextView
+            android:id="@+id/tv_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系人"
+            android:layout_toRightOf="@+id/tv_contactname"
+            />
+
+        <TextView
+            android:id="@+id/tv_contactphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_contactname"
+            android:text="联系电话：" />
+
+        <TextView
+            android:id="@+id/tv_contact_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13516984562"
+            android:layout_toRightOf="@+id/tv_contactphone"
+            android:layout_below="@+id/tv_contactname"/>
+
+        <TextView
+            android:id="@+id/tv_check_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_contact_phone"
+            android:layout_toLeftOf="@+id/tv_go_sponsor"
+            android:text="@string/string_SeePicture"
+            android:textColor="@color/header_blue" />
+
+        <TextView
+            android:id="@+id/tv_go_sponsor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/background_with_shadow_bule"
+            android:paddingBottom="@dimen/seven_dip"
+            android:paddingLeft="@dimen/fifteen_sp"
+            android:paddingRight="@dimen/fifteen_sp"
+            android:paddingTop="@dimen/three_dp"
+            android:text="@string/string_Sponsor"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

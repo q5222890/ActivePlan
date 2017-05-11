@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/selector_home_dialog_btn" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivClassImg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="left|center" android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/sixteen_sp" android:gravity="center" android:id="@id/tvClassTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="聚会" />
+        <TextView android:textSize="@dimen/little_14" android:textColor="@color/gary_title" android:gravity="center" android:id="@id/tvClassContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="最好的技术" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/lyclass" android:background="@drawable/classfly_icon_add_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+        <ImageView android:id="@id/tvClassAddImg" android:background="@drawable/classfly_icon_add_selected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

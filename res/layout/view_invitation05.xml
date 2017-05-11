@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="@dimen/ten_dp"
+    android:background="@color/brackground"
+    android:layout_height="match_parent">
+<com.xz.activeplan.views.xlistview.XListView
+    android:background="#f00"
+    android:dividerHeight="@dimen/ten_dp"
+    android:id="@+id/id_XListview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</com.xz.activeplan.views.xlistview.XListView>
+</LinearLayout>

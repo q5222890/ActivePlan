@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_margin="@dimen/ten_dp"
+        android:src="@drawable/comeit_invation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/ten_dp"
+            android:textColor="@color/textColor_Black"
+            android:gravity="center_horizontal"
+            android:text="@string/string_SubmitSuccessfully"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/twenty_sp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:textColor="@color/textColor_Black"
+        android:gravity="center_horizontal"
+        android:text="@string/string_WaitForFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/fifteen_sp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:textColor="@color/gray_dark"
+        android:gravity="center_horizontal"
+        android:text="@string/string_WaitForFeedbackone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/fifteen_sp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:textColor="@color/gray_dark"
+        android:gravity="center_horizontal"
+        android:text="@string/string_WaitForFeedbacktwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginBottom="@dimen/ten_dp"
+        android:textSize="@dimen/fifteen_sp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:textColor="@color/gray_dark"
+        android:gravity="center_horizontal"
+        android:text="@string/string_WaitForFeedbackthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <include layout="@layout/view"/>
+
+    <TextView
+        android:id="@+id/id_TextViewIKonw"
+        android:layout_marginBottom="@dimen/ten_dp"
+        android:textSize="@dimen/twenty_dip"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:textColor="@color/textColor_Black"
+        android:gravity="center"
+        android:text="@string/string_Iknow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

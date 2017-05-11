@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_header_new" />
+
+      <ScrollView
+        android:id="@id/osView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffffff"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@id/pager_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffecedec" >
+
+                <ImageView
+                    android:id="@id/ivTicketDetailsBg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ticket_volume"
+                    android:scaleType="fitXY"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearLayout1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="耶鲁大学公开课" />
+
+                <ImageView
+                    android:id="@+id/img_qr"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/tv_title"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/attend_no_data" />
+
+                <TextView
+                    android:id="@+id/txt_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/ivTicketDetailsBg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="票号：236529564" />
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+               <com.xz.activeplan.views.CircleImageView
+                    android:id="@id/ivUserLogo"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/user_name"
+                    app:border_color="@color/txt_green"
+                    app:border_width="2.0dip" />
+
+                <TextView
+                    android:id="@id/tvUserName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ivUserLogo"
+                    android:padding="10.0dip"
+                    android:singleLine="true"
+                    android:textColor="@color/gary_content"
+                    android:textSize="@dimen/little_14" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@id/tvDetailsTime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_click_btn"
+                android:drawableLeft="@drawable/details_time_icon_bg"
+                android:drawablePadding="10.0dip"
+                android:gravity="left|center"
+                android:padding="10.0dip"
+                android:textColor="@color/gary_content"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@drawable/details_icon_line2" />
+
+            <LinearLayout
+                android:id="@id/lyDetailsAddr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_click_btn"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10.0dip" >
+
+                <TextView
+                    android:id="@id/tvDetailsAddress"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableLeft="@drawable/location2x"
+                    android:drawablePadding="10.0dip"
+                    android:gravity="left|center"
+                    android:singleLine="true"
+                    android:textColor="@color/gary_content"
+                    android:textSize="@dimen/sixteen_sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@id/tvAccuvallyDetail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_click_btn"
+                android:drawableRight="@drawable/details_jiantou_bg"
+                android:padding="10.0dip"
+                android:text="活动详情"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+
+            <TextView
+                android:id="@id/tvRefundTicket"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_click_btn"
+                android:clickable="true"
+                android:drawableRight="@drawable/details_jiantou_bg"
+                android:padding="10.0dip"
+                android:text="取消票券"
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/sixteen_sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.100000024dip"
+                android:background="@drawable/details_icon_line2" />
+        </LinearLayout>
+      </ScrollView>
+
+</LinearLayout>

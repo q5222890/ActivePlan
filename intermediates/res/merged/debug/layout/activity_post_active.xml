@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_header_new" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#f9f9f9"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="基本信息"
+                android:textColor="#01bbff"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <EditText
+                android:id="@+id/ed_active_name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:hint="活动名称"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:textColor="#000000"
+                android:textColorHint="#ccc"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff" >
+
+                <EditText
+                    android:id="@+id/edtmap"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/btnmap"
+                    android:background="#fff"
+                    android:focusable="false"
+                    android:gravity="center_vertical|left"
+                    android:hint="选择地点"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/btnmap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ic_loaction" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:id="@+id/rlyt_start_time"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff" >
+
+                <EditText
+                    android:id="@+id/ed_start_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/btn_start_time"
+                    android:background="#fff"
+                    android:focusable="false"
+                    android:gravity="center_vertical|left"
+                    android:hint="开始时间"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/btn_start_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ic_date" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:id="@+id/rlyt_end_time"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff" >
+
+                <EditText
+                    android:id="@+id/ed_end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/btn_end_time"
+                    android:background="#fff"
+                    android:focusable="false"
+                    android:gravity="center_vertical|left"
+                    android:hint="结束时间"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/btn_end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ic_date" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:background="#fff"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="请选择海报"
+                    android:textColor="#ccc" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/textView1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/img_photo"
+                    android:text="图片小余2M(jpg,png)尺寸不小于1080*640px"
+                    android:textColor="#ccc" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/details_icon_jiantou1" />
+
+                <ImageView
+                    android:id="@+id/img_photo"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/button1"
+                    android:src="@drawable/thumb" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <EditText
+                android:id="@+id/ed_active_num"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:hint="请输入活动人数"
+                android:inputType="number"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:textColor="#000000"
+                android:textColorHint="#ccc"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:id="@+id/rlyt_theme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@+id/btn_theme"
+                    android:background="#fff"
+                    android:gravity="center_vertical|left"
+                    android:hint="活动主题"
+                    android:textColor="#000000"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn_theme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/details_icon_jiantou1" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rlyt_style"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@+id/btn_style"
+                    android:background="#fff"
+                    android:gravity="center_vertical|left"
+                    android:hint="活动形式"
+                    android:textColor="#000000"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/details_icon_jiantou1" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rlyt_category"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/tv_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@+id/btn_category"
+                    android:background="#fff"
+                    android:gravity="center_vertical|left"
+                    android:hint="活动分类"
+                    android:textColor="#000000"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/details_icon_jiantou1" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <EditText
+                android:id="@+id/ed_active_dtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:gravity="left|top"
+                android:hint="活动详情"
+                android:inputType="textMultiLine"
+                android:minLines="6"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:textColor="#000000"
+                android:textColorHint="#ccc"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#f9f9f9"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="设置售票"
+                android:textColor="#01bbff"
+                android:textSize="16sp" />
+
+           
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:visibility="gone" >
+
+                <EditText
+                    android:id="@+id/ed_no_momey"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/ck_no_momey"
+                    android:background="#fff"
+                    android:focusable="false"
+                    android:gravity="center_vertical|left"
+                    android:hint="默认免费票种"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </EditText>
+
+                <CheckBox
+                    android:id="@+id/ck_no_momey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#fff"
+                android:visibility="gone" >
+
+                <EditText
+                    android:id="@+id/ed_yes_momey"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:gravity="center_vertical|left"
+                    android:hint="收费票种"
+                    android:inputType="numberDecimal"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#ccc"
+                    android:textSize="15sp" >
+                </EditText>
+
+                <CheckBox
+                    android:id="@+id/ck_yes_momey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                
+                 <LinearLayout
+                android:id="@+id/llyt_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlyt_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical" >
+                    <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="#ccc"
+                        android:text="增加票务类型"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_free_ticket" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#ccc" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="25dp"
+                android:background="#fff" >
+
+                <Button
+                    android:id="@+id/btn_active_post"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_bt_bg"
+                    android:text="发布"
+                    android:textColor="#fff" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

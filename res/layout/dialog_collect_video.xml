@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lLayout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_rounded_bg"
+    android:orientation="vertical" >
+    <!--收藏视频的dialog-->
+
+    <TextView
+        android:id="@+id/tv_collect"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_click_btn"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.05dp"
+        android:background="@color/alertdialog_line"/>
+    <TextView
+        android:id="@+id/tv_ok"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector_dialogbg_bottom1"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+</LinearLayout>

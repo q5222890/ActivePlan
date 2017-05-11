@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.personal.fragment.FollowingFragment">
+
+    <RelativeLayout
+        android:layout_below="@+id/id_LineSponsor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:textColor="#999999"
+            android:textSize="16dp"
+            android:id="@+id/id_TextViewNoData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="暂无数据"
+      />
+        <com.xz.activeplan.views.xlistview.XListView
+            android:id="@+id/xlistview_following"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.xz.activeplan.views.xlistview.XListView>
+    </RelativeLayout>
+</FrameLayout>

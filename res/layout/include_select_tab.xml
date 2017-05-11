@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/details_icon_line2" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/lySelTag" android:background="@drawable/selector_click_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/seventeen_sp" android:textColor="@color/gary_content" android:gravity="center" android:id="@id/tvSelType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全类型" android:drawablePadding="5.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/lySelTime" android:background="@drawable/selector_click_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/seventeen_sp" android:textColor="@color/gary_content" android:gravity="center" android:id="@id/tvSelTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全时段" android:drawablePadding="5.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/lySelType" android:background="@drawable/selector_click_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/seventeen_sp" android:textColor="@color/gary_content" android:gravity="center" android:id="@id/tvSelPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全价位" android:drawablePadding="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/details_icon_line2" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</LinearLayout>

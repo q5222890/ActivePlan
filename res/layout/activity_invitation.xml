@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brackground"
+    tools:context="com.xz.activeplan.ui.news.activity.InvitationActivity">
+    <!--头部-->
+    <RelativeLayout
+        android:id="@+id/id_RelativeLayoutHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigation_bar">
+            <include layout="@layout/activity_header_new" />
+    </RelativeLayout>
+    <!--进度条-->
+    <LinearLayout
+        android:layout_below="@+id/id_RelativeLayoutHead"
+        android:id="@+id/id_LineSpeedOfProgress"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/forty_five"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--邀请-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/Invitation"
+                android:textColor="@color/textColor_Black"
+                android:textSize="@dimen/sixteen_dp" />
+
+            <ImageView
+                android:id="@+id/id_ImageInvitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:src="@drawable/invite_progress_red" />
+        </LinearLayout>
+        <!--名人确认-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/Celebrity_Confirmation"
+                android:textColor="@color/textColor_Black"
+                android:textSize="@dimen/sixteen_dp" />
+
+            <ImageView
+                android:id="@+id/id_ImageCelebrityConfirmation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:src="@drawable/invite_progress_gray" />
+
+        </LinearLayout>
+        <!--付款-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_TextViewInvitation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/Payment"
+                android:textColor="@color/textColor_Black"
+                android:textSize="@dimen/sixteen_dp" />
+
+            <ImageView
+                android:id="@+id/id_ImagePayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:src="@drawable/invite_progress_gray" />
+
+        </LinearLayout>
+        <!--见面-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/id_TextViewInvitation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/Meet"
+                android:textColor="@color/textColor_Black"
+                android:textSize="@dimen/sixteen_dp" />
+
+            <ImageView
+                android:id="@+id/id_ImageMeet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:src="@drawable/invite_progress_gray" />
+        </LinearLayout>
+        <!--评价-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/id_TextViewInvitation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/Evaluate"
+                android:textColor="@color/textColor_Black"
+                android:textSize="@dimen/sixteen_dp" />
+
+            <ImageView
+                android:id="@+id/id_ImageEvaluate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/two_dp"
+                android:src="@drawable/invite_progress_gray" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/id_ScrollViewInvitation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id_LineSpeedOfProgress"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/id_Relative_Invitation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/id_LineAddView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/id_ViewOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/view_invitation01"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/id_ViewTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/view_invitation02"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <!--确认-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/forty_five"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <LinearLayout
+            android:visibility="visible"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:id="@+id/id_LineRefuse"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:textSize="@dimen/fifteen_dp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/twelve_dp"
+            android:paddingTop="@dimen/twelve_dp"
+            android:text="@string/string_Total"
+            android:textColor="@color/textColor_Black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/id_TextViewPriceL"
+                android:textSize="@dimen/fifteen_dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/twelve_dp"
+                android:paddingTop="@dimen/twelve_dp"
+                android:text="@string/ConfirmInvitation"
+                android:textColor="@color/color_OderStat"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/id_TextViewConfirm"
+            android:textSize="@dimen/fifteen_dp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/twelve_dp"
+            android:paddingTop="@dimen/twelve_dp"
+            android:layout_weight="1"
+            android:text="@string/ConfirmInvitation"
+            android:textColor="@color/white"
+            android:background="@color/header_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,3465 @@
+[
+    {
+        "outputFile": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\build\\intermediates\\res\\merged\\debug\\values-480x320\\values-480x320.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 896,
+                        "endColumn": 43,
+                        "endOffset": 935
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 45,
+                    "endOffset": 140
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1402,
+                        "endColumn": 45,
+                        "endOffset": 1443
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 145,
+                    "endColumn": 45,
+                    "endOffset": 186
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1449,
+                        "endColumn": 45,
+                        "endOffset": 1490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 191,
+                    "endColumn": 45,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1496,
+                        "endColumn": 45,
+                        "endOffset": 1537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 237,
+                    "endColumn": 45,
+                    "endOffset": 278
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1543,
+                        "endColumn": 45,
+                        "endOffset": 1584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 283,
+                    "endColumn": 45,
+                    "endOffset": 324
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1590,
+                        "endColumn": 45,
+                        "endOffset": 1631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 329,
+                    "endColumn": 45,
+                    "endOffset": 370
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1637,
+                        "endColumn": 45,
+                        "endOffset": 1678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 375,
+                    "endColumn": 45,
+                    "endOffset": 416
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1684,
+                        "endColumn": 45,
+                        "endOffset": 1725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 421,
+                    "endColumn": 46,
+                    "endOffset": 463
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1731,
+                        "endColumn": 46,
+                        "endOffset": 1773
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 468,
+                    "endColumn": 46,
+                    "endOffset": 510
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1779,
+                        "endColumn": 46,
+                        "endOffset": 1821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 515,
+                    "endColumn": 46,
+                    "endOffset": 557
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1827,
+                        "endColumn": 46,
+                        "endOffset": 1869
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 562,
+                    "endColumn": 43,
+                    "endOffset": 601
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 941,
+                        "endColumn": 43,
+                        "endOffset": 980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 606,
+                    "endColumn": 46,
+                    "endOffset": 648
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1875,
+                        "endColumn": 46,
+                        "endOffset": 1917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 653,
+                    "endColumn": 46,
+                    "endOffset": 695
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1923,
+                        "endColumn": 46,
+                        "endOffset": 1965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 700,
+                    "endColumn": 46,
+                    "endOffset": 742
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1971,
+                        "endColumn": 46,
+                        "endOffset": 2013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 747,
+                    "endColumn": 46,
+                    "endOffset": 789
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2019,
+                        "endColumn": 46,
+                        "endOffset": 2061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 794,
+                    "endColumn": 46,
+                    "endOffset": 836
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2067,
+                        "endColumn": 46,
+                        "endOffset": 2109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 841,
+                    "endColumn": 46,
+                    "endOffset": 883
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2115,
+                        "endColumn": 46,
+                        "endOffset": 2157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 888,
+                    "endColumn": 46,
+                    "endOffset": 930
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2163,
+                        "endColumn": 46,
+                        "endOffset": 2205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 935,
+                    "endColumn": 46,
+                    "endOffset": 977
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2211,
+                        "endColumn": 46,
+                        "endOffset": 2253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 982,
+                    "endColumn": 46,
+                    "endOffset": 1024
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2259,
+                        "endColumn": 46,
+                        "endOffset": 2301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1029,
+                    "endColumn": 46,
+                    "endOffset": 1071
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2307,
+                        "endColumn": 46,
+                        "endOffset": 2349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1076,
+                    "endColumn": 44,
+                    "endOffset": 1116
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 986,
+                        "endColumn": 44,
+                        "endOffset": 1026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1121,
+                    "endColumn": 46,
+                    "endOffset": 1163
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2355,
+                        "endColumn": 46,
+                        "endOffset": 2397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1168,
+                    "endColumn": 46,
+                    "endOffset": 1210
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2403,
+                        "endColumn": 46,
+                        "endOffset": 2445
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1215,
+                    "endColumn": 46,
+                    "endOffset": 1257
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2451,
+                        "endColumn": 46,
+                        "endOffset": 2493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1262,
+                    "endColumn": 46,
+                    "endOffset": 1304
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2499,
+                        "endColumn": 46,
+                        "endOffset": 2541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1309,
+                    "endColumn": 46,
+                    "endOffset": 1351
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2547,
+                        "endColumn": 46,
+                        "endOffset": 2589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1356,
+                    "endColumn": 46,
+                    "endOffset": 1398
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2595,
+                        "endColumn": 46,
+                        "endOffset": 2637
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1403,
+                    "endColumn": 46,
+                    "endOffset": 1445
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2643,
+                        "endColumn": 46,
+                        "endOffset": 2685
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1450,
+                    "endColumn": 46,
+                    "endOffset": 1492
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2691,
+                        "endColumn": 46,
+                        "endOffset": 2733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1497,
+                    "endColumn": 46,
+                    "endOffset": 1539
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 2739,
+                        "endColumn": 46,
+                        "endOffset": 2781
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1544,
+                    "endColumn": 46,
+                    "endOffset": 1586
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2787,
+                        "endColumn": 46,
+                        "endOffset": 2829
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1591,
+                    "endColumn": 44,
+                    "endOffset": 1631
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1032,
+                        "endColumn": 44,
+                        "endOffset": 1072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1636,
+                    "endColumn": 46,
+                    "endOffset": 1678
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2835,
+                        "endColumn": 46,
+                        "endOffset": 2877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1683,
+                    "endColumn": 46,
+                    "endOffset": 1725
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2883,
+                        "endColumn": 46,
+                        "endOffset": 2925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1730,
+                    "endColumn": 46,
+                    "endOffset": 1772
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2931,
+                        "endColumn": 46,
+                        "endOffset": 2973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1777,
+                    "endColumn": 46,
+                    "endOffset": 1819
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 2979,
+                        "endColumn": 46,
+                        "endOffset": 3021
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 1824,
+                    "endColumn": 46,
+                    "endOffset": 1866
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3027,
+                        "endColumn": 46,
+                        "endOffset": 3069
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 1871,
+                    "endColumn": 46,
+                    "endOffset": 1913
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3075,
+                        "endColumn": 46,
+                        "endOffset": 3117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 1918,
+                    "endColumn": 46,
+                    "endOffset": 1960
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 3123,
+                        "endColumn": 46,
+                        "endOffset": 3165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 1965,
+                    "endColumn": 46,
+                    "endOffset": 2007
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3171,
+                        "endColumn": 46,
+                        "endOffset": 3213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2012,
+                    "endColumn": 46,
+                    "endOffset": 2054
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3219,
+                        "endColumn": 46,
+                        "endOffset": 3261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2059,
+                    "endColumn": 46,
+                    "endOffset": 2101
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3267,
+                        "endColumn": 46,
+                        "endOffset": 3309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2106,
+                    "endColumn": 44,
+                    "endOffset": 2146
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1078,
+                        "endColumn": 44,
+                        "endOffset": 1118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2151,
+                    "endColumn": 46,
+                    "endOffset": 2193
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3315,
+                        "endColumn": 46,
+                        "endOffset": 3357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2198,
+                    "endColumn": 46,
+                    "endOffset": 2240
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3363,
+                        "endColumn": 46,
+                        "endOffset": 3405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2245,
+                    "endColumn": 46,
+                    "endOffset": 2287
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3411,
+                        "endColumn": 46,
+                        "endOffset": 3453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2292,
+                    "endColumn": 46,
+                    "endOffset": 2334
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3459,
+                        "endColumn": 46,
+                        "endOffset": 3501
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2339,
+                    "endColumn": 46,
+                    "endOffset": 2381
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 3507,
+                        "endColumn": 46,
+                        "endOffset": 3549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2386,
+                    "endColumn": 46,
+                    "endOffset": 2428
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 3555,
+                        "endColumn": 46,
+                        "endOffset": 3597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 2433,
+                    "endColumn": 46,
+                    "endOffset": 2475
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 3603,
+                        "endColumn": 46,
+                        "endOffset": 3645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2480,
+                    "endColumn": 46,
+                    "endOffset": 2522
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 3651,
+                        "endColumn": 46,
+                        "endOffset": 3693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2527,
+                    "endColumn": 46,
+                    "endOffset": 2569
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 3699,
+                        "endColumn": 46,
+                        "endOffset": 3741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 2574,
+                    "endColumn": 46,
+                    "endOffset": 2616
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 3747,
+                        "endColumn": 46,
+                        "endOffset": 3789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2621,
+                    "endColumn": 44,
+                    "endOffset": 2661
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1124,
+                        "endColumn": 44,
+                        "endOffset": 1164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 2666,
+                    "endColumn": 46,
+                    "endOffset": 2708
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 3795,
+                        "endColumn": 46,
+                        "endOffset": 3837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 2713,
+                    "endColumn": 46,
+                    "endOffset": 2755
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 3843,
+                        "endColumn": 46,
+                        "endOffset": 3885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 2760,
+                    "endColumn": 46,
+                    "endOffset": 2802
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 3891,
+                        "endColumn": 46,
+                        "endOffset": 3933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 2807,
+                    "endColumn": 46,
+                    "endOffset": 2849
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 3939,
+                        "endColumn": 46,
+                        "endOffset": 3981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 2854,
+                    "endColumn": 46,
+                    "endOffset": 2896
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 3987,
+                        "endColumn": 46,
+                        "endOffset": 4029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 2901,
+                    "endColumn": 46,
+                    "endOffset": 2943
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 4035,
+                        "endColumn": 46,
+                        "endOffset": 4077
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 2948,
+                    "endColumn": 46,
+                    "endOffset": 2990
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 4083,
+                        "endColumn": 46,
+                        "endOffset": 4125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 2995,
+                    "endColumn": 46,
+                    "endOffset": 3037
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4131,
+                        "endColumn": 46,
+                        "endOffset": 4173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 3042,
+                    "endColumn": 46,
+                    "endOffset": 3084
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 4179,
+                        "endColumn": 46,
+                        "endOffset": 4221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 3089,
+                    "endColumn": 46,
+                    "endOffset": 3131
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 4227,
+                        "endColumn": 46,
+                        "endOffset": 4269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 3136,
+                    "endColumn": 46,
+                    "endOffset": 3178
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4803,
+                        "endColumn": 46,
+                        "endOffset": 4845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3183,
+                    "endColumn": 44,
+                    "endOffset": 3223
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1170,
+                        "endColumn": 44,
+                        "endOffset": 1210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 3228,
+                    "endColumn": 46,
+                    "endOffset": 3270
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 4275,
+                        "endColumn": 46,
+                        "endOffset": 4317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 3275,
+                    "endColumn": 46,
+                    "endOffset": 3317
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 4323,
+                        "endColumn": 46,
+                        "endOffset": 4365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 3322,
+                    "endColumn": 46,
+                    "endOffset": 3364
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 4371,
+                        "endColumn": 46,
+                        "endOffset": 4413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 3369,
+                    "endColumn": 46,
+                    "endOffset": 3411
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 4419,
+                        "endColumn": 46,
+                        "endOffset": 4461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 3416,
+                    "endColumn": 46,
+                    "endOffset": 3458
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 4467,
+                        "endColumn": 46,
+                        "endOffset": 4509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 3463,
+                    "endColumn": 46,
+                    "endOffset": 3505
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 4515,
+                        "endColumn": 46,
+                        "endOffset": 4557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 3510,
+                    "endColumn": 46,
+                    "endOffset": 3552
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 4563,
+                        "endColumn": 46,
+                        "endOffset": 4605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 3557,
+                    "endColumn": 46,
+                    "endOffset": 3599
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 4611,
+                        "endColumn": 46,
+                        "endOffset": 4653
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 3604,
+                    "endColumn": 46,
+                    "endOffset": 3646
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 4659,
+                        "endColumn": 46,
+                        "endOffset": 4701
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 3651,
+                    "endColumn": 46,
+                    "endOffset": 3693
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 4707,
+                        "endColumn": 46,
+                        "endOffset": 4749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 3698,
+                    "endColumn": 46,
+                    "endOffset": 3740
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endColumn": 46,
+                        "endOffset": 1304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 3745,
+                    "endColumn": 44,
+                    "endOffset": 3785
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1216,
+                        "endColumn": 44,
+                        "endOffset": 1256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 3790,
+                    "endColumn": 46,
+                    "endOffset": 3832
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4755,
+                        "endColumn": 46,
+                        "endOffset": 4797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 3837,
+                    "endColumn": 44,
+                    "endOffset": 3877
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1310,
+                        "endColumn": 44,
+                        "endOffset": 1350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 3882,
+                    "endColumn": 43,
+                    "endOffset": 3921
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 851,
+                        "endColumn": 43,
+                        "endOffset": 890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 3926,
+                    "endColumn": 44,
+                    "endOffset": 3966
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1356,
+                        "endColumn": 44,
+                        "endOffset": 1396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 3971,
+                    "endColumn": 41,
+                    "endOffset": 4008
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 41,
+                        "endOffset": 535
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 4013,
+                    "endColumn": 41,
+                    "endOffset": 4050
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 541,
+                        "endColumn": 41,
+                        "endOffset": 578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 4055,
+                    "endColumn": 42,
+                    "endOffset": 4093
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 42,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 4098,
+                    "endColumn": 42,
+                    "endOffset": 4136
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 42,
+                        "endOffset": 139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 4141,
+                    "endColumn": 42,
+                    "endOffset": 4179
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 145,
+                        "endColumn": 42,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 4184,
+                    "endColumn": 42,
+                    "endOffset": 4222
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 42,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 4227,
+                    "endColumn": 42,
+                    "endOffset": 4265
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 278,
+                        "endColumn": 42,
+                        "endOffset": 316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 4270,
+                    "endColumn": 42,
+                    "endOffset": 4308
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 322,
+                        "endColumn": 42,
+                        "endOffset": 360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 4313,
+                    "endColumn": 42,
+                    "endOffset": 4351
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 366,
+                        "endColumn": 42,
+                        "endOffset": 404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 4356,
+                    "endColumn": 42,
+                    "endOffset": 4394
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 410,
+                        "endColumn": 42,
+                        "endOffset": 448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 4399,
+                    "endColumn": 42,
+                    "endOffset": 4437
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 584,
+                        "endColumn": 42,
+                        "endOffset": 622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 4442,
+                    "endColumn": 42,
+                    "endOffset": 4480
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 454,
+                        "endColumn": 42,
+                        "endOffset": 492
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 4485,
+                    "endColumn": 42,
+                    "endOffset": 4523
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 628,
+                        "endColumn": 42,
+                        "endOffset": 666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 4528,
+                    "endColumn": 42,
+                    "endOffset": 4566
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 42,
+                        "endOffset": 710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4571,
+                    "endColumn": 42,
+                    "endOffset": 4609
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 716,
+                        "endColumn": 42,
+                        "endOffset": 754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4614,
+                    "endColumn": 43,
+                    "endOffset": 4653
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 760,
+                        "endColumn": 43,
+                        "endOffset": 799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4658,
+                    "endColumn": 44,
+                    "endOffset": 4698
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 805,
+                        "endColumn": 44,
+                        "endOffset": 845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4703,
+                    "endColumn": 43,
+                    "endOffset": 4742
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 233,
+                        "endColumn": 43,
+                        "endOffset": 272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4747,
+                    "endColumn": 44,
+                    "endOffset": 4787
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 5254,
+                        "endColumn": 44,
+                        "endOffset": 5294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4792,
+                    "endColumn": 44,
+                    "endOffset": 4832
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 5300,
+                        "endColumn": 44,
+                        "endOffset": 5340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4837,
+                    "endColumn": 44,
+                    "endOffset": 4877
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 5346,
+                        "endColumn": 44,
+                        "endOffset": 5386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4882,
+                    "endColumn": 44,
+                    "endOffset": 4922
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 5392,
+                        "endColumn": 44,
+                        "endOffset": 5432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4927,
+                    "endColumn": 44,
+                    "endOffset": 4967
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 5438,
+                        "endColumn": 44,
+                        "endOffset": 5478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4972,
+                    "endColumn": 44,
+                    "endOffset": 5012
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5484,
+                        "endColumn": 44,
+                        "endOffset": 5524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 5017,
+                    "endColumn": 44,
+                    "endOffset": 5057
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5530,
+                        "endColumn": 44,
+                        "endOffset": 5570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 5062,
+                    "endColumn": 44,
+                    "endOffset": 5102
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5576,
+                        "endColumn": 44,
+                        "endOffset": 5616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 5107,
+                    "endColumn": 44,
+                    "endOffset": 5147
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5622,
+                        "endColumn": 44,
+                        "endOffset": 5662
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 5152,
+                    "endColumn": 44,
+                    "endOffset": 5192
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 5668,
+                        "endColumn": 44,
+                        "endOffset": 5708
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 5197,
+                    "endColumn": 42,
+                    "endOffset": 5235
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4851,
+                        "endColumn": 42,
+                        "endOffset": 4889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 5240,
+                    "endColumn": 44,
+                    "endOffset": 5280
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 5714,
+                        "endColumn": 44,
+                        "endOffset": 5754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 5285,
+                    "endColumn": 44,
+                    "endOffset": 5325
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 5760,
+                        "endColumn": 44,
+                        "endOffset": 5800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 5330,
+                    "endColumn": 44,
+                    "endOffset": 5370
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 5806,
+                        "endColumn": 44,
+                        "endOffset": 5846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5375,
+                    "endColumn": 44,
+                    "endOffset": 5415
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 5852,
+                        "endColumn": 44,
+                        "endOffset": 5892
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5420,
+                    "endColumn": 44,
+                    "endOffset": 5460
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 5898,
+                        "endColumn": 44,
+                        "endOffset": 5938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5465,
+                    "endColumn": 45,
+                    "endOffset": 5506
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 5944,
+                        "endColumn": 45,
+                        "endOffset": 5985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5511,
+                    "endColumn": 45,
+                    "endOffset": 5552
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 5991,
+                        "endColumn": 45,
+                        "endOffset": 6032
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5557,
+                    "endColumn": 45,
+                    "endOffset": 5598
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 6038,
+                        "endColumn": 45,
+                        "endOffset": 6079
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5603,
+                    "endColumn": 45,
+                    "endOffset": 5644
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 6085,
+                        "endColumn": 45,
+                        "endOffset": 6126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5649,
+                    "endColumn": 45,
+                    "endOffset": 5690
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 6132,
+                        "endColumn": 45,
+                        "endOffset": 6173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 5695,
+                    "endColumn": 42,
+                    "endOffset": 5733
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4895,
+                        "endColumn": 42,
+                        "endOffset": 4933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 5738,
+                    "endColumn": 45,
+                    "endOffset": 5779
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 6179,
+                        "endColumn": 45,
+                        "endOffset": 6220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 5784,
+                    "endColumn": 45,
+                    "endOffset": 5825
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 6226,
+                        "endColumn": 45,
+                        "endOffset": 6267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 5830,
+                    "endColumn": 45,
+                    "endOffset": 5871
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 6273,
+                        "endColumn": 45,
+                        "endOffset": 6314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 5876,
+                    "endColumn": 45,
+                    "endOffset": 5917
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 6320,
+                        "endColumn": 45,
+                        "endOffset": 6361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 5922,
+                    "endColumn": 45,
+                    "endOffset": 5963
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 6367,
+                        "endColumn": 45,
+                        "endOffset": 6408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 5968,
+                    "endColumn": 45,
+                    "endOffset": 6009
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 6414,
+                        "endColumn": 45,
+                        "endOffset": 6455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 6014,
+                    "endColumn": 45,
+                    "endOffset": 6055
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 6461,
+                        "endColumn": 45,
+                        "endOffset": 6502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 6060,
+                    "endColumn": 45,
+                    "endOffset": 6101
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 6508,
+                        "endColumn": 45,
+                        "endOffset": 6549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 6106,
+                    "endColumn": 45,
+                    "endOffset": 6147
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 6555,
+                        "endColumn": 45,
+                        "endOffset": 6596
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 6152,
+                    "endColumn": 45,
+                    "endOffset": 6193
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 6602,
+                        "endColumn": 45,
+                        "endOffset": 6643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 6198,
+                    "endColumn": 43,
+                    "endOffset": 6237
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 4939,
+                        "endColumn": 43,
+                        "endOffset": 4978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 6242,
+                    "endColumn": 45,
+                    "endOffset": 6283
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 6649,
+                        "endColumn": 45,
+                        "endOffset": 6690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 6288,
+                    "endColumn": 45,
+                    "endOffset": 6329
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 6696,
+                        "endColumn": 45,
+                        "endOffset": 6737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 6334,
+                    "endColumn": 45,
+                    "endOffset": 6375
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 6743,
+                        "endColumn": 45,
+                        "endOffset": 6784
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 6380,
+                    "endColumn": 45,
+                    "endOffset": 6421
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 6790,
+                        "endColumn": 45,
+                        "endOffset": 6831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 6426,
+                    "endColumn": 45,
+                    "endOffset": 6467
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 6837,
+                        "endColumn": 45,
+                        "endOffset": 6878
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 6472,
+                    "endColumn": 45,
+                    "endOffset": 6513
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 6884,
+                        "endColumn": 45,
+                        "endOffset": 6925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 6518,
+                    "endColumn": 45,
+                    "endOffset": 6559
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 6931,
+                        "endColumn": 45,
+                        "endOffset": 6972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 6564,
+                    "endColumn": 45,
+                    "endOffset": 6605
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 6978,
+                        "endColumn": 45,
+                        "endOffset": 7019
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 6610,
+                    "endColumn": 45,
+                    "endOffset": 6651
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 7025,
+                        "endColumn": 45,
+                        "endOffset": 7066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 6656,
+                    "endColumn": 45,
+                    "endOffset": 6697
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 7072,
+                        "endColumn": 45,
+                        "endOffset": 7113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 6702,
+                    "endColumn": 43,
+                    "endOffset": 6741
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 4984,
+                        "endColumn": 43,
+                        "endOffset": 5023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 6746,
+                    "endColumn": 45,
+                    "endOffset": 6787
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 7119,
+                        "endColumn": 45,
+                        "endOffset": 7160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 6792,
+                    "endColumn": 45,
+                    "endOffset": 6833
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 7166,
+                        "endColumn": 45,
+                        "endOffset": 7207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 6838,
+                    "endColumn": 45,
+                    "endOffset": 6879
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 7213,
+                        "endColumn": 45,
+                        "endOffset": 7254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 6884,
+                    "endColumn": 45,
+                    "endOffset": 6925
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 7260,
+                        "endColumn": 45,
+                        "endOffset": 7301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 6930,
+                    "endColumn": 45,
+                    "endOffset": 6971
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 7307,
+                        "endColumn": 45,
+                        "endOffset": 7348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 6976,
+                    "endColumn": 45,
+                    "endOffset": 7017
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 4,
+                        "startOffset": 7354,
+                        "endColumn": 45,
+                        "endOffset": 7395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 7022,
+                    "endColumn": 45,
+                    "endOffset": 7063
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 7401,
+                        "endColumn": 45,
+                        "endOffset": 7442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 7068,
+                    "endColumn": 45,
+                    "endOffset": 7109
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 7448,
+                        "endColumn": 45,
+                        "endOffset": 7489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 7114,
+                    "endColumn": 45,
+                    "endOffset": 7155
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 7495,
+                        "endColumn": 45,
+                        "endOffset": 7536
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 7160,
+                    "endColumn": 45,
+                    "endOffset": 7201
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 7542,
+                        "endColumn": 45,
+                        "endOffset": 7583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 7206,
+                    "endColumn": 43,
+                    "endOffset": 7245
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 5029,
+                        "endColumn": 43,
+                        "endOffset": 5068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 7250,
+                    "endColumn": 45,
+                    "endOffset": 7291
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 7589,
+                        "endColumn": 45,
+                        "endOffset": 7630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 7296,
+                    "endColumn": 45,
+                    "endOffset": 7337
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 7636,
+                        "endColumn": 45,
+                        "endOffset": 7677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 7342,
+                    "endColumn": 45,
+                    "endOffset": 7383
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 165,
+                        "startColumn": 4,
+                        "startOffset": 7683,
+                        "endColumn": 45,
+                        "endOffset": 7724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 7388,
+                    "endColumn": 45,
+                    "endOffset": 7429
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 7730,
+                        "endColumn": 45,
+                        "endOffset": 7771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 7434,
+                    "endColumn": 45,
+                    "endOffset": 7475
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 7777,
+                        "endColumn": 45,
+                        "endOffset": 7818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 7480,
+                    "endColumn": 45,
+                    "endOffset": 7521
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 7824,
+                        "endColumn": 45,
+                        "endOffset": 7865
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 7526,
+                    "endColumn": 45,
+                    "endOffset": 7567
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 7871,
+                        "endColumn": 45,
+                        "endOffset": 7912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 7572,
+                    "endColumn": 45,
+                    "endOffset": 7613
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 7918,
+                        "endColumn": 45,
+                        "endOffset": 7959
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 7618,
+                    "endColumn": 45,
+                    "endOffset": 7659
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 7965,
+                        "endColumn": 45,
+                        "endOffset": 8006
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 7664,
+                    "endColumn": 45,
+                    "endOffset": 7705
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 8012,
+                        "endColumn": 45,
+                        "endOffset": 8053
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 7710,
+                    "endColumn": 43,
+                    "endOffset": 7749
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 5074,
+                        "endColumn": 43,
+                        "endOffset": 5113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 7754,
+                    "endColumn": 45,
+                    "endOffset": 7795
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 8059,
+                        "endColumn": 45,
+                        "endOffset": 8100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 7800,
+                    "endColumn": 45,
+                    "endOffset": 7841
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 8106,
+                        "endColumn": 45,
+                        "endOffset": 8147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 7846,
+                    "endColumn": 45,
+                    "endOffset": 7887
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 8153,
+                        "endColumn": 45,
+                        "endOffset": 8194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 7892,
+                    "endColumn": 45,
+                    "endOffset": 7933
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 8200,
+                        "endColumn": 45,
+                        "endOffset": 8241
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 7938,
+                    "endColumn": 45,
+                    "endOffset": 7979
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 8247,
+                        "endColumn": 45,
+                        "endOffset": 8288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 7984,
+                    "endColumn": 45,
+                    "endOffset": 8025
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 178,
+                        "startColumn": 4,
+                        "startOffset": 8294,
+                        "endColumn": 45,
+                        "endOffset": 8335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 8030,
+                    "endColumn": 45,
+                    "endOffset": 8071
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 8341,
+                        "endColumn": 45,
+                        "endOffset": 8382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 8076,
+                    "endColumn": 45,
+                    "endOffset": 8117
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 8388,
+                        "endColumn": 45,
+                        "endOffset": 8429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 8122,
+                    "endColumn": 45,
+                    "endOffset": 8163
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 8435,
+                        "endColumn": 45,
+                        "endOffset": 8476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 8168,
+                    "endColumn": 45,
+                    "endOffset": 8209
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 8482,
+                        "endColumn": 45,
+                        "endOffset": 8523
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 8214,
+                    "endColumn": 43,
+                    "endOffset": 8253
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 5119,
+                        "endColumn": 43,
+                        "endOffset": 5158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 8258,
+                    "endColumn": 45,
+                    "endOffset": 8299
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 8529,
+                        "endColumn": 45,
+                        "endOffset": 8570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 8304,
+                    "endColumn": 43,
+                    "endOffset": 8343
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 5164,
+                        "endColumn": 43,
+                        "endOffset": 5203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 8348,
+                    "endColumn": 43,
+                    "endOffset": 8387
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\ActivePlan\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 5209,
+                        "endColumn": 43,
+                        "endOffset": 5248
+                    }
+                }
+            }
+        ]
+    }
+]

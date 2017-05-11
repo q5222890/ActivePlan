@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xz.activeplan.ui.live.activity.ReportActivity">
+
+    <include
+        android:id="@+id/report_header"
+        layout="@layout/activity_header_new"/>
+
+    <RelativeLayout
+        android:id="@+id/report_rl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/report_header"
+        android:layout_marginTop="10dp">
+    <EditText
+        android:id="@+id/report_etContent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        android:gravity="left"
+        android:hint="请输入举报内容"
+        android:maxLength="200"
+        android:minLines="10"
+        android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/report_tvChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/gary" />
+
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/report_etQQ"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/report_rl"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:hint="请留下您的QQ,方便我们与你联系"
+        android:inputType="number"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:padding="10dp" />
+
+
+</RelativeLayout>

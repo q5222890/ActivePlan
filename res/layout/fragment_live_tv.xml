@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twenty_five_dip"
+        android:background="@color/header_blue" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/navigation_bar"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivCollect"
+                android:layout_width="35dp"
+                android:layout_height="35dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="2"
+                android:src="@drawable/collect_video" />
+
+            <RelativeLayout
+                android:layout_width="240dp"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="7"
+                android:background="@drawable/shape_round_edt"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etLiveSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="#00000000"
+                    android:drawableLeft="@drawable/search_city_bg"
+                    android:drawablePadding="10dp"
+                    android:focusable="false"
+                    android:hint="@string/search_live"
+                    android:imeOptions="actionSearch"
+                    android:paddingBottom="@dimen/two_dp"
+                    android:paddingLeft="@dimen/five_dip"
+                    android:paddingTop="2dp"
+                    android:singleLine="true"
+                    android:textColor="#fdfdfd"
+                    android:textSize="@dimen/twelve_dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/id_ImageMassage"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:src="@drawable/message" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_TextViewPage"
+                style="@style/live_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="首页"
+                />
+
+            <TextView
+                android:id="@+id/id_TextViewRecommendation"
+                style="@style/live_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="推荐" />
+
+            <TextView
+                android:id="@+id/id_TextViewGuanZhu"
+                style="@style/live_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="关注" />
+
+            <TextView
+                android:id="@+id/id_TextViewTomorrow"
+                style="@style/live_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="明日之星" />
+
+            <TextView
+                android:id="@+id/id_TextViewAnchor"
+                style="@style/live_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="主播" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/id_ImageMore"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/twenty_five_dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:src="@drawable/more" />
+    </LinearLayout>
+
+    <include layout="@layout/view" />
+
+    <FrameLayout
+        android:id="@+id/id_FrameLayout_LiveTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"></FrameLayout>
+
+</LinearLayout>

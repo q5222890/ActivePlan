@@ -1,0 +1,3345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Arrays_StudentGuarrantee">
+        <item>1.在于名人确约见后，学员才需付款。</item>
+        <item>2.付款后，学员可以通过私聊与名人沟通见面细节。</item>
+        <item>3.如果时间有变，学员可以在见面前24小时随时取消预约并退款。</item>
+        <item>4.如果对预约效果不满意或对名人失约等问题可以联系客服申请退款。</item>
+        <item>5.客服热线: 400-888-5854  邮箱: admin@liqu.com</item>
+    </array>
+    <array name="Arrays_celebrity">
+        <item>互联网</item>
+        <item>户外</item>
+        <item>汽车</item>
+        <item>娱乐</item>
+        <item>休闲</item>
+        <item>餐饮</item>
+        <item>旅游</item>
+        <item>电玩</item>
+        <item>电玩</item>
+        <item>儿童</item>
+        <item>其他</item>
+    </array>
+    <string-array name="city_data">
+         <item>北京市</item>
+         <item>上海市</item>
+         <item>深圳市</item>
+         <item>广州市</item>
+         <item>杭州市</item>
+         <item>成都市</item>
+         <item>天津市</item>
+         <item>南京市</item>
+         <item>苏州市</item>
+         <item>宁波市</item>
+         <item>西安市</item>
+         <item>重庆市</item>
+         <item>厦门市</item>
+         <item>武汉市</item>
+         <item>全国</item>
+    </string-array>
+    <string-array name="default_smiley_texts">
+        <item>[新]</item>
+        <item>[精]</item>
+        <item>[火]</item>
+    </string-array>
+    <string-array name="di_zhi">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>甲</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="example_data">
+         <item>全类型</item>
+         <item>创业</item>
+         <item>商务</item>
+         <item>公益</item>
+         <item>社交</item>
+         <item>亲子</item>
+         <item>娱乐</item>
+         <item>生活</item>
+         <item>音乐</item>
+         <item>其他</item>
+         <item>科技</item>
+         <item>运动</item>
+         <item>课程</item>
+         <item>校园</item>
+    </string-array>
+    <string-array name="jia_zi">
+        <item>乙丑</item>
+        <item>丙寅</item>
+        <item>丁卯</item>
+        <item>戊辰</item>
+        <item>己巳</item>
+        <item>庚午</item>
+        <item>辛未</item>
+        <item>壬申</item>
+        <item>癸酉</item>
+        <item>甲戌</item>
+        <item>乙亥</item>
+    </string-array>
+    <integer-array name="rc_emoji_code">
+            <item>0x1f60a</item>
+            <item>0x1f628</item>
+            <item>0x1f60d</item>
+            <item>0x1f633</item>
+            <item>0x1f60e</item>
+            <item>0x1f62d</item>
+            <item>0x1f60c</item>
+            <item>0x1f635</item>
+            <item>0x1f634</item>
+            <item>0x1f622</item>
+            <item>0x1f605</item>
+            <item>0x1f621</item>
+            <item>0x1f61c</item>
+            <item>0x1f600</item>
+            <item>0x1f632</item>
+            <item>0x1f61f</item>
+            <item>0x1f624</item>
+            <item>0x1f61e</item>
+            <item>0x1f62b</item>
+            <item>0x1f623</item>
+            <item>0x1f608</item>
+            <item>0x1f609</item>
+            <item>0x1f62f</item>
+            <item>0x1f615</item>
+            <item>0x1f630</item>
+            <item>0x1f60b</item>
+            <item>0x1f61d</item>
+            <item>0x1f613</item>
+            <item>0x1f603</item>
+            <item>0x1f602</item>
+            <item>0x1f618</item>
+            <item>0x1f612</item>
+            <item>0x1f60f</item>
+            <item>0x1f636</item>
+            <item>0x1f631</item>
+            <item>0x1f616</item>
+            <item>0x1f629</item>
+            <item>0x1f614</item>
+            <item>0x1f611</item>
+            <item>0x1f61a</item>
+            <item>0x1f62a</item>
+            <item>0x1f607</item>
+            <item>0x1f64a</item>
+            <item>0x1f44a</item>
+            <item>0x1f44e</item>
+            <item>0x261d</item>
+            <item>0x270c</item>
+            <item>0x1f62c</item>
+            <item>0x1f637</item>
+            <item>0x1f648</item>
+            <item>0x1f44c</item>
+            <item>0x1f44f</item>
+            <item>0x270a</item>
+            <item>0x1f4aa</item>
+            <item>0x1f606</item>
+            <item>0x263a</item>
+            <item>0x1f649</item>
+            <item>0x1f44d</item>
+            <item>0x1f64f</item>
+            <item>0x270b</item>
+            <item>0x2600</item>
+            <item>0x2615</item>
+            <item>0x26c4</item>
+            <item>0x1f4da</item>
+            <item>0x1f381</item>
+            <item>0x1f389</item>
+            <item>0x1f366</item>
+            <item>0x2601</item>
+            <item>0x2744</item>
+            <item>0x26a1</item>
+            <item>0x1f4b0</item>
+            <item>0x1f382</item>
+            <item>0x1f393</item>
+            <item>0x1f356</item>
+            <item>0x2614</item>
+            <item>0x26c5</item>
+            <item>0x270f</item>
+            <item>0x1f4a9</item>
+            <item>0x1f384</item>
+            <item>0x1f377</item>
+            <item>0x1f3a4</item>
+            <item>0x1f3c0</item>
+            <item>0x1f004</item>
+            <item>0x1f4a3</item>
+            <item>0x1f4e2</item>
+            <item>0x1f30f</item>
+            <item>0x1f36b</item>
+            <item>0x1f3b2</item>
+            <item>0x1f3c2</item>
+            <item>0x1f4a1</item>
+            <item>0x1f4a4</item>
+            <item>0x1f6ab</item>
+            <item>0x1f33b</item>
+            <item>0x1f37b</item>
+            <item>0x1f3b5</item>
+            <item>0x1f3e1</item>
+            <item>0x1f4a2</item>
+            <item>0x1f4de</item>
+            <item>0x1f6bf</item>
+            <item>0x1f35a</item>
+            <item>0x1f46a</item>
+            <item>0x1f47c</item>
+            <item>0x1f48a</item>
+            <item>0x1f52b</item>
+            <item>0x1f339</item>
+            <item>0x1f436</item>
+            <item>0x1f484</item>
+            <item>0x1f46b</item>
+            <item>0x1f47d</item>
+            <item>0x1f48b</item>
+            <item>0x1f319</item>
+            <item>0x1f349</item>
+            <item>0x1f437</item>
+            <item>0x1f494</item>
+            <item>0x1f47b</item>
+            <item>0x1f47f</item>
+            <item>0x1f48d</item>
+            <item>0x1f332</item>
+            <item>0x1f434</item>
+            <item>0x1f451</item>
+            <item>0x1f525</item>
+            <item>0x2b50</item>
+            <item>0x26bd</item>
+            <item>0x1f556</item>
+            <item>0x23f0</item>
+            <item>0x1f601</item>
+            <item>0x1f680</item>
+            <item>0x23f3</item>
+        </integer-array>
+    <array name="rc_emoji_res">
+        <item>@drawable/u1f60a</item>
+        <item>@drawable/u1f628</item>
+        <item>@drawable/u1f60d</item>
+        <item>@drawable/u1f633</item>
+        <item>@drawable/u1f60e</item>
+        <item>@drawable/u1f62d</item>
+        <item>@drawable/u1f60c</item>
+        <item>@drawable/u1f635</item>
+        <item>@drawable/u1f634</item>
+        <item>@drawable/u1f622</item>
+        <item>@drawable/u1f605</item>
+        <item>@drawable/u1f621</item>
+        <item>@drawable/u1f61c</item>
+        <item>@drawable/u1f600</item>
+        <item>@drawable/u1f632</item>
+        <item>@drawable/u1f61f</item>
+        <item>@drawable/u1f624</item>
+        <item>@drawable/u1f61e</item>
+        <item>@drawable/u1f62b</item>
+        <item>@drawable/u1f623</item>
+        <item>@drawable/u1f608</item>
+        <item>@drawable/u1f609</item>
+        <item>@drawable/u1f62f</item>
+        <item>@drawable/u1f615</item>
+        <item>@drawable/u1f630</item>
+        <item>@drawable/u1f60b</item>
+        <item>@drawable/u1f61d</item>
+        <item>@drawable/u1f613</item>
+        <item>@drawable/u1f603</item>
+        <item>@drawable/u1f602</item>
+        <item>@drawable/u1f618</item>
+        <item>@drawable/u1f612</item>
+        <item>@drawable/u1f60f</item>
+        <item>@drawable/u1f636</item>
+        <item>@drawable/u1f631</item>
+        <item>@drawable/u1f616</item>
+        <item>@drawable/u1f629</item>
+        <item>@drawable/u1f614</item>
+        <item>@drawable/u1f611</item>
+        <item>@drawable/u1f61a</item>
+        <item>@drawable/u1f62a</item>
+        <item>@drawable/u1f607</item>
+        <item>@drawable/u1f64a</item>
+        <item>@drawable/u1f44a</item>
+        <item>@drawable/u1f44e</item>
+        <item>@drawable/u261d</item>
+        <item>@drawable/u270c</item>
+        <item>@drawable/u1f62c</item>
+        <item>@drawable/u1f637</item>
+        <item>@drawable/u1f648</item>
+        <item>@drawable/u1f44c</item>
+        <item>@drawable/u1f44f</item>
+        <item>@drawable/u270a</item>
+        <item>@drawable/u1f4aa</item>
+        <item>@drawable/u1f606</item>
+        <item>@drawable/u263a</item>
+        <item>@drawable/u1f649</item>
+        <item>@drawable/u1f44d</item>
+        <item>@drawable/u1f64f</item>
+        <item>@drawable/u270b</item>
+        <item>@drawable/u2600</item>
+        <item>@drawable/u2615</item>
+        <item>@drawable/u26c4</item>
+        <item>@drawable/u1f4da</item>
+        <item>@drawable/u1f381</item>
+        <item>@drawable/u1f389</item>
+        <item>@drawable/u1f366</item>
+        <item>@drawable/u2601</item>
+        <item>@drawable/u2744</item>
+        <item>@drawable/u26a1</item>
+        <item>@drawable/u1f4b0</item>
+        <item>@drawable/u1f382</item>
+        <item>@drawable/u1f393</item>
+        <item>@drawable/u1f356</item>
+        <item>@drawable/u2614</item>
+        <item>@drawable/u26c5</item>
+        <item>@drawable/u270f</item>
+        <item>@drawable/u1f4a9</item>
+        <item>@drawable/u1f384</item>
+        <item>@drawable/u1f377</item>
+        <item>@drawable/u1f3a4</item>
+        <item>@drawable/u1f3c0</item>
+        <item>@drawable/u1f004</item>
+        <item>@drawable/u1f4a3</item>
+        <item>@drawable/u1f4e2</item>
+        <item>@drawable/u1f30f</item>
+        <item>@drawable/u1f36b</item>
+        <item>@drawable/u1f3b2</item>
+        <item>@drawable/u1f3c2</item>
+        <item>@drawable/u1f4a1</item>
+        <item>@drawable/u1f4a4</item>
+        <item>@drawable/u1f6ab</item>
+        <item>@drawable/u1f33b</item>
+        <item>@drawable/u1f37b</item>
+        <item>@drawable/u1f3b5</item>
+        <item>@drawable/u1f3e1</item>
+        <item>@drawable/u1f4a2</item>
+        <item>@drawable/u1f4de</item>
+        <item>@drawable/u1f6bf</item>
+        <item>@drawable/u1f35a</item>
+        <item>@drawable/u1f46a</item>
+        <item>@drawable/u1f47c</item>
+        <item>@drawable/u1f48a</item>
+        <item>@drawable/u1f52b</item>
+        <item>@drawable/u1f339</item>
+        <item>@drawable/u1f436</item>
+        <item>@drawable/u1f484</item>
+        <item>@drawable/u1f46b</item>
+        <item>@drawable/u1f47d</item>
+        <item>@drawable/u1f48b</item>
+        <item>@drawable/u1f319</item>
+        <item>@drawable/u1f349</item>
+        <item>@drawable/u1f437</item>
+        <item>@drawable/u1f494</item>
+        <item>@drawable/u1f47b</item>
+        <item>@drawable/u1f47f</item>
+        <item>@drawable/u1f48d</item>
+        <item>@drawable/u1f332</item>
+        <item>@drawable/u1f434</item>
+        <item>@drawable/u1f451</item>
+        <item>@drawable/u1f525</item>
+        <item>@drawable/u2b50</item>
+        <item>@drawable/u26bd</item>
+        <item>@drawable/u1f556</item>
+        <item>@drawable/u23f0</item>
+        <item>@drawable/u1f601</item>
+        <item>@drawable/u1f680</item>
+        <item>@drawable/u23f3</item>
+    </array>
+    <string-array name="sel_time">
+        <item>全时段</item>
+        <item>今天</item>
+        <item>明天</item>
+        <item>本周</item>
+        <item>本周末</item>
+        <item>本月</item>
+    </string-array>
+    <string-array name="sel_type">
+        <item>全类型</item>
+        <item>创业</item>
+        <item>商务</item>
+        <item>公益</item>
+        <item>社交</item>
+        <item>亲子</item>
+        <item>电影</item>
+        <item>娱乐</item>
+        <item>生活</item>
+        <item>音乐</item>
+        <item>科技</item>
+        <item>运动</item>
+        <item>课程</item>
+        <item>校园</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="smssdk_country_group_a">
+		<item>阿尔巴尼亚,355,110,27601|27602|27603|27604</item>
+		<item>阿尔及利亚,213,52,60303|60302|60301</item>
+		<item>阿富汗,93,46,41220|41230|41240|41250|41201</item>
+		<item>阿根廷,54,27,722070|72207|72236|722020|72201|72234|72202|722320|722310|722010|722340|722330|722341</item>
+		<item>阿拉伯联合酋长国,971,184,42402|42403</item>
+		<item>阿鲁巴岛,297,102,36301|36302</item>
+		<item>阿曼,968,182,42202|42203</item>
+		<item>阿塞拜疆,994,193,40002|40001|40004</item>
+		<item>埃及,20,5,60203|60202|60201</item>
+		<item>埃塞俄比亚,251,84,63601</item>
+		<item>爱尔兰,353,108,27201|27213|27202|27211|27205|27203|27209</item>
+		<item>爱沙尼亚,372,117,24803|24802|24801</item>
+		<item>安道尔,376,121,21303</item>
+		<item>安哥拉,244,79,63102|63104</item>
+		<item>安圭拉岛,1264,199,365840</item>
+		<item>安提瓜和巴布达,1268,200,338050|344030|344920</item>
+		<item>奥地利,43,16,23207|23209|23210|23211|23201|23212|23202|23214|23203|23204|23215|23205|23206</item>
+		<item>澳大利亚,61,33,50507|50506|50519|50590|50572|50571|50530|50501|50512|50511|50503|50502|505060|50538|50516|505061|50526</item>
+		<item>澳门,853,169,45501|45500|45503|45502|45505|45504</item>
+    </string-array>
+    <string-array name="smssdk_country_group_b">
+		<item>巴巴多斯,1246,198,342600</item>
+		<item>巴布亚新几内亚,675,155,53701|53702|53703</item>
+		<item>巴哈马群岛,1242,197,364390|36439</item>
+		<item>巴基斯坦,92,45,</item>
+		<item>巴拉圭,595,148,74404|74403|74402|74401</item>
+		<item>巴勒斯坦领土,970,183,42506-PS|42505-PS</item>
+		<item>巴林,973,186,42604|42605|42601|42602</item>
+		<item>巴拿马,507,140,71404|71402|71403|71401</item>
+		<item>巴西,55,28,72416|72405|72439|72406|72403|72415|72437|72404|72434|72423|72402|72432|72410|72433|72400|72411|72430|72431|72407</item>
+		<item>白俄罗斯,375,120,25704|25701|25702</item>
+		<item>百慕大群岛,1441,204,350000</item>
+		<item>保加利亚,359,114,28401|28405|28403</item>
+		<item>贝宁,229,64,61605|61601|61602|61603|61604</item>
+		<item>比利时,32,9,20610|20620|20640|20606|20605|20601</item>
+		<item>冰岛,354,109,27409|27411|27404|27401|27402|27407</item>
+		<item>波多黎各,1787,212,310970</item>
+		<item>波兰,48,22,26016|26038|26004|26018|26017|26006|26009|26019|26008|26010|26032|26001|26034|26012|26011|26003|26036|26014|26002|26013|26035</item>
+		<item>波利尼西亚（法属）,689,165,54720</item>
+		<item>波斯尼亚和黑塞哥维那,387,129,21890|21805|21803</item>
+		<item>玻利维亚,591,144,73603|73602|73601</item>
+		<item>伯利兹,501,134,70267</item>
+		<item>博茨瓦纳,267,99,65202|65201|65204</item>
+		<item>不丹,975,188,40211|40277</item>
+		<item>布基纳法索,226,61,61301|61302|61303</item>
+		<item>布隆迪,257,90,64201|64203|64202|64207|64282</item>
+    </string-array>
+    <string-array name="smssdk_country_group_c">
+		<item>朝鲜,850,167,46703</item>
+		<item>赤道几内亚,240,75,62701|62703</item>
+    </string-array>
+    <string-array name="smssdk_country_group_d">
+		<item>丹麦,45,19,23801|23812|23802|23813|23803|23806|23828|23807|23808|23830|23820|23810|23866|23877</item>
+		<item>德国,49,23,26203|26202|26205|26216|26204|26207|26217|26206|26209|26208|26243|26276|26220|26242|26212|26201|26211|26277</item>
+		<item>东帝汶,670,153,51401|51402</item>
+		<item>多哥,228,63,61501|61503</item>
+		<item>多米尼加共和国,1809,213,37001|37002|37003|37004</item>
+		<item>多米尼克,1767,210,366110</item>
+    </string-array>
+    <string-array name="smssdk_country_group_e">
+		<item>俄罗斯,7,3,25020|25099|25035|25002|25012|25001|25003|25039|25005|25007</item>
+		<item>厄瓜多尔,593,146,74002|74001|74000</item>
+    </string-array>
+    <string-array name="smssdk_country_group_f">
+		<item>法国,33,10,20816|20804|20826|20815|20825|20813|20802|20823|20801|20811|20822|20888|20810|20821|20831|20820|20809|20808|20817</item>
+		<item>法罗群岛,298,103,28801|28802|28803</item>
+		<item>菲律宾,63,35,51518|51502|51501|51503|51505</item>
+		<item>斐济,679,159,54202|54201</item>
+		<item>芬兰,358,113,24409|24432|24410|24421|24412|24411|24414|24403|24413|24405|24426|24404|24491</item>
+		<item>佛得角,238,73,62501|62502</item>
+    </string-array>
+    <string-array name="smssdk_country_group_g">
+		<item>冈比亚,220,55,60702|60701|60704|60703</item>
+		<item>刚果共和国,242,77,62907|62910|62901</item>
+		<item>刚果民主共和国,243,78,63086|63001|63089|63002|63005</item>
+		<item>哥伦比亚,57,30,732130|732020|732154|732111|732123|732101</item>
+		<item>哥斯达黎加,506,139,71204|71203|71201</item>
+		<item>格林纳达,1473,205,352110</item>
+		<item>格陵兰岛,299,104,29001</item>
+		<item>格鲁吉亚,995,194,28202|28201|28204|28205</item>
+		<item>古巴,53,26,36801</item>
+		<item>瓜德罗普岛,590,143,34008|34003|34002|34001|34020</item>
+		<item>关岛,1671,208,310400|310140|310470|310110</item>
+		<item>圭亚那,592,145,73802|73801</item>
+		<item>圭亚那（法属）,594,147,74201|74220</item>
+    </string-array>
+    <string-array name="smssdk_country_group_h">
+		<item>哈萨克斯坦,7,4,40102|40101|40177|40108|40107</item>
+		<item>海地,509,142,37201|37202</item>
+		<item>韩国,82,40,45006|45005|45008|45002|45004</item>
+		<item>荷兰,31,8,20423|20412|20410|20465|20420|20462|20409|20408|20407|20418|20406|20417|20428|20416|20405|20415|20404|20414|20469|20403|20468|20424|20402</item>
+		<item>荷属安的列斯群岛,599,152,36269|36202|36201|36251|36294|36282|36281</item>
+		<item>黑山共和国,382,126,29703|29702|29701</item>
+		<item>洪都拉斯,504,137,70830|70840|70802|70801</item>
+    </string-array>
+    <string-array name="smssdk_country_group_i">
+	    
+	</string-array>
+    <string-array name="smssdk_country_group_j">
+		<item>基里巴斯,686,163,54509</item>
+		<item>吉布提,253,86,63801</item>
+		<item>吉尔吉斯斯坦,996,195,43705|43701</item>
+		<item>几内亚,224,59,61105|61104|61103|61102|61101</item>
+		<item>几内亚比绍,245,80,63202|63203</item>
+		<item>加拿大,1,1,302657|302656|302710|302655|302500|302610|302720|302702|302270|302490|302880|302220|302680|302360|302690|302510|302653|302861|302222|302640|302651|302530|302221|302320</item>
+		<item>加纳,233,68,62001|62002|62003|62004|62006|62007</item>
+		<item>加蓬,241,76,62804|62801|62802|62803</item>
+		<item>柬埔寨,855,170,45602|45601|45608|45618|45609|45604|45603|45606|45605|23455-KH</item>
+		<item>捷克共和国,420,131,23001|23002|23003|23004|23005|23008</item>
+		<item>津巴布韦,263,95,64801|64803|64804</item>
+    </string-array>
+    <string-array name="smssdk_country_group_k">
+		<item>喀麦隆,237,72,62401|62402|62404</item>
+		<item>卡塔尔,974,187,42701|42702</item>
+		<item>开曼群岛,1345,203,346140</item>
+		<item>科摩罗,269,101,65401</item>
+		<item>科特迪瓦,225,60,61205|61204|61203|61202</item>
+		<item>科威特,965,179,41904|41903|41902</item>
+		<item>克罗地亚,385,127,21902|21901|21912|21910</item>
+		<item>肯尼亚,254,87,63905|63907|63903|63902</item>
+		<item>库克群岛,682,161,54801</item>
+    </string-array>
+    <string-array name="smssdk_country_group_l">
+		<item>拉脱维亚,371,116,24703|24706|24705|24708|24707|24709|24702|24701</item>
+		<item>莱索托,266,98,65101|65102</item>
+		<item>老挝,856,171,45701|45708|45703|45702</item>
+		<item>黎巴嫩,961,175,41503|41501</item>
+		<item>立陶宛,370,115,24601|24603|24602</item>
+		<item>利比里亚,231,66,61804|61807|61801|61802</item>
+		<item>利比亚,218,54,60603|60601|60600</item>
+		<item>列支敦士登,423,133,29501|29577|29505|29502</item>
+		<item>法属留尼汪岛,262,94,64710|64702</item>
+		<item>卢森堡,352,107,27099|27077|27001</item>
+		<item>卢旺达,250,83,63510|63512|63513|63514</item>
+		<item>罗马尼亚,40,14,22603|22604|22605|22610|22601</item>
+    </string-array>
+    <string-array name="smssdk_country_group_m">
+		<item>马达加斯加,261,93,64601|64602|64604</item>
+		<item>马尔代夫,960,174,47201|47202</item>
+		<item>马耳他,356,111,27821|27877|27801</item>
+		<item>马拉维,265,97,65010|65001</item>
+		<item>马来西亚,60,32,50220|50211|50213|502150|50212|502151|502152|50217|50216|50219|50218</item>
+		<item>马里,223,58,61002|61001</item>
+		<item>马其顿,389,130,29402|29401|29403</item>
+		<item>马提尼克,596,149,34003|34002|34001|34020</item>
+		<item>毛里求斯,230,65,61710|61701|61702</item>
+		<item>毛里塔尼亚,222,57,60910|60902</item>
+		<item>美国,1,2,311090|310080|311050|311370|310160|31150|311010|310680|310120|310560|311650|310880|310760|31190|310320|310630|310710|310090|310290|316993|310170|310050|31060|311580|310690|311020|311340|310570|311660|310450|310011|310770|316995|310012|316994|311730|310004|311610|310840|310005|310600|31100|311190|310180|31050|310060|316883|311150|310380|311030|310260|311230|310020|310340|311991|311430|316885|310660|310100|316884|310540|310023|310980|311740|310410|31016|310610|310016|31130|31011|31611|310190|311040|316011|310150|310790|310990|310870|310420|310300|310740|311710</item>
+		<item>蒙古,976,189,42898|42888|42899|42801</item>
+		<item>蒙特塞拉特岛,1664,207,354860</item>
+		<item>孟加拉国,880,172,47007|47005|47006|47003|47004|47001|47002</item>
+		<item>秘鲁,51,24,71610|71606|71617|71607|71615</item>
+		<item>密克罗尼西亚,691,166,55001</item>
+		<item>缅甸,95,48,41401|41406|41405</item>
+		<item>摩尔多瓦,373,118,25903|25902|25904|25901</item>
+		<item>摩洛哥,212,51,60405|60402|60401|60400</item>
+		<item>摩纳哥,377,122,21201</item>
+		<item>莫桑比克,258,91,64301|64304|64303</item>
+		<item>墨西哥,52,25,33402|33403|33401|33450|33406|334090|33404|33405</item>
+    </string-array>
+    <string-array name="smssdk_country_group_n">
+		<item>纳米比亚,264,96,64902|64901|64903</item>
+		<item>南非,27,6,65510|65512|65501|65502|65507|65519</item>
+		<item>南苏丹,211,50,65995</item>
+		<item>尼泊尔,977,190,42901|42902</item>
+		<item>尼加拉瓜,505,138,71021|71030</item>
+		<item>尼日尔,227,62,61401|61402|61403|61404</item>
+		<item>尼日利亚,234,69,62150|62140|62130|62120|62125|23455-NG|62160</item>
+		<item>挪威,47,21,24208|24209|24220|24221|24222|24201|24223|24202|24224|24204|24205|24206</item>
+    </string-array>
+    <string-array name="smssdk_country_group_o">
+	    
+	</string-array>
+    <string-array name="smssdk_country_group_p">
+		<item>帕劳,680,160,55201|55280</item>
+		<item>葡萄牙,351,106,26804|26806|26801|26803</item>
+    </string-array>
+    <string-array name="smssdk_country_group_q">
+	</string-array>
+    <string-array name="smssdk_country_group_r">
+		<item>日本,81,39,44027|44026|44029|44028|44023|44144|44022|44143|44025|44024|44145|44140|44021|44142|44141|44020|44016|44015|44018|44017|44012|44011|44099|44014|44013|44019|44090|44096|44095|44010|44098|44097|44092|44091|44094|44093|44004|44007|44006|44001|44089|44000|44088|44003|44002|44009|44008|44087|44199|44078|44198|44077|44079|44074|44194|44073|44076|44075|44191|44070|44190|44193|44072|44192|44071|44067|44066|44069|44068|44063|44062|44065|44064|44061|44060|44056|44055|44058|44052|44051|44054|44053|44050|44170|44049|44048|44045|44044|44165|44047|44046|44041|44162|44040|44161|44043|44164|44042|44163|44038|44037|44039|44034|44033|44036|44035|44030|44032|44031</item>
+		<item>瑞典,46,20,24035|24013|24036|24014|24037|24015|24038|24016|24039|24017|24018|24019|24030|24031|24010|24032|24033|24012|24034|24002|24003|24026|24027|24028|24006|24029|24007|24008|24040|24020|24043|24022|24000|24044|24023|24001|24045</item>
+		<item>瑞士,41,15,22812|22801|22802|22803|22805|22809|22851|22853|22854</item>
+    </string-array>
+    <string-array name="smssdk_country_group_s">
+		<item>萨尔瓦多,503,136,70602|70601|70604|70603|70605</item>
+		<item>萨摩亚,685,162,54900</item>
+		<item>塞尔维亚,381,125,29341|22001|22003|22005</item>
+		<item>塞拉利昂,232,67,61902|61903|61904|61905|61906|61909|61901</item>
+		<item>塞内加尔,221,56,60801|60803|60802</item>
+		<item>塞浦路斯,357,112,28022|28001|28020|28010</item>
+		<item>塞舌尔,248,81,63310|63301|63302</item>
+		<item>沙特阿拉伯,966,180,42003|42004|42001|42006</item>
+		<item>圣多美和普林西比,239,74,62601</item>
+		<item>圣基茨和尼维斯,1869,215,356110|356070</item>
+		<item>圣卢西亚,1758,209,358110</item>
+		<item>圣马力诺,378,123,29201</item>
+		<item>圣皮埃尔和密克隆岛,508,141,30801</item>
+		<item>圣文森特和格林纳丁斯,1784,211,360110</item>
+		<item>斯里兰卡,94,47,41301|41305|41302|41308</item>
+		<item>斯洛伐克,421,132,23199|23101|23102|23106</item>
+		<item>斯洛文尼亚,386,128,29364|29341|29340|29370</item>
+		<item>斯威士兰,268,100,65310|65301</item>
+		<item>苏丹,249,82,63401|63402|63407</item>
+		<item>苏里南,597,150,74604|74603|74602</item>
+		<item>所罗门群岛,677,157,54010</item>
+		<item>索马里,252,85,63782|63760|63730|63701|63725|63704</item>
+    </string-array>
+    <string-array name="smssdk_country_group_t">
+		<item>塔吉克斯坦,992,191,43605|43601|43602|43603|43604</item>
+		<item>台湾,886,173,46602|46668|46603|46688|46699|46601|46689|46656|46697|46610|46609|46606|46607|46605|46693|46692</item>
+		<item>泰国,66,38,52000|52099|52020|52003|52004|52015|52001|52023|52002|52018|52005</item>
+		<item>坦桑尼亚,255,88,64011|64003|64002|64005|64004|64007|64006|64009|64008</item>
+		<item>汤加,676,156,53901</item>
+		<item>特克斯和凯科斯群岛,1649,206,376352|376350</item>
+		<item>特立尼达，多巴哥,1868,214,374130|37412</item>
+		<item>突尼斯,216,53,60503|60502|60501</item>
+		<item>土耳其,90,43,28602|28603|28601|28604</item>
+		<item>土库曼斯坦,993,192,43801|43802</item>
+    </string-array>
+    <string-array name="smssdk_country_group_u">
+	    
+	</string-array>
+    <string-array name="smssdk_country_group_v">
+	    
+	</string-array>
+    <string-array name="smssdk_country_group_w">
+		<item>瓦努阿图,678,158,54101|54105</item>
+		<item>危地马拉,502,135,70402|70401|70403</item>
+		<item>维尔京群岛（美属）,1284,201,311470</item>
+		<item>维尔京群岛（英属）,1340,202,348570|348170</item>
+		<item>委内瑞拉,58,31,73406|73404|73401</item>
+		<item>文莱,673,154,52811|52802</item>
+		<item>乌干达,256,89,64111|64133|64166|64122|64110|64101|64114</item>
+		<item>乌克兰,380,124,25507|25506|25521|25501|25503|25502|25505|25504</item>
+		<item>乌拉圭,598,151,74803|74802|74801|74800|74810|74807</item>
+		<item>乌兹别克斯坦,998,196,43401|43402|43407|43403|43404|43405|43406</item>
+    </string-array>
+    <string-array name="smssdk_country_group_x">
+		<item>西班牙,34,11,21402|21401|21423|21411|21422|21410|21421|21432|21420|21409|21408|21419|21407|21418|21417|21406|21405|21427|21416|21404|21415|21425|21403</item>
+		<item>希腊,30,7,20203|20202|20201|20210|20209|20207|20205</item>
+		<item>香港,852,168,45413|45412|45401|45404|45403|45414|45400|45411|45409|45406|45405|45416|45408|45419|45429|45407</item>
+		<item>新加坡,65,37,52502|52503|52512|52501|52505</item>
+		<item>新喀里多尼亚,687,164,54601</item>
+		<item>新西兰,64,36,53001|53004|53005|53024|53002|53006</item>
+		<item>匈牙利,36,12,21630|21670|21601</item>
+		<item>叙利亚,963,177,41701|41702</item>
+    </string-array>
+    <string-array name="smssdk_country_group_y">
+		<item>牙买加,1876,216,338180|338020|338110</item>
+		<item>亚美尼亚,374,119,28301|28310|28305|28304</item>
+		<item>也门,967,181,42101|42102|42103</item>
+		<item>伊拉克,964,178,41805|41840|41820|41830|41845</item>
+		<item>伊朗,98,49,43235|43214|43220|43200|43211|43219</item>
+		<item>以色列,972,185,42577|42516|42505|42506|42507|RESTRICTED-IL|42519|42508|42501|42512|42523|42502|42503|42514|42515</item>
+		<item>意大利,39,13,22206|22207|22208|22210|22243|22288|22244|22299|22233|22201|22235|22204|22248|22205|22230</item>
+		<item>印度,91,44,405893|405892|405895|405894|405897|405896|405899|405898|40501|40506|40505|405891|405890|40503|405889|405882|405881|405883|405886|405885|405888|405887|405880|405879|405878|405871|405750|405870|405873|405752|405872|405751|405875|405754|405874|405753|405877|405756|405876|405755|405868|405867|405869|405860|405862|405861|405864|405863|405866|405865|405856|405859|405858|40494|40493|40492|40491|40498|40497|40496|40495|40490|40483|40482|40481|40480|40487|40486|40485|405799|40484|40489|40488|40472|40471|40470|40476|40475|40474|40473|40479|40478|40477|40460|405930|405811|40462|405810|405931|40469|40468|40467|40466|405809|405802|405923|405801|405922|405804|405925|405803|405924|405806|405927|405805|405926|405808|405929|405807|405928|40450|40570|40454|40453|40452|405800|405921|40451|405920|40458|40457|40456|40455|40459|405919|405912|405914|405913|405916|405915|405918|405917|40443|40442|40441|40567|40446|40566|40449|405901|405900|405903|405902|405905|405904|405907|405906|40553|40552|40431|40551|40430|40436|40556|40435|40555|40434|40554|40433|40438|40437|405851|405850|40421|405853|40420|405852|405855|405854|40425|40424|40422|40429|40428|40427|40419|405846|405845|405848|405847|405849|405046|405045|405840|405047|40410|405842|405841|405843|40413|40412|405040|40411|40418|405042|40417|405041|40416|405044|40415|405043|40409|405835|405834|405837|405836|405839|405838|405035|405034|405037|405036|40520|405039|405831|405038|405830|405833|405832|40524|40403|40402|40523|40522|40401|40521|40400|40407|405031|40406|405030|40405|405033|40404|405032|40519|40518|405824|405823|405825|405828|405827|405829|405026|405025|405820|405027|405822|405029|405821|40513|40512|40511|40510|40517|40515|40514|40509|40508|40507|405813|405812|405815|405814|405817|405816|405819|405818</item>
+		<item>印度尼西亚,62,34,51010|51021|51089|51001|51011|51027|51007|51028|51009|51008</item>
+		<item>英国,44,17,23427|23428|23407|23409|23420|23400|23401|23423|23500|23424|23402|23403|23425|23426|23416|23417|23418|23419|23430|23431|23476|23410|23433|23455|23411|23478|23434|23458|23414|23415|23450|23451</item>
+		<item>约旦,962,176,41601|41677|41603</item>
+		<item>越南,84,41,45204|45205|45202|45201|45207</item>
+    </string-array>
+    <string-array name="smssdk_country_group_z">
+		<item>赞比亚,260,92,64502|64501|64503</item>
+		<item>泽西,44,18,</item>
+		<item>乍得,235,70,62201|62203</item>
+		<item>直布罗陀,350,105,26606|26609|26601</item>
+		<item>智利,56,29,73008|73006|73004|73002|73013|73003|73014|73011|73012|73001</item>
+		<item>中非共和国,236,71,62301|62302|62303|62304</item>
+		<item>中国,86,42,46006|46007|46005|46002|46003|46000|46001</item>
+    </string-array>
+    <string-array name="tian_gan">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <attr format="color" name="activeColor"/>
+    <attr name="activeType">
+        <flag name="stroke" value="0x00000000"/>
+        <flag name="fill" value="0x00000001"/>
+    </attr>
+    <attr format="boolean" name="allowSingleTap"/>
+    <attr format="boolean" name="animateOnClick"/>
+    <attr format="reference" name="autoScaleTextViewStyle"/>
+    <attr format="dimension" name="behindOffset"/>
+    <attr format="float" name="behindScrollScale"/>
+    <attr format="dimension" name="behindWidth"/>
+    <attr format="color" name="border_color"/>
+    <attr format="dimension" name="border_width"/>
+    <attr format="boolean" name="centered"/>
+    <attr format="dimension" name="collapsedOffset"/>
+    <attr format="integer" name="columncount"/>
+    <attr format="reference" name="content"/>
+    <attr name="edge_flag">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+        <enum name="bottom" value="2"/>
+        <enum name="all" value="3"/>
+    </attr>
+    <attr format="dimension" name="edge_size"/>
+    <attr format="dimension" name="expandedOffset"/>
+    <attr format="float" name="fadeDegree"/>
+    <attr format="boolean" name="fadeEnabled"/>
+    <attr format="integer" name="fadeOut"/>
+    <attr format="reference" name="handle"/>
+    <attr format="dimension" name="imageheight"/>
+    <attr format="dimension" name="imagewidth"/>
+    <attr format="color" name="inactiveColor"/>
+    <attr name="inactiveType">
+        <flag name="stroke" value="0x00000000"/>
+        <flag name="fill" value="0x00000001"/>
+    </attr>
+    <attr format="boolean" name="isRect"/>
+    <attr format="dimension" name="minTextSize"/>
+    <attr name="mode">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+    </attr>
+    <attr name="orientation">
+        <enum name="topDown" value="1"/>
+        <enum name="bottomUp" value="2"/>
+        <enum name="leftToRight" value="4"/>
+        <enum name="rightToLeft" value="8"/>
+    </attr>
+    <attr format="dimension" name="radius"/>
+    <attr format="dimension" name="roundHeight"/>
+    <attr format="dimension" name="roundWidth"/>
+    <attr format="reference" name="selectorDrawable"/>
+    <attr format="boolean" name="selectorEnabled"/>
+    <attr format="reference" name="shadowDrawable"/>
+    <attr format="dimension" name="shadowWidth"/>
+    <attr format="reference" name="shadow_bottom"/>
+    <attr format="reference" name="shadow_left"/>
+    <attr format="reference" name="shadow_right"/>
+    <attr format="integer" name="sidebuffer"/>
+    <attr format="string" name="text"/>
+    <attr name="touchModeAbove">
+        <enum name="margin" value="0"/>
+        <enum name="fullscreen" value="1"/>
+        <enum name="none" value="2"/>
+    </attr>
+    <attr name="touchModeBehind">
+        <enum name="margin" value="0"/>
+        <enum name="fullscreen" value="1"/>
+        <enum name="none" value="2"/>
+    </attr>
+    <attr format="reference" name="viewAbove"/>
+    <attr format="reference" name="viewBehind"/>
+    <attr format="reference" name="vpiCirclePageIndicatorStyle"/>
+    <attr format="reference" name="vpiIconPageIndicatorStyle"/>
+    <attr format="reference" name="vpiLinePageIndicatorStyle"/>
+    <attr format="reference" name="vpiTabPageIndicatorStyle"/>
+    <attr format="reference" name="vpiTitlePageIndicatorStyle"/>
+    <attr format="reference" name="vpiUnderlinePageIndicatorStyle"/>
+    <bool name="rc_is_show_warning_notification">true</bool>
+    <bool name="rc_play_audio_continuous">true</bool>
+    <bool name="rc_read_receipt">true</bool>
+    <bool name="rc_typing_status">true</bool>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="all_backgroud">#fff6f6f6</color>
+    <color name="all_bg">#ffe9eae8</color>
+    <color name="black">#ff000000</color>
+    <color name="black_pressed">#7b7b7b</color>
+    <color name="blue">#0044e1</color>
+    <color name="blue_dark">#00217c</color>
+    <color name="bule">#ff43a7bf</color>
+    <color name="c_week">#ff539c48</color>
+    <color name="c_weeked">#ff539c48</color>
+    <color name="circle_bg">#ffcccccc</color>
+    <color name="circle_btn">#fff73420</color>
+    <color name="circle_btn_pressed">#aaf73420</color>
+    <color name="clip_view_bg">#77000000</color>
+    <color name="cost_bg">#fffa5e5f</color>
+    <color name="darkgoldenrod">#ff9f8836</color>
+    <color name="deep_red">#ffff0000</color>
+    <color name="details_bottom_collection">#ff80d074</color>
+    <color name="details_ticket">#ffdcdcdc</color>
+    <color name="details_title">#ff353e45</color>
+    <color name="dialog_bg_bottom">#ff80d074</color>
+    <color name="dimgrey">#ff696969</color>
+    <color name="floralwhite">#fffffaf0</color>
+    <color name="fullalpha">#00ffffff</color>
+    <color name="gary">#ffcccccc</color>
+    <color name="gary3">#ffdcdcdc</color>
+    <color name="gary4">#ff969696</color>
+    <color name="gary5">#ff959b9e</color>
+    <color name="gary_content">#ff787871</color>
+    <color name="gary_title">#ff959595</color>
+    <color name="gray">#ff808080</color>
+    <color name="gray_dark">#6d6967</color>
+    <color name="green">#75cd00</color>
+    <color name="green_dark">#3c6e02</color>
+    <color name="guide_bg">#fff9f4f6</color>
+    <color name="hb_item_theme_color_black">#ff393d43</color>
+    <color name="header_blue">#059CD4</color>
+    <color name="hint_text_color">#ffc9c9cf</color>
+    <color name="home_bottom_bg">#ff27b94d</color>
+    <color name="home_bottom_color_normal">#ff838383</color>
+    <color name="home_bottom_color_selected">#63B8FF</color>
+    <color name="home_item_txt">#ffdfdfdf</color>
+    <color name="home_left_color">#ffecedec</color>
+    <color name="home_org_bg">#fff6f6f6</color>
+    <color name="image_checked_bg">#66000000</color>
+    <color name="item_not_login_ticket_right_child_bg">#ff35b853</color>
+    <color name="item_ticket_right_child_bg">#ffff9600</color>
+    <color name="layaout_color">#ff717368</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="list_bg">#fffafafa</color>
+    <color name="list_divider_line">#ff665b34</color>
+    <color name="main_color">#ff61b754</color>
+    <color name="main_left_text_color">#ffcfd0d2</color>
+    <color name="main_top_bg">#ff61b754</color>
+    <color name="none_color">#00000000</color>
+    <color name="orange">#fff8a522</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="price_charge">#ff61b754</color>
+    <color name="price_free">#ffffae00</color>
+    <color name="push_share_details_line">#ffaaaaaa</color>
+    <color name="rc_conversation_top_bg">#f2faff</color>
+    <color name="rc_draft_color">#cb120f</color>
+    <color name="rc_input_bg">#F4F4F4</color>
+    <color name="rc_message_user_name">#838383</color>
+    <color name="rc_normal_bg">#EBEBEB</color>
+    <color name="rc_notice_normal">#F0fffbd4</color>
+    <color name="rc_notice_text">#999999</color>
+    <color name="rc_notice_warning">#F0ffd0c4</color>
+    <color name="rc_notification_bg">#D3D3D3</color>
+    <color name="rc_plugins_bg">#F8F8F8</color>
+    <color name="rc_text_color_primary">#353535</color>
+    <color name="rc_text_color_primary_inverse">@android:color/white</color>
+    <color name="rc_text_color_secondary">#999999</color>
+    <color name="rc_text_color_tertiary">#d7d7d7</color>
+    <color name="rc_text_voice">#7f7f7f</color>
+    <color name="rc_voice_color">#0195ff</color>
+    <color name="red">#ffc13030</color>
+    <color name="red2">#fffa5e5f</color>
+    <color name="red_dark">#810f19</color>
+    <color name="red_delete">#ffec5050</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sel_item_bottom_bg">#fff3f3f3</color>
+    <color name="selector_accuvally_normal">#fffdfdf6</color>
+    <color name="selector_choose_button_normal">#ff61b754</color>
+    <color name="selector_choose_button_pressed">#9961b754</color>
+    <color name="shape_mine">#ffd2d2d2</color>
+    <color name="shape_mine_tvbg">#fffc9300</color>
+    <color name="shape_noticebg">#e5e5e5e5</color>
+    <color name="share">#ff696969</color>
+    <color name="ticket_shenhe">#ff008ec3</color>
+    <color name="ticket_shixiao">#ffa29e98</color>
+    <color name="title_divider">#ffbcbcbc</color>
+    <color name="top_bg">#ff62b651</color>
+    <color name="topic_date">#ffa0a0a0</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_ash_gary">#a0000000</color>
+    <color name="transparent_background">#60000000</color>
+    <color name="transparent_black">#70000000</color>
+    <color name="transparent_black1">#b2000000</color>
+    <color name="transparent_black2">#00BBFE</color>
+    <color name="transparent_gary">#70000000</color>
+    <color name="transparent_white">#50ffffff</color>
+    <color name="transparent_white2">#80000000</color>
+    <color name="transparent_white70">#70ffffff</color>
+    <color name="tvcolor_dialog_operate">#ff484848</color>
+    <color name="tvcolor_home_normal">#ff909090</color>
+    <color name="tvcolor_home_selected">#ff67a95c</color>
+    <color name="txt_gray">#ff333333</color>
+    <color name="txt_green">#00BBFE</color>
+    <color name="txt_rush">#ffbdbdbd</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="vp_black">#000000</color>
+    <color name="vp_color_text_gray">#918f8b</color>
+    <color name="vp_color_text_graywhite">#ebebeb</color>
+    <color name="vp_color_text_lightgray">#767673</color>
+    <color name="vp_color_text_lightwhite">#eaeaea</color>
+    <color name="vp_color_text_tips">#DDDDDD</color>
+    <color name="vp_color_text_whitegray">#dadada</color>
+    <color name="vp_definition_bg_color">#555048</color>
+    <color name="vp_progressbar_bg_color">#a7a69d</color>
+    <color name="vp_progressbar_second_color">#94938c</color>
+    <color name="vp_progressbar_seek_color">#d6d6d3</color>
+    <color name="vp_text_default">#ebebeb</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffffba00</color>
+    <color name="yes_or_not_update_color">#ffa2a2a2</color>
+    <declare-styleable name="AsyncImageView"><attr format="dimension" name="RCMinShortSideSize"/><attr format="dimension" name="RCCornerRadius"/><attr name="RCShape"><flag name="square" value="0"/><flag name="circle" value="1"/></attr><attr format="reference" name="RCDefDrawable"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/></declare-styleable>
+    <declare-styleable name="CircleIndicator"><attr format="dimension" name="ci_width"/><attr format="dimension" name="ci_height"/><attr format="dimension" name="ci_margin"/><attr format="reference" name="ci_animator"/><attr format="reference" name="ci_animator_reverse"/><attr format="reference" name="ci_drawable"/><attr format="reference" name="ci_drawable_unselected"/><attr format="enum" name="ci_orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr name="ci_gravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable>
+    <declare-styleable name="ExpandableLayout"><attr format="reference" name="el_headerLayout"/><attr format="reference" name="el_contentLayout"/><attr format="integer" name="el_duration"/></declare-styleable>
+    <declare-styleable name="ExpandableMenuOverlay"><attr format="boolean" name="adjustViewSize"/><attr format="float" name="dimAmount"/><attr format="float" name="mainButtonSize"/><attr format="float" name="otherButtonSize"/><attr format="float" name="distanceY"/><attr format="float" name="distanceX"/><attr format="float" name="bottomPad"/><attr format="integer" name="closeButtonSrc"/><attr format="integer" name="leftButtonSrc"/><attr format="integer" name="leftButtonText"/><attr format="integer" name="midButtonSrc"/><attr format="integer" name="midButtonText"/><attr format="integer" name="rightButtonSrc"/><attr format="integer" name="rightButtonText"/></declare-styleable>
+    <declare-styleable name="InputView"><attr name="RCStyle"><enum name="SCE" value="0x123"/><enum name="CES" value="0x231"/><enum name="ECS" value="0x321"/><enum name="CSE" value="0x213"/><enum name="SC" value="0x120"/><enum name="CS" value="0x21"/><enum name="EC" value="0x320"/><enum name="CE" value="0x023"/><enum name="C" value="0x020"/></attr></declare-styleable>
+    <declare-styleable name="MovieRecorderView"><attr format="boolean" name="is_open_camera"/><attr format="integer" name="record_max_time"/><attr format="integer" name="video_width"/><attr format="integer" name="video_height"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="RCCircleFlowIndicator"><attr format="color" name="RCActiveColor"/><attr format="color" name="RCInactiveColor"/><attr format="dimension" name="RCRadius"/><attr format="dimension" name="RCSpacing"/><attr format="boolean" name="RCCentered"/><attr format="integer" name="RCFadeOut"/><attr name="RCInactiveType"><flag name="RCStroke" value="0"/><flag name="RCFill" value="1"/></attr><attr name="RCActiveType"><flag name="RCStroke" value="0"/><flag name="RCFill" value="1"/></attr><attr format="boolean" name="RCSnap"/></declare-styleable>
+    <declare-styleable name="RCViewFlow"><attr format="integer" name="RCSideBuffer"/></declare-styleable>
+    <declare-styleable name="mediaplayer"/>
+    <dimen name="_ten_dp">-10dp</dimen>
+    <dimen name="_thirty_dip">-30.0dp</dimen>
+    <dimen name="activity_horizontal_margin">7.0dip</dimen>
+    <dimen name="activity_vertical_margin">7.0dip</dimen>
+    <dimen name="adv_height">137.0dip</dimen>
+    <dimen name="alphabet_size">12.0dip</dimen>
+    <dimen name="calendar_h">310.0dip</dimen>
+    <dimen name="collapsed_offset">0.0dip</dimen>
+    <dimen name="eight_dp">8.0dip</dimen>
+    <dimen name="eighty_dip">80.0dip</dimen>
+    <dimen name="eighty_five_dp">85dp</dimen>
+    <dimen name="eighty_sp">80sp</dimen>
+    <dimen name="expanded_offset">136.0dip</dimen>
+    <dimen name="facebook_footer_height">50.0dip</dimen>
+    <dimen name="fifteen_sp">15.0sp</dimen>
+    <dimen name="fifty_dip">50.0dip</dimen>
+    <dimen name="fifty_dp">50.0dip</dimen>
+    <dimen name="five_dip">5.0dip</dimen>
+    <dimen name="five_sp">5.0sp</dimen>
+    <dimen name="forty_five">45.0dip</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="header_height">96.0dip</dimen>
+    <dimen name="header_height2">40.0dip</dimen>
+    <dimen name="header_height4">48.0dip</dimen>
+    <dimen name="hundred_dip">100.0dip</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="limited_padding">10.0dip</dimen>
+    <dimen name="list_padding">10.0dip</dimen>
+    <dimen name="little_12">12.0sp</dimen>
+    <dimen name="little_13">13.0sp</dimen>
+    <dimen name="little_14">14.0sp</dimen>
+    <dimen name="little_15">15.0sp</dimen>
+    <dimen name="little_17">17.0sp</dimen>
+    <dimen name="little_18">18.0sp</dimen>
+    <dimen name="little_19">19.0sp</dimen>
+    <dimen name="little_22">22.0sp</dimen>
+    <dimen name="main_right_width">300.0dip</dimen>
+    <dimen name="one_dp">1.0dp</dimen>
+    <dimen name="one_hundre_and_sixty">160.0dip</dimen>
+    <dimen name="one_hundred_and_twenty_dip">120.0dip</dimen>
+    <dimen name="one_sp">1.0sp</dimen>
+    <dimen name="page_margin">15.0dip</dimen>
+    <dimen name="rc_conversation_item_data_size">14sp</dimen>
+    <dimen name="rc_conversation_item_name_size">16sp</dimen>
+    <dimen name="rc_message_send_status_image_size">17dp</dimen>
+    <dimen name="seventy_dip">70.0dip</dimen>
+    <dimen name="shadow_width">15.0dip</dimen>
+    <dimen name="sixteen_dp">16.0dip</dimen>
+    <dimen name="sixteen_sp">16.0sp</dimen>
+    <dimen name="ten_dp">10.0dp</dimen>
+    <dimen name="ten_sp">10.0sp</dimen>
+    <dimen name="thirty_dp">30dip</dimen>
+    <dimen name="thirty_five_dip">35.0dip</dimen>
+    <dimen name="thirty_five_sp">35.0sp</dimen>
+    <dimen name="twelve_dp">12.0dp</dimen>
+    <dimen name="twelve_sp">12.0sp</dimen>
+    <dimen name="twenty_dip">20.0dip</dimen>
+    <dimen name="twenty_five_dip">25.0dip</dimen>
+    <dimen name="twenty_five_sp">25.0sp</dimen>
+    <dimen name="twenty_sp">20.0sp</dimen>
+    <dimen name="twitter_footer_height">60.0dip</dimen>
+    <dimen name="twitter_header_height">48.0dip</dimen>
+    <dimen name="two_dp">2.0dp</dimen>
+    <dimen name="two_hundred_and_fourty">240.0dip</dimen>
+    <dimen name="two_hundred_and_twenty">220.0dip</dimen>
+    <dimen name="two_sp">2.0sp</dimen>
+    <dimen name="ui_10_dip">10.0dip</dimen>
+    <dimen name="umeng_socialize_pad_window_height">350.0dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580.0dip</dimen>
+    <dimen name="update_button_bottom_height">13.0dip</dimen>
+    <dimen name="update_button_margin">10.0dip</dimen>
+    <dimen name="update_content_button_height">8.0dip</dimen>
+    <dimen name="update_image_margin_height">8.0dip</dimen>
+    <dimen name="update_image_remider_height">8.0dip</dimen>
+    <dimen name="update_will_remider_height">10.0dip</dimen>
+    <dimen name="video_list_text_size">9sp</dimen>
+    <dimen name="video_list_title_size">20sp</dimen>
+    <dimen name="vp_dimen_progressbar">30dp</dimen>
+    <dimen name="vp_player_definite_height">40dp</dimen>
+    <dimen name="vp_player_definite_width">70dp</dimen>
+    <dimen name="vp_player_fullscreen_width">30dp</dimen>
+    <dimen name="vp_player_fullsight_width">30dp</dimen>
+    <dimen name="vp_player_height">540dp</dimen>
+    <dimen name="vp_player_time">40dp</dimen>
+    <dimen name="vp_text_size_big">18.6dp</dimen>
+    <dimen name="vp_text_size_bigger">25.8dp</dimen>
+    <dimen name="vp_text_size_biggest">27dp</dimen>
+    <dimen name="vp_text_size_middle">17.4dp</dimen>
+    <dimen name="vp_text_size_small">16.8dp</dimen>
+    <dimen name="vp_text_size_smaller">13.4dp</dimen>
+    <dimen name="vp_text_size_smallest">12dp</dimen>
+    <dimen name="vp_text_size_tiny">10dp</dimen>
+    <dimen name="zero_sp">0sp</dimen>
+    <drawable name="ssdk_oks_classic_platfrom_cell_back_nor">#ffffffff</drawable>
+    <drawable name="ssdk_oks_classic_platfrom_cell_back_sel">#ffeeeeee</drawable>
+    <item name="ExplainBtn" type="id">false</item>
+    <item name="RePaymentBtn" type="id">false</item>
+    <item name="RemainingTimeStr" type="id">false</item>
+    <item name="RlImg" type="id">false</item>
+    <item name="RlMark" type="id">false</item>
+    <item name="SquareBtn" type="id">false</item>
+    <item name="about_version_code" type="id">false</item>
+    <item name="abouthuodongxing" type="id">false</item>
+    <item name="accu_address" type="id">false</item>
+    <item name="accu_info" type="id">false</item>
+    <item name="accu_place" type="id">false</item>
+    <item name="accu_ticket_price" type="id">false</item>
+    <item name="accu_ticket_type" type="id">false</item>
+    <item name="accu_time" type="id">false</item>
+    <item name="accu_title" type="id">false</item>
+    <item name="acpuire_verification_code" type="id">false</item>
+    <item name="activity_header_progressbar" type="id">false</item>
+    <item name="addAccuvallyBtn" type="id">false</item>
+    <item name="again_submit_password" type="id">false</item>
+    <item name="alipayBtn" type="id">false</item>
+    <item name="all_btn" type="id">false</item>
+    <item name="alpha" type="id">false</item>
+    <item name="app_app_image_gallery" type="id">false</item>
+    <item name="auto_focus" type="id"/>
+    <item name="auto_tv" type="id">false</item>
+    <item name="bindBtn" type="id">false</item>
+    <item name="bmapView" type="id">false</item>
+    <item name="bottom_layout" type="id">false</item>
+    <item name="btAccept" type="id">false</item>
+    <item name="btClip" type="id">false</item>
+    <item name="btLogin" type="id">false</item>
+    <item name="btOk" type="id">false</item>
+    <item name="btPromotionCode" type="id">false</item>
+    <item name="btQuestion" type="id">false</item>
+    <item name="btQuitCircle" type="id">false</item>
+    <item name="btSend" type="id">false</item>
+    <item name="btUnfollow" type="id">false</item>
+    <item name="bt_checkbox_submit" type="id">false</item>
+    <item name="buttonLayout" type="id">false</item>
+    <item name="buy_ticket_scrollview" type="id">false</item>
+    <item name="cancel" type="id"/>
+    <item name="cancelBtn" type="id">false</item>
+    <item name="cbBlacklist" type="id">false</item>
+    <item name="cbDND" type="id">false</item>
+    <item name="cbExpire" type="id">false</item>
+    <item name="cbFilled" type="id">false</item>
+    <item name="cbNotice" type="id">false</item>
+    <item name="chat_pic" type="id">false</item>
+    <item name="chat_pic_camero" type="id">false</item>
+    <item name="chat_pic_file" type="id">false</item>
+    <item name="chat_pic_layout" type="id">false</item>
+    <item name="chat_record" type="id">false</item>
+    <item name="chat_recording" type="id">false</item>
+    <item name="chat_send" type="id">false</item>
+    <item name="chat_smile_container" type="id">false</item>
+    <item name="chat_softinput" type="id">false</item>
+    <item name="chat_textditor_biaoqing" type="id">false</item>
+    <item name="chat_textditor_eet_editer" type="id">false</item>
+    <item name="checkBox" type="id">false</item>
+    <item name="child_line" type="id">false</item>
+    <item name="child_line_two" type="id">false</item>
+    <item name="cicleIndicator" type="id">false</item>
+    <item name="circle_enter" type="id">false</item>
+    <item name="circle_enter_attion" type="id">false</item>
+    <item name="cityLetterListView" type="id">false</item>
+    <item name="cityName" type="id">false</item>
+    <item name="city_layout" type="id">false</item>
+    <item name="city_list" type="id">false</item>
+    <item name="click" type="id">false</item>
+    <item name="clip" type="id">false</item>
+    <item name="com_facebook_login_activity_progress_bar" type="id">false</item>
+    <item name="commentlistview" type="id">false</item>
+    <item name="comments_line" type="id">false</item>
+    <item name="common_indicator" type="id">false</item>
+    <item name="common_viewflow" type="id">false</item>
+    <item name="content" type="id">false</item>
+    <item name="contentBtnLayout" type="id">false</item>
+    <item name="contentEdit" type="id">false</item>
+    <item name="contentLayout" type="id">false</item>
+    <item name="contentView" type="id">false</item>
+    <item name="create_time" type="id">false</item>
+    <item name="currentCityName" type="id">false</item>
+    <item name="day" type="id">false</item>
+    <item name="dayleft" type="id">false</item>
+    <item name="dayright" type="id">false</item>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="delete" type="id">false</item>
+    <item name="deleteHistory" type="id">false</item>
+    <item name="descListview" type="id">false</item>
+    <item name="details_ticket_more" type="id">false</item>
+    <item name="details_top_layout" type="id">false</item>
+    <item name="details_top_sl" type="id">false</item>
+    <item name="details_webView" type="id">false</item>
+    <item name="dialogticketListview" type="id">false</item>
+    <item name="drawer" type="id">false</item>
+    <item name="dynamic_logo" type="id">false</item>
+    <item name="dynamic_logo_parent" type="id">false</item>
+    <item name="edBindCode" type="id">false</item>
+    <item name="edBindPhone" type="id">false</item>
+    <item name="edCheckNum" type="id">false</item>
+    <item name="edCodeNumber" type="id">false</item>
+    <item name="edCommContent" type="id">false</item>
+    <item name="edComment" type="id">false</item>
+    <item name="edContent" type="id">false</item>
+    <item name="edDialogPhone" type="id">false</item>
+    <item name="edEmail" type="id">false</item>
+    <item name="edNewPass" type="id">false</item>
+    <item name="edPhone" type="id">false</item>
+    <item name="edSearch" type="id">false</item>
+    <item name="edUpdateContent" type="id">false</item>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="etAnnounce" type="id">false</item>
+    <item name="etNick" type="id">false</item>
+    <item name="etPersonality" type="id">false</item>
+    <item name="etPromotionCode" type="id">false</item>
+    <item name="etReason" type="id">false</item>
+    <item name="et_search" type="id">false</item>
+    <item name="find_password_header" type="id">false</item>
+    <item name="find_password_password" type="id">false</item>
+    <item name="find_password_phone" type="id">false</item>
+    <item name="find_password_submit_button" type="id">false</item>
+    <item name="flash_logo" type="id">false</item>
+    <item name="flash_logo_bottom" type="id">false</item>
+    <item name="forget_password" type="id">false</item>
+    <item name="fragment_bottom" type="id">false</item>
+    <item name="grid" type="id">false</item>
+    <item name="gridView" type="id">false</item>
+    <item name="gridview" type="id"/>
+    <item name="guidePages" type="id">false</item>
+    <item name="guide_dots" type="id">false</item>
+    <item name="gwAllCityName" type="id">false</item>
+    <item name="half_textview" type="id">false</item>
+    <item name="handle" type="id">false</item>
+    <item name="header" type="id">false</item>
+    <item name="history_child_ll" type="id">false</item>
+    <item name="history_listview" type="id">false</item>
+    <item name="history_rl" type="id">false</item>
+    <item name="history_title" type="id">false</item>
+    <item name="holder" type="id">false</item>
+    <item name="home_square_gl" type="id">false</item>
+    <item name="hot_city_name" type="id">false</item>
+    <item name="hour" type="id">false</item>
+    <item name="hsvChildll" type="id">false</item>
+    <item name="hsv_content" type="id">false</item>
+    <item name="hsv_radio1" type="id">false</item>
+    <item name="hsv_radio2" type="id">false</item>
+    <item name="hsv_radio3" type="id">false</item>
+    <item name="hsv_view" type="id">false</item>
+    <item name="hsv_view1" type="id">false</item>
+    <item name="hsv_view2" type="id">false</item>
+    <item name="hsv_view3" type="id">false</item>
+    <item name="icon_address" type="id">false</item>
+    <item name="icon_time" type="id">false</item>
+    <item name="id_stickynavlayout_indicator" type="id"/>
+    <item name="id_stickynavlayout_innerscrollview" type="id"/>
+    <item name="id_stickynavlayout_topview" type="id"/>
+    <item name="id_stickynavlayout_viewpager" type="id"/>
+    <item name="image" type="id">false</item>
+    <item name="imageView1" type="id">false</item>
+    <item name="image_load" type="id">false</item>
+    <item name="image_load_define" type="id">false</item>
+    <item name="image_view" type="id">false</item>
+    <item name="img_code" type="id">false</item>
+    <item name="img_pic_left" type="id">false</item>
+    <item name="img_pic_right" type="id">false</item>
+    <item name="img_record_layout_left" type="id">false</item>
+    <item name="img_record_layout_right" type="id">false</item>
+    <item name="in_navigation_title_image" type="id">false</item>
+    <item name="incAttend" type="id">false</item>
+    <item name="includeBottom" type="id">false</item>
+    <item name="includeInterest" type="id">false</item>
+    <item name="includePersonal" type="id">false</item>
+    <item name="includeRegister" type="id">false</item>
+    <item name="include_accuvallydetail_bottom" type="id">false</item>
+    <item name="include_recommend" type="id">false</item>
+    <item name="invalid_ticket" type="id">false</item>
+    <item name="invalid_ticketes" type="id">false</item>
+    <item name="is_more_cb" type="id">false</item>
+    <item name="item_checkbox" type="id">false</item>
+    <item name="iv" type="id">false</item>
+    <item name="ivAddFollow" type="id">false</item>
+    <item name="ivAvatar" type="id">false</item>
+    <item name="ivBack" type="id">false</item>
+    <item name="ivChatMore" type="id">false</item>
+    <item name="ivCheckAli" type="id">false</item>
+    <item name="ivCheckWx" type="id">false</item>
+    <item name="ivClassImg" type="id">false</item>
+    <item name="ivCloseDialog" type="id">false</item>
+    <item name="ivClosePopup" type="id">false</item>
+    <item name="ivCode" type="id">false</item>
+    <item name="ivDND" type="id">false</item>
+    <item name="ivDelContent" type="id">false</item>
+    <item name="ivDetailInterest" type="id">false</item>
+    <item name="ivDetailsColl" type="id">false</item>
+    <item name="ivDetailsImg" type="id">false</item>
+    <item name="ivDetailsLogo" type="id">false</item>
+    <item name="ivDialogBack" type="id">false</item>
+    <item name="ivFailure" type="id">false</item>
+    <item name="ivFollow" type="id">false</item>
+    <item name="ivFriendAvatar" type="id">false</item>
+    <item name="ivGender" type="id">false</item>
+    <item name="ivGuanbi" type="id">false</item>
+    <item name="ivHandpickLogo" type="id">false</item>
+    <item name="ivHasFollowed" type="id">false</item>
+    <item name="ivHead" type="id">false</item>
+    <item name="ivHeadPortrait" type="id">false</item>
+    <item name="ivHomeImg" type="id">false</item>
+    <item name="ivHomeLeftLogo" type="id">false</item>
+    <item name="ivHomeTitleIcon" type="id">false</item>
+    <item name="ivHotLogoUrl" type="id">false</item>
+    <item name="ivIconPhone" type="id">false</item>
+    <item name="ivImage" type="id">false</item>
+    <item name="ivIsFollow" type="id">false</item>
+    <item name="ivIsFollowHeader" type="id">false</item>
+    <item name="ivItemRecommendImg" type="id">false</item>
+    <item name="ivLogo" type="id">false</item>
+    <item name="ivMainHeaderLeft" type="id">false</item>
+    <item name="ivMainHeaderMessage" type="id">false</item>
+    <item name="ivMainHeaderSearch" type="id">false</item>
+    <item name="ivMainHeaderUnfinished" type="id">false</item>
+    <item name="ivMainRightLogoUrl" type="id">false</item>
+    <item name="ivMainUnReadNum" type="id">false</item>
+    <item name="ivMemberLogo" type="id">false</item>
+    <item name="ivMineLogo" type="id">false</item>
+    <item name="ivMyOrgLogo" type="id">false</item>
+    <item name="ivNewTopic" type="id">false</item>
+    <item name="ivOrderTicketImg" type="id">false</item>
+    <item name="ivOrg" type="id">false</item>
+    <item name="ivOrgImageUrl" type="id">false</item>
+    <item name="ivOrgLogoUrl" type="id">false</item>
+    <item name="ivOrganizer" type="id">false</item>
+    <item name="ivRecommendImg" type="id">false</item>
+    <item name="ivRefund" type="id">false</item>
+    <item name="ivRobImage" type="id">false</item>
+    <item name="ivSearch" type="id">false</item>
+    <item name="ivSelHomeType" type="id">false</item>
+    <item name="ivSelImage" type="id">false</item>
+    <item name="ivSettingHead" type="id">false</item>
+    <item name="ivShare" type="id">false</item>
+    <item name="ivSponsorDesc" type="id">false</item>
+    <item name="ivSponsorLogo" type="id">false</item>
+    <item name="ivSponsorLogo_layout" type="id">false</item>
+    <item name="ivTicketDetailsBg" type="id">false</item>
+    <item name="ivTopic" type="id">false</item>
+    <item name="ivUpLoadHead" type="id">false</item>
+    <item name="ivUserLogo" type="id">false</item>
+    <item name="iv_1" type="id">false</item>
+    <item name="iv_10" type="id">false</item>
+    <item name="iv_11" type="id">false</item>
+    <item name="iv_2" type="id">false</item>
+    <item name="iv_3" type="id">false</item>
+    <item name="iv_4" type="id">false</item>
+    <item name="iv_5" type="id">false</item>
+    <item name="iv_6" type="id">false</item>
+    <item name="iv_7" type="id">false</item>
+    <item name="iv_8" type="id">false</item>
+    <item name="iv_9" type="id">false</item>
+    <item name="iv_arc_opacity" type="id">false</item>
+    <item name="iv_bottom_line" type="id">false</item>
+    <item name="iv_close_select_accuvally_dialog" type="id">false</item>
+    <item name="iv_datails_back" type="id">false</item>
+    <item name="iv_head" type="id">false</item>
+    <item name="iv_image" type="id">false</item>
+    <item name="iv_image1" type="id">false</item>
+    <item name="iv_image10" type="id">false</item>
+    <item name="iv_image11" type="id">false</item>
+    <item name="iv_image2" type="id">false</item>
+    <item name="iv_image3" type="id">false</item>
+    <item name="iv_image4" type="id">false</item>
+    <item name="iv_image5" type="id">false</item>
+    <item name="iv_image6" type="id">false</item>
+    <item name="iv_image7" type="id">false</item>
+    <item name="iv_image8" type="id">false</item>
+    <item name="iv_image9" type="id">false</item>
+    <item name="iv_loacl_image" type="id">false</item>
+    <item name="iv_logo" type="id">false</item>
+    <item name="iv_logo_tag" type="id">false</item>
+    <item name="iv_msg_icon_left" type="id">false</item>
+    <item name="iv_msg_icon_right" type="id">false</item>
+    <item name="iv_nav_indicator" type="id">false</item>
+    <item name="iv_nav_indicator_image" type="id">false</item>
+    <item name="iv_nav_left" type="id">false</item>
+    <item name="iv_nav_left_image" type="id">false</item>
+    <item name="iv_nav_right" type="id">false</item>
+    <item name="iv_nav_right_image" type="id">false</item>
+    <item name="iv_org_logo" type="id">false</item>
+    <item name="iv_org_user_logo" type="id">false</item>
+    <item name="iv_phone_camera" type="id">false</item>
+    <item name="iv_prompt_select_city" type="id">false</item>
+    <item name="iv_recommend_line" type="id">false</item>
+    <item name="iv_search" type="id">false</item>
+    <item name="iv_sliding_menu" type="id">false</item>
+    <item name="iv_sponsorcharts_back" type="id"/>
+    <item name="ivhomeTag" type="id">false</item>
+    <item name="launch_product_query" type="id"/>
+    <item name="limited_rl" type="id">false</item>
+    <item name="linAccDetail" type="id">false</item>
+    <item name="linClickTv" type="id">false</item>
+    <item name="linFollowOrg" type="id">false</item>
+    <item name="linFollows" type="id">false</item>
+    <item name="linLocation" type="id">false</item>
+    <item name="linPublished" type="id">false</item>
+    <item name="linReport" type="id">false</item>
+    <item name="linTopRight" type="id">false</item>
+    <item name="line" type="id">false</item>
+    <item name="linearLayout1" type="id">false</item>
+    <item name="linearlayout" type="id">false</item>
+    <item name="listView" type="id"/>
+    <item name="listview" type="id"/>
+    <item name="llAttendNoData" type="id">false</item>
+    <item name="llCollect" type="id">false</item>
+    <item name="llCouponCode" type="id">false</item>
+    <item name="llEnroll" type="id">false</item>
+    <item name="llGroupMember" type="id">false</item>
+    <item name="llHomeLeftAbout" type="id">false</item>
+    <item name="llHomeLeftCity" type="id">false</item>
+    <item name="llHomeLeftClean" type="id">false</item>
+    <item name="llHomeLeftFeedBack" type="id">false</item>
+    <item name="llHomeLeftRecommend" type="id">false</item>
+    <item name="llHomeLeftRemind" type="id">false</item>
+    <item name="llHomeTypeCalender" type="id">false</item>
+    <item name="llHomeTypeHots" type="id">false</item>
+    <item name="llHomeTypeNear" type="id">false</item>
+    <item name="llHomeTypeNews" type="id">false</item>
+    <item name="llIsRobTicket" type="id">false</item>
+    <item name="llNewTopic" type="id">false</item>
+    <item name="llOpen" type="id">false</item>
+    <item name="llRefund" type="id">false</item>
+    <item name="llRefundContent" type="id">false</item>
+    <item name="llRobTicket" type="id">false</item>
+    <item name="llRobTips" type="id">false</item>
+    <item name="llSel" type="id">false</item>
+    <item name="llShare" type="id">false</item>
+    <item name="llTipAppUrl" type="id">false</item>
+    <item name="llVersion" type="id">false</item>
+    <item name="ll_add_checkbox_info" type="id">false</item>
+    <item name="ll_add_radio_info" type="id">false</item>
+    <item name="ll_click_tip_detial" type="id">false</item>
+    <item name="ll_detail_ticket" type="id">false</item>
+    <item name="ll_fy_homeItem" type="id">false</item>
+    <item name="ll_history_data" type="id">false</item>
+    <item name="ll_limited" type="id">false</item>
+    <item name="ll_list_image" type="id">false</item>
+    <item name="ll_login_info" type="id">false</item>
+    <item name="ll_topic" type="id">false</item>
+    <item name="ll_unfinished_ticket_header" type="id">false</item>
+    <item name="ll_xxx" type="id">false</item>
+    <item name="lng_city" type="id">false</item>
+    <item name="load_more_comment_btn" type="id">false</item>
+    <item name="load_more_org_btn" type="id">false</item>
+    <item name="loading" type="id">false</item>
+    <item name="locationBtn" type="id">false</item>
+    <item name="locationCityName" type="id">false</item>
+    <item name="location_listview" type="id">false</item>
+    <item name="loginBtn" type="id">false</item>
+    <item name="loginView_Line" type="id">false</item>
+    <item name="login_first_line" type="id">false</item>
+    <item name="login_password" type="id">false</item>
+    <item name="login_second_line" type="id">false</item>
+    <item name="login_submit_botton" type="id">false</item>
+    <item name="login_title" type="id">false</item>
+    <item name="login_user_name" type="id">false</item>
+    <item name="lvCollect" type="id">false</item>
+    <item name="lvRegistration" type="id">false</item>
+    <item name="lvRobTicket" type="id">false</item>
+    <item name="lv_valid_ticket" type="id">false</item>
+    <item name="lyAddForm" type="id">false</item>
+    <item name="lyClassflyFirst" type="id">false</item>
+    <item name="lyClear" type="id">false</item>
+    <item name="lyComment" type="id">false</item>
+    <item name="lyDetailsAddr" type="id">false</item>
+    <item name="lyDetailsBottom" type="id">false</item>
+    <item name="lyDetailsOrg" type="id">false</item>
+    <item name="lyDetailsOrg2" type="id">false</item>
+    <item name="lyFailure" type="id">false</item>
+    <item name="lyFindBg" type="id">false</item>
+    <item name="lyFollow" type="id">false</item>
+    <item name="lyGuide" type="id">false</item>
+    <item name="lyHomeLeftCity" type="id">false</item>
+    <item name="lyHomeLeftClean" type="id">false</item>
+    <item name="lyHomeLeftRemind" type="id">false</item>
+    <item name="lyHot" type="id">false</item>
+    <item name="lyItemSelText" type="id">false</item>
+    <item name="lyLoading" type="id">false</item>
+    <item name="lyLoginBg" type="id">false</item>
+    <item name="lyLogo" type="id">false</item>
+    <item name="lyLogoYingyongBao" type="id">false</item>
+    <item name="lyMap" type="id">false</item>
+    <item name="lyMineCircle" type="id">false</item>
+    <item name="lyMineCollect" type="id">false</item>
+    <item name="lyMineOrg" type="id">false</item>
+    <item name="lyMineTicket" type="id">false</item>
+    <item name="lyPhone" type="id">false</item>
+    <item name="lyQQ" type="id">false</item>
+    <item name="lyRegBg" type="id">false</item>
+    <item name="lyRemindss" type="id">false</item>
+    <item name="lySelHomeType" type="id">false</item>
+    <item name="lySelSearch" type="id">false</item>
+    <item name="lySelTag" type="id">false</item>
+    <item name="lySelTime" type="id">false</item>
+    <item name="lySelType" type="id">false</item>
+    <item name="lySina" type="id">false</item>
+    <item name="lyVersion" type="id">false</item>
+    <item name="lyWeixin" type="id">false</item>
+    <item name="ly_address" type="id">false</item>
+    <item name="ly_back" type="id">false</item>
+    <item name="ly_enlist" type="id">false</item>
+    <item name="ly_pay_type_ali" type="id">false</item>
+    <item name="ly_pay_type_wx" type="id">false</item>
+    <item name="lyclass" type="id">false</item>
+    <item name="lydetails1" type="id">false</item>
+    <item name="lydetails2" type="id">false</item>
+    <item name="lydismiss" type="id">false</item>
+    <item name="main_left_fragment" type="id">false</item>
+    <item name="main_top_view" type="id">false</item>
+    <item name="manageEmpty" type="id">false</item>
+    <item name="material_background" type="id">false</item>
+    <item name="menu_tv" type="id">false</item>
+    <item name="message" type="id">false</item>
+    <item name="message_content_view" type="id">false</item>
+    <item name="message_head_time" type="id">false</item>
+    <item name="min" type="id">false</item>
+    <item name="month" type="id">false</item>
+    <item name="monthday" type="id">false</item>
+    <item name="monthday_layout" type="id">false</item>
+    <item name="msg_session_left" type="id">false</item>
+    <item name="msg_session_right" type="id">false</item>
+    <item name="my_radio_group_time" type="id">false</item>
+    <item name="name" type="id">false</item>
+    <item name="new_listview" type="id">false</item>
+    <item name="no_ticket" type="id">false</item>
+    <item name="not_login_ticket_listview" type="id">false</item>
+    <item name="np__decrement" type="id"/>
+    <item name="np__increment" type="id"/>
+    <item name="number" type="id">false</item>
+    <item name="openTicketLine" type="id">false</item>
+    <item name="openValidTicket" type="id">false</item>
+    <item name="orderTicketName" type="id">false</item>
+    <item name="orderTicketNum" type="id">false</item>
+    <item name="orderTicketPrice" type="id">false</item>
+    <item name="org_progressbar" type="id">false</item>
+    <item name="osView" type="id">false</item>
+    <item name="page_change_viewer" type="id">false</item>
+    <item name="pager_layout" type="id">false</item>
+    <item name="pay_ly_share" type="id">false</item>
+    <item name="pay_webView" type="id">false</item>
+    <item name="person_info" type="id">false</item>
+    <item name="place" type="id">false</item>
+    <item name="platform_btn1" type="id">false</item>
+    <item name="platform_btn2" type="id">false</item>
+    <item name="platform_btn3" type="id">false</item>
+    <item name="platform_btn4" type="id">false</item>
+    <item name="platform_btn5" type="id">false</item>
+    <item name="progressBar1" type="id">false</item>
+    <item name="progress_bar_parent" type="id">false</item>
+    <item name="pullToRefreshView" type="id">false</item>
+    <item name="pull_to_refresh_image" type="id">false</item>
+    <item name="pull_to_refresh_progress" type="id">false</item>
+    <item name="pull_to_refresh_text" type="id">false</item>
+    <item name="pull_to_refresh_updated_at" type="id">false</item>
+    <item name="quit" type="id"/>
+    <item name="radioButton1" type="id">false</item>
+    <item name="radioButton11" type="id">false</item>
+    <item name="radioButton2" type="id">false</item>
+    <item name="radioButton22" type="id">false</item>
+    <item name="radioButton33" type="id">false</item>
+    <item name="radioButton44" type="id">false</item>
+    <item name="radioGroup" type="id"/>
+    <item name="rbOne1" type="id">false</item>
+    <item name="rbOne2" type="id">false</item>
+    <item name="rbTwo1" type="id">false</item>
+    <item name="rbTwo2" type="id">false</item>
+    <item name="rbTwo3" type="id">false</item>
+    <item name="rbTwo4" type="id">false</item>
+    <item name="rbTwo5" type="id">false</item>
+    <item name="rb_all_play_method" type="id">false</item>
+    <item name="rb_all_time" type="id">false</item>
+    <item name="rb_default" type="id">false</item>
+    <item name="rb_fee" type="id">false</item>
+    <item name="rb_free" type="id">false</item>
+    <item name="rb_hot_accuvally" type="id">false</item>
+    <item name="rb_latest_week" type="id">false</item>
+    <item name="rb_nearly_accuvally" type="id">false</item>
+    <item name="rb_start" type="id">false</item>
+    <item name="rb_today" type="id">false</item>
+    <item name="rb_tomorrow" type="id">false</item>
+    <item name="rb_weeked" type="id">false</item>
+    <item name="rc_actionbar" type="id"/>
+    <item name="rc_back" type="id"/>
+    <item name="rc_btn_cancel" type="id"/>
+    <item name="rc_btn_ok" type="id"/>
+    <item name="rc_checkbox" type="id"/>
+    <item name="rc_content" type="id"/>
+    <item name="rc_conversation_content" type="id"/>
+    <item name="rc_conversation_msg_block" type="id"/>
+    <item name="rc_conversation_status" type="id"/>
+    <item name="rc_conversation_time" type="id"/>
+    <item name="rc_conversation_title" type="id"/>
+    <item name="rc_fragment" type="id"/>
+    <item name="rc_frame" type="id"/>
+    <item name="rc_icon" type="id"/>
+    <item name="rc_img" type="id"/>
+    <item name="rc_input_extension" type="id"/>
+    <item name="rc_input_main" type="id"/>
+    <item name="rc_input_switch" type="id"/>
+    <item name="rc_item0" type="id"/>
+    <item name="rc_item1" type="id"/>
+    <item name="rc_item2" type="id"/>
+    <item name="rc_item3" type="id"/>
+    <item name="rc_item4" type="id"/>
+    <item name="rc_item5" type="id"/>
+    <item name="rc_item6" type="id"/>
+    <item name="rc_item7" type="id"/>
+    <item name="rc_item8" type="id"/>
+    <item name="rc_item9" type="id"/>
+    <item name="rc_item_conversation" type="id"/>
+    <item name="rc_layout" type="id"/>
+    <item name="rc_left" type="id"/>
+    <item name="rc_list" type="id"/>
+    <item name="rc_logo" type="id"/>
+    <item name="rc_message_send_failed" type="id"/>
+    <item name="rc_msg" type="id"/>
+    <item name="rc_new" type="id"/>
+    <item name="rc_pager" type="id"/>
+    <item name="rc_portrait" type="id"/>
+    <item name="rc_portrait_right" type="id"/>
+    <item name="rc_progress" type="id"/>
+    <item name="rc_read_receipt" type="id"/>
+    <item name="rc_right" type="id"/>
+    <item name="rc_send" type="id"/>
+    <item name="rc_sent_status" type="id"/>
+    <item name="rc_time" type="id"/>
+    <item name="rc_title" type="id"/>
+    <item name="rc_title_layout" type="id"/>
+    <item name="rc_txt" type="id"/>
+    <item name="rc_unread_message" type="id"/>
+    <item name="rc_unread_message_right" type="id"/>
+    <item name="rc_warning" type="id"/>
+    <item name="record_img_left" type="id">false</item>
+    <item name="record_img_right" type="id">false</item>
+    <item name="record_len_left" type="id">false</item>
+    <item name="record_len_right" type="id">false</item>
+    <item name="register_nick_name" type="id">false</item>
+    <item name="register_password" type="id">false</item>
+    <item name="register_phone" type="id">false</item>
+    <item name="register_submit_botton" type="id">false</item>
+    <item name="relativelayout" type="id">false</item>
+    <item name="remider_update" type="id">false</item>
+    <item name="resgister_phone" type="id">false</item>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="rgOne" type="id">false</item>
+    <item name="rgTwo" type="id">false</item>
+    <item name="rg_address" type="id">false</item>
+    <item name="rg_cost" type="id">false</item>
+    <item name="rg_nav_content" type="id">false</item>
+    <item name="rg_nav_content_image" type="id">false</item>
+    <item name="rlBindEmail" type="id">false</item>
+    <item name="rlBindPhone" type="id">false</item>
+    <item name="rlBottom" type="id">false</item>
+    <item name="rlGroupAnnounce" type="id">false</item>
+    <item name="rlGroupName" type="id">false</item>
+    <item name="rlHead" type="id">false</item>
+    <item name="rlHeader" type="id">false</item>
+    <item name="rlMainHeaderMessage" type="id">false</item>
+    <item name="rlName" type="id">false</item>
+    <item name="rlNickName" type="id">false</item>
+    <item name="rlPersonTicke" type="id">false</item>
+    <item name="rlPersonality" type="id">false</item>
+    <item name="rlRefund" type="id">false</item>
+    <item name="rlSearchResult" type="id">false</item>
+    <item name="rlSex" type="id">false</item>
+    <item name="rlSponsorDesc" type="id">false</item>
+    <item name="rlUpdateCity" type="id">false</item>
+    <item name="rlVersion" type="id">false</item>
+    <item name="rl_click_expand" type="id">false</item>
+    <item name="rl_more_widget" type="id">false</item>
+    <item name="rl_nav" type="id">false</item>
+    <item name="rl_nav_image" type="id">false</item>
+    <item name="rl_nav_image_in" type="id">false</item>
+    <item name="rl_nav_in" type="id">false</item>
+    <item name="rootView" type="id">false</item>
+    <item name="save_ly" type="id">false</item>
+    <item name="screen_snapshot_imageview" type="id">false</item>
+    <item name="scrollView" type="id">false</item>
+    <item name="scrollview" type="id"/>
+    <item name="scrollview_find_password" type="id">false</item>
+    <item name="scrshot_previewImg" type="id">false</item>
+    <item name="search" type="id">false</item>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="search_content" type="id">false</item>
+    <item name="search_text" type="id">false</item>
+    <item name="section" type="id">false</item>
+    <item name="selected_view" type="id"/>
+    <item name="sendBindCodeTv" type="id">false</item>
+    <item name="sendBtn" type="id">false</item>
+    <item name="sendCheckNumTv" type="id">false</item>
+    <item name="sendCodeTV" type="id">false</item>
+    <item name="share_ly" type="id">false</item>
+    <item name="slideBar" type="id">false</item>
+    <item name="slidingmenumain" type="id">false</item>
+    <item name="split" type="id">false</item>
+    <item name="static_logolayout" type="id">false</item>
+    <item name="sure" type="id"/>
+    <item name="sv_navigation" type="id">false</item>
+    <item name="sv_navigation_image" type="id">false</item>
+    <item name="sv_navigation_list" type="id">false</item>
+    <item name="swipe" type="id">false</item>
+    <item name="sync_logolayout" type="id">false</item>
+    <item name="tabStrip" type="id">false</item>
+    <item name="tag_first" type="id"/>
+    <item name="tag_second" type="id"/>
+    <item name="textView" type="id">false</item>
+    <item name="textView1" type="id">false</item>
+    <item name="ticket_accu_image" type="id">false</item>
+    <item name="ticket_accu_name" type="id">false</item>
+    <item name="ticket_accu_title" type="id">false</item>
+    <item name="ticket_count" type="id">false</item>
+    <item name="ticket_item" type="id">false</item>
+    <item name="ticket_middle_bg" type="id">false</item>
+    <item name="ticket_price" type="id">false</item>
+    <item name="ticket_statue" type="id">false</item>
+    <item name="ticket_user_name" type="id">false</item>
+    <item name="timePicker1" type="id">false</item>
+    <item name="title" type="id">false</item>
+    <item name="titleBar" type="id"/>
+    <item name="titleTime" type="id">false</item>
+    <item name="toolbar_layout" type="id">false</item>
+    <item name="topView" type="id">false</item>
+    <item name="top_ll" type="id">false</item>
+    <item name="tvAboutAccuvally" type="id">false</item>
+    <item name="tvAccount" type="id">false</item>
+    <item name="tvAccuDetailsRegistration" type="id">false</item>
+    <item name="tvAccuvallyDetail" type="id">false</item>
+    <item name="tvAccuvallyImage" type="id">false</item>
+    <item name="tvAddAccuvally" type="id">false</item>
+    <item name="tvAlbum" type="id">false</item>
+    <item name="tvAllMember" type="id">false</item>
+    <item name="tvAttend" type="id">false</item>
+    <item name="tvAttendStartTime" type="id">false</item>
+    <item name="tvAttendStatus" type="id">false</item>
+    <item name="tvAttendTitle" type="id">false</item>
+    <item name="tvBrief" type="id">false</item>
+    <item name="tvCacheSize" type="id">false</item>
+    <item name="tvCancel" type="id">false</item>
+    <item name="tvCheapTicket" type="id">false</item>
+    <item name="tvCheckVersionName" type="id">false</item>
+    <item name="tvCity" type="id">false</item>
+    <item name="tvCityAndFollow" type="id">false</item>
+    <item name="tvCityName" type="id">false</item>
+    <item name="tvCityTitle" type="id">false</item>
+    <item name="tvClassAddImg" type="id">false</item>
+    <item name="tvClassContent" type="id">false</item>
+    <item name="tvClassTitle" type="id">false</item>
+    <item name="tvCode" type="id">false</item>
+    <item name="tvComSize" type="id">false</item>
+    <item name="tvComment" type="id">false</item>
+    <item name="tvCommentContent" type="id">false</item>
+    <item name="tvCommentLogoUrl" type="id">false</item>
+    <item name="tvCommentNick" type="id">false</item>
+    <item name="tvCommentTime" type="id">false</item>
+    <item name="tvComments" type="id">false</item>
+    <item name="tvContactOrganizer" type="id">false</item>
+    <item name="tvContent" type="id">false</item>
+    <item name="tvCopyText" type="id">false</item>
+    <item name="tvCurrentVersion" type="id">false</item>
+    <item name="tvDelete" type="id">false</item>
+    <item name="tvDescride" type="id">false</item>
+    <item name="tvDetailInterest" type="id">false</item>
+    <item name="tvDetailsAddr" type="id">false</item>
+    <item name="tvDetailsAddress" type="id">false</item>
+    <item name="tvDetailsColl" type="id">false</item>
+    <item name="tvDetailsEnd" type="id">false</item>
+    <item name="tvDetailsOrgDesc" type="id">false</item>
+    <item name="tvDetailsOrgName" type="id">false</item>
+    <item name="tvDetailsRegTicket" type="id">false</item>
+    <item name="tvDetailsSell" type="id">false</item>
+    <item name="tvDetailsTicket" type="id">false</item>
+    <item name="tvDetailsTicketPrice" type="id">false</item>
+    <item name="tvDetailsTime" type="id">false</item>
+    <item name="tvDetailsTitle" type="id">false</item>
+    <item name="tvDialogMistake" type="id">false</item>
+    <item name="tvDialogOk" type="id">false</item>
+    <item name="tvDialogRemove" type="id">false</item>
+    <item name="tvEmailActivated" type="id">false</item>
+    <item name="tvFeedBack" type="id">false</item>
+    <item name="tvFirstNext" type="id">false</item>
+    <item name="tvFollow" type="id">false</item>
+    <item name="tvFollowNum" type="id">false</item>
+    <item name="tvFriendNick" type="id">false</item>
+    <item name="tvGroupName" type="id">false</item>
+    <item name="tvHandpickContent" type="id">false</item>
+    <item name="tvHandpickTitle" type="id">false</item>
+    <item name="tvHeadTitle" type="id">false</item>
+    <item name="tvHistory" type="id">false</item>
+    <item name="tvHistoryName" type="id">false</item>
+    <item name="tvHomeAddress" type="id">false</item>
+    <item name="tvHomeItemTitle" type="id">false</item>
+    <item name="tvHomeLeftAbout" type="id">false</item>
+    <item name="tvHomeLeftCity" type="id">false</item>
+    <item name="tvHomeLeftFeedBack" type="id">false</item>
+    <item name="tvHomeLeftLogin" type="id">false</item>
+    <item name="tvHomeLeftNickName" type="id">false</item>
+    <item name="tvHomeLeftRecommend" type="id">false</item>
+    <item name="tvHomeLeftRemind" type="id">false</item>
+    <item name="tvHomeLeftSize" type="id">false</item>
+    <item name="tvHomeLeftUserName" type="id">false</item>
+    <item name="tvHomeTime" type="id">false</item>
+    <item name="tvHomeTitle" type="id">false</item>
+    <item name="tvHomeTypeCalender" type="id">false</item>
+    <item name="tvHomeTypeNear" type="id">false</item>
+    <item name="tvHomeTypeNews" type="id">false</item>
+    <item name="tvHotTitle" type="id">false</item>
+    <item name="tvHow" type="id">false</item>
+    <item name="tvImgShare" type="id">false</item>
+    <item name="tvIntroduction" type="id">false</item>
+    <item name="tvIsPayStatus" type="id">false</item>
+    <item name="tvItemAddress" type="id">false</item>
+    <item name="tvItemPriceArea" type="id">false</item>
+    <item name="tvItemTime" type="id">false</item>
+    <item name="tvItemTitle" type="id">false</item>
+    <item name="tvItemVisitNum" type="id">false</item>
+    <item name="tvLikeNum" type="id">false</item>
+    <item name="tvLineationPrice" type="id">false</item>
+    <item name="tvLocation" type="id">false</item>
+    <item name="tvLoginAli" type="id">false</item>
+    <item name="tvLoginAndReg" type="id">false</item>
+    <item name="tvLoginQQ" type="id">false</item>
+    <item name="tvLoginSina" type="id">false</item>
+    <item name="tvLoginWx" type="id">false</item>
+    <item name="tvMainBottomHome" type="id">false</item>
+    <item name="tvMainBottomMessage" type="id">false</item>
+    <item name="tvMainBottomSelect" type="id">false</item>
+    <item name="tvMainBottomSession" type="id">false</item>
+    <item name="tvMainButtonInitiate" type="id"/>
+    <item name="tvMainHeader" type="id">false</item>
+    <item name="tvMainHeaderCity" type="id">false</item>
+    <item name="tvMainMessageUnReadNum" type="id">false</item>
+    <item name="tvMainRightContent" type="id">false</item>
+    <item name="tvMainRightTime" type="id">false</item>
+    <item name="tvMainRightTitle" type="id">false</item>
+    <item name="tvMapName" type="id">false</item>
+    <item name="tvMaxLength" type="id">false</item>
+    <item name="tvMemberNick" type="id">false</item>
+    <item name="tvMineNickName" type="id">false</item>
+    <item name="tvMineSignature" type="id">false</item>
+    <item name="tvMineUnReadNum" type="id">false</item>
+    <item name="tvMyOrgTitle" type="id">false</item>
+    <item name="tvName" type="id">false</item>
+    <item name="tvNewTopic" type="id">false</item>
+    <item name="tvNext" type="id">false</item>
+    <item name="tvNickName" type="id">false</item>
+    <item name="tvNoData" type="id"/>
+    <item name="tvNoLoginContent" type="id">false</item>
+    <item name="tvNoticeContent" type="id">false</item>
+    <item name="tvNum" type="id">false</item>
+    <item name="tvOrderTicketTitle" type="id">false</item>
+    <item name="tvOrg" type="id">false</item>
+    <item name="tvOrgActTitle" type="id">false</item>
+    <item name="tvOrgCommentNumber" type="id">false</item>
+    <item name="tvOrgDescription" type="id">false</item>
+    <item name="tvOrgDetailsTitle" type="id">false</item>
+    <item name="tvOrgFollow" type="id">false</item>
+    <item name="tvOrgName" type="id">false</item>
+    <item name="tvOrgNum" type="id">false</item>
+    <item name="tvPayCity" type="id">false</item>
+    <item name="tvPayTicketType" type="id">false</item>
+    <item name="tvPayTitle" type="id">false</item>
+    <item name="tvPayUserName" type="id">false</item>
+    <item name="tvPayUserPhone" type="id">false</item>
+    <item name="tvPhone" type="id">false</item>
+    <item name="tvPhoneActivated" type="id">false</item>
+    <item name="tvPhotograph" type="id">false</item>
+    <item name="tvPrimeCost" type="id">false</item>
+    <item name="tvPrompts" type="id">false</item>
+    <item name="tvPublish" type="id">false</item>
+    <item name="tvQQ" type="id">false</item>
+    <item name="tvQuestion" type="id">false</item>
+    <item name="tvQuestionTitle" type="id">false</item>
+    <item name="tvRealName" type="id">false</item>
+    <item name="tvRecommend" type="id">false</item>
+    <item name="tvRecommendContent" type="id">false</item>
+    <item name="tvRecommendTitle" type="id">false</item>
+    <item name="tvRefundContent" type="id">false</item>
+    <item name="tvRefundTicket" type="id">false</item>
+    <item name="tvRegion" type="id">false</item>
+    <item name="tvRemainingTimeStr" type="id">false</item>
+    <item name="tvRemind" type="id">false</item>
+    <item name="tvRobAddress" type="id">false</item>
+    <item name="tvRobPrice" type="id">false</item>
+    <item name="tvRobState" type="id">false</item>
+    <item name="tvRobTime" type="id">false</item>
+    <item name="tvRobTitle" type="id">false</item>
+    <item name="tvRobVisitNum" type="id">false</item>
+    <item name="tvSave" type="id">false</item>
+    <item name="tvSecondNext" type="id">false</item>
+    <item name="tvSelAddress" type="id">false</item>
+    <item name="tvSelHomeType" type="id">false</item>
+    <item name="tvSelItemTime" type="id">false</item>
+    <item name="tvSelLikeNum" type="id">false</item>
+    <item name="tvSelPrice" type="id">false</item>
+    <item name="tvSelPriceArea" type="id">false</item>
+    <item name="tvSelTime" type="id">false</item>
+    <item name="tvSelTitle" type="id">false</item>
+    <item name="tvSelType" type="id">false</item>
+    <item name="tvSend" type="id">false</item>
+    <item name="tvSettingLogout" type="id">false</item>
+    <item name="tvSex" type="id">false</item>
+    <item name="tvShareMsg" type="id">false</item>
+    <item name="tvShareQzone" type="id">false</item>
+    <item name="tvShareSina" type="id">false</item>
+    <item name="tvSharewx" type="id">false</item>
+    <item name="tvSharewxpy" type="id">false</item>
+    <item name="tvSignature" type="id">false</item>
+    <item name="tvSkip" type="id">false</item>
+    <item name="tvSponsorBrief" type="id">false</item>
+    <item name="tvSponsorDesc" type="id">false</item>
+    <item name="tvSponsorFollows" type="id">false</item>
+    <item name="tvSponsorName" type="id">false</item>
+    <item name="tvState" type="id">false</item>
+    <item name="tvSure" type="id">false</item>
+    <item name="tvTicketContent" type="id">false</item>
+    <item name="tvTicketPrice" type="id">false</item>
+    <item name="tvTicketStatus" type="id">false</item>
+    <item name="tvTicketTitle" type="id">false</item>
+    <item name="tvTime" type="id">false</item>
+    <item name="tvTips" type="id">false</item>
+    <item name="tvTitle" type="id">false</item>
+    <item name="tvTopic" type="id">false</item>
+    <item name="tvTotalPrice" type="id">false</item>
+    <item name="tvUnreadNum" type="id">false</item>
+    <item name="tvUpContent" type="id">false</item>
+    <item name="tvUpLoad" type="id">false</item>
+    <item name="tvUpLoadTitle" type="id">false</item>
+    <item name="tvUpLoads" type="id">false</item>
+    <item name="tvUpdateCancel" type="id">false</item>
+    <item name="tvUpdateCityContent" type="id">false</item>
+    <item name="tvUpdatePass" type="id">false</item>
+    <item name="tvUpdateSure" type="id">false</item>
+    <item name="tvUploadAccu" type="id">false</item>
+    <item name="tvUserCity" type="id">false</item>
+    <item name="tvUserName" type="id">false</item>
+    <item name="tvUserSex" type="id">false</item>
+    <item name="tvVersionName" type="id">false</item>
+    <item name="tvVisitNum" type="id">false</item>
+    <item name="tvWeixin" type="id">false</item>
+    <item name="tv_accu_brief" type="id">false</item>
+    <item name="tv_address" type="id">false</item>
+    <item name="tv_content" type="id">false</item>
+    <item name="tv_date" type="id">false</item>
+    <item name="tv_email" type="id">false</item>
+    <item name="tv_expired_date" type="id">false</item>
+    <item name="tv_id" type="id">false</item>
+    <item name="tv_msg_content_left" type="id">false</item>
+    <item name="tv_msg_content_right" type="id">false</item>
+    <item name="tv_msg_name_left" type="id">false</item>
+    <item name="tv_msg_name_right" type="id">false</item>
+    <item name="tv_name" type="id">false</item>
+    <item name="tv_nick" type="id">false</item>
+    <item name="tv_nick_left" type="id">false</item>
+    <item name="tv_nick_right" type="id">false</item>
+    <item name="tv_operate_remider_msg" type="id">false</item>
+    <item name="tv_phone" type="id">false</item>
+    <item name="tv_price" type="id">false</item>
+    <item name="tv_right" type="id">false</item>
+    <item name="tv_select_activity_submit" type="id">false</item>
+    <item name="tv_skip" type="id">false</item>
+    <item name="tv_time" type="id">false</item>
+    <item name="tv_title" type="id">false</item>
+    <item name="tv_type" type="id">false</item>
+    <item name="two_dimensional_code" type="id">false</item>
+    <item name="two_img" type="id">false</item>
+    <item name="umeng_common_icon_view" type="id">false</item>
+    <item name="umeng_common_notification" type="id">false</item>
+    <item name="umeng_common_notification_controller" type="id">false</item>
+    <item name="umeng_common_progress_bar" type="id">false</item>
+    <item name="umeng_common_progress_text" type="id">false</item>
+    <item name="umeng_common_rich_notification_cancel" type="id">false</item>
+    <item name="umeng_common_rich_notification_continue" type="id">false</item>
+    <item name="umeng_common_title" type="id">false</item>
+    <item name="umeng_socialize_action_comment_im" type="id">false</item>
+    <item name="umeng_socialize_action_comment_tv" type="id">false</item>
+    <item name="umeng_socialize_action_like_tv" type="id">false</item>
+    <item name="umeng_socialize_action_pv_im" type="id">false</item>
+    <item name="umeng_socialize_action_pv_tv" type="id">false</item>
+    <item name="umeng_socialize_action_share_im" type="id">false</item>
+    <item name="umeng_socialize_action_share_tv" type="id">false</item>
+    <item name="umeng_socialize_action_user_center_im" type="id">false</item>
+    <item name="umeng_socialize_action_user_center_tv" type="id">false</item>
+    <item name="umeng_socialize_alert_body" type="id">false</item>
+    <item name="umeng_socialize_alert_button" type="id">false</item>
+    <item name="umeng_socialize_alert_footer" type="id">false</item>
+    <item name="umeng_socialize_avatar_imv" type="id">false</item>
+    <item name="umeng_socialize_bind_cancel" type="id">false</item>
+    <item name="umeng_socialize_bind_douban" type="id">false</item>
+    <item name="umeng_socialize_bind_no_tip" type="id">false</item>
+    <item name="umeng_socialize_bind_qzone" type="id">false</item>
+    <item name="umeng_socialize_bind_renren" type="id">false</item>
+    <item name="umeng_socialize_bind_sina" type="id">false</item>
+    <item name="umeng_socialize_bind_tel" type="id">false</item>
+    <item name="umeng_socialize_comment_avatar" type="id">false</item>
+    <item name="umeng_socialize_comment_bt" type="id">false</item>
+    <item name="umeng_socialize_comment_item" type="id">false</item>
+    <item name="umeng_socialize_comment_item_content" type="id">false</item>
+    <item name="umeng_socialize_comment_item_has_location" type="id">false</item>
+    <item name="umeng_socialize_comment_item_name" type="id">false</item>
+    <item name="umeng_socialize_comment_item_profile_gp" type="id">false</item>
+    <item name="umeng_socialize_comment_item_time" type="id">false</item>
+    <item name="umeng_socialize_comment_list" type="id">false</item>
+    <item name="umeng_socialize_comment_list_progress" type="id">false</item>
+    <item name="umeng_socialize_comment_more_root" type="id">false</item>
+    <item name="umeng_socialize_comment_write" type="id">false</item>
+    <item name="umeng_socialize_content" type="id">false</item>
+    <item name="umeng_socialize_divider" type="id">false</item>
+    <item name="umeng_socialize_first_area" type="id">false</item>
+    <item name="umeng_socialize_first_area_title" type="id">false</item>
+    <item name="umeng_socialize_follow" type="id">false</item>
+    <item name="umeng_socialize_follow_check" type="id">false</item>
+    <item name="umeng_socialize_follow_layout" type="id">false</item>
+    <item name="umeng_socialize_full_alert_dialog_divider" type="id">false</item>
+    <item name="umeng_socialize_full_alert_dialog_item_icon" type="id">false</item>
+    <item name="umeng_socialize_full_alert_dialog_item_status" type="id">false</item>
+    <item name="umeng_socialize_full_alert_dialog_item_text" type="id">false</item>
+    <item name="umeng_socialize_funcation_area" type="id">false</item>
+    <item name="umeng_socialize_ic" type="id">false</item>
+    <item name="umeng_socialize_icon" type="id">false</item>
+    <item name="umeng_socialize_info" type="id">false</item>
+    <item name="umeng_socialize_like_bt" type="id">false</item>
+    <item name="umeng_socialize_like_bt_progress" type="id">false</item>
+    <item name="umeng_socialize_like_bt_show" type="id">false</item>
+    <item name="umeng_socialize_like_icon" type="id">false</item>
+    <item name="umeng_socialize_line_edit" type="id">false</item>
+    <item name="umeng_socialize_line_serach" type="id">false</item>
+    <item name="umeng_socialize_list_fds" type="id">false</item>
+    <item name="umeng_socialize_list_fds_root" type="id">false</item>
+    <item name="umeng_socialize_list_progress" type="id">false</item>
+    <item name="umeng_socialize_list_recently_fds_root" type="id">false</item>
+    <item name="umeng_socialize_load_error" type="id">false</item>
+    <item name="umeng_socialize_location_ic" type="id">false</item>
+    <item name="umeng_socialize_location_progressbar" type="id">false</item>
+    <item name="umeng_socialize_loginAddr" type="id">false</item>
+    <item name="umeng_socialize_loginButton" type="id">false</item>
+    <item name="umeng_socialize_loginNm" type="id">false</item>
+    <item name="umeng_socialize_login_switch" type="id">false</item>
+    <item name="umeng_socialize_map" type="id">false</item>
+    <item name="umeng_socialize_map_invisable" type="id">false</item>
+    <item name="umeng_socialize_msg" type="id">false</item>
+    <item name="umeng_socialize_pb" type="id">false</item>
+    <item name="umeng_socialize_platforms_lv" type="id">false</item>
+    <item name="umeng_socialize_platforms_lv_second" type="id">false</item>
+    <item name="umeng_socialize_post_comment_bottom_area" type="id">false</item>
+    <item name="umeng_socialize_post_comment_edittext" type="id">false</item>
+    <item name="umeng_socialize_post_comment_fetch_img" type="id">false</item>
+    <item name="umeng_socialize_post_comment_location" type="id">false</item>
+    <item name="umeng_socialize_post_comment_previewImg" type="id">false</item>
+    <item name="umeng_socialize_post_comment_titlebar" type="id">false</item>
+    <item name="umeng_socialize_post_cws_ic" type="id">false</item>
+    <item name="umeng_socialize_post_cws_selected" type="id">false</item>
+    <item name="umeng_socialize_post_fetch_image" type="id">false</item>
+    <item name="umeng_socialize_post_ws_area" type="id">false</item>
+    <item name="umeng_socialize_progress" type="id">false</item>
+    <item name="umeng_socialize_second_area" type="id">false</item>
+    <item name="umeng_socialize_second_area_title" type="id">false</item>
+    <item name="umeng_socialize_share_area" type="id">false</item>
+    <item name="umeng_socialize_share_at" type="id">false</item>
+    <item name="umeng_socialize_share_bottom_area" type="id">false</item>
+    <item name="umeng_socialize_share_bt" type="id">false</item>
+    <item name="umeng_socialize_share_config_area" type="id">false</item>
+    <item name="umeng_socialize_share_edittext" type="id">false</item>
+    <item name="umeng_socialize_share_info" type="id">false</item>
+    <item name="umeng_socialize_share_location" type="id">false</item>
+    <item name="umeng_socialize_share_previewImg" type="id">false</item>
+    <item name="umeng_socialize_share_previewImg_progressbar" type="id">false</item>
+    <item name="umeng_socialize_share_previewImg_remove" type="id">false</item>
+    <item name="umeng_socialize_share_root" type="id">false</item>
+    <item name="umeng_socialize_share_titlebar" type="id">false</item>
+    <item name="umeng_socialize_share_tv" type="id">false</item>
+    <item name="umeng_socialize_share_word_num" type="id">false</item>
+    <item name="umeng_socialize_shareboard_image" type="id">false</item>
+    <item name="umeng_socialize_shareboard_pltform_name" type="id">false</item>
+    <item name="umeng_socialize_spinner_img" type="id">false</item>
+    <item name="umeng_socialize_spinner_txt" type="id">false</item>
+    <item name="umeng_socialize_switcher" type="id">false</item>
+    <item name="umeng_socialize_text" type="id">false</item>
+    <item name="umeng_socialize_text_view" type="id">false</item>
+    <item name="umeng_socialize_tipinfo" type="id">false</item>
+    <item name="umeng_socialize_title" type="id">false</item>
+    <item name="umeng_socialize_title_bar_leftBt" type="id">false</item>
+    <item name="umeng_socialize_title_bar_middleTv" type="id">false</item>
+    <item name="umeng_socialize_title_bar_middle_tab" type="id">false</item>
+    <item name="umeng_socialize_title_bar_rightBt" type="id">false</item>
+    <item name="umeng_socialize_title_bar_rightBt_progress" type="id">false</item>
+    <item name="umeng_socialize_title_middle_left" type="id">false</item>
+    <item name="umeng_socialize_title_middle_right" type="id">false</item>
+    <item name="umeng_socialize_title_tv" type="id">false</item>
+    <item name="umeng_socialize_titlebar" type="id">false</item>
+    <item name="umeng_socialize_toggle" type="id">false</item>
+    <item name="umeng_socialize_ucenter_info" type="id">false</item>
+    <item name="umeng_socialize_user_center_bt" type="id">false</item>
+    <item name="umeng_update_content" type="id">false</item>
+    <item name="umeng_update_id_cancel" type="id">false</item>
+    <item name="umeng_update_id_check" type="id">false</item>
+    <item name="umeng_update_id_close" type="id">false</item>
+    <item name="umeng_update_id_ignore" type="id">false</item>
+    <item name="umeng_update_id_ok" type="id">false</item>
+    <item name="umeng_xp_ScrollView" type="id">false</item>
+    <item name="unfinished_ticket_count" type="id">false</item>
+    <item name="upCommBtn" type="id">false</item>
+    <item name="updateBtn" type="id">false</item>
+    <item name="updatePassBtn" type="id">false</item>
+    <item name="update_content" type="id">false</item>
+    <item name="uploadlineview" type="id">false</item>
+    <item name="user_header" type="id">false</item>
+    <item name="vHalvingLine" type="id">false</item>
+    <item name="vPriceLine" type="id">false</item>
+    <item name="valid_ticket" type="id">false</item>
+    <item name="verification_code" type="id">false</item>
+    <item name="viewOrgLine" type="id">false</item>
+    <item name="view_content" type="id">false</item>
+    <item name="viewline" type="id">false</item>
+    <item name="viewpager" type="id"/>
+    <item name="viewpager_calender" type="id">false</item>
+    <item name="voice_rcd_hint_loading" type="id">false</item>
+    <item name="voice_rcd_hint_rcding" type="id">false</item>
+    <item name="voice_rcd_hint_tooshort" type="id">false</item>
+    <item name="voice_rcd_hint_window" type="id">false</item>
+    <item name="volume" type="id">false</item>
+    <item name="webDetails" type="id">false</item>
+    <item name="webView" type="id">false</item>
+    <item name="webview" type="id"/>
+    <item name="weekrow" type="id">false</item>
+    <item name="what_new" type="id">false</item>
+    <item name="xlistview_footer_content" type="id">false</item>
+    <item name="xlistview_footer_hint_textview" type="id">false</item>
+    <item name="xlistview_footer_progressbar" type="id">false</item>
+    <item name="xlistview_header_arrow" type="id">false</item>
+    <item name="xlistview_header_content" type="id">false</item>
+    <item name="xlistview_header_hint_textview" type="id">false</item>
+    <item name="xlistview_header_progressbar" type="id">false</item>
+    <item name="xlistview_header_text" type="id">false</item>
+    <item name="xlistview_header_time" type="id">false</item>
+    <item name="xxx" type="id">false</item>
+    <item name="xxx_two" type="id">false</item>
+    <item name="year" type="id">false</item>
+    <item name="yes_or_not_update" type="id">false</item>
+    <integer name="anim_speed">500</integer>
+    <integer name="app_version_code">2</integer>
+    <integer name="fade_animation_duration">300</integer>
+    <integer name="np_config_longAnimTime">500</integer>
+    <integer name="num_cols">1</integer>
+    <integer name="polymeric_slide_left_out_duration">400</integer>
+    <integer name="rc_audio_encoding_bit_rate">7950</integer>
+    <integer name="rc_chatroom_first_pull_message_count">10</integer>
+    <integer name="rc_image_quality">85</integer>
+    <integer name="rc_image_size">960</integer>
+    <integer name="slide_animation_duration">200</integer>
+    <string name="Address">地址:</string>
+    <string name="CelebrityIntroduction">名人介绍</string>
+    <string name="Celebrity_Guarantee">名人保障</string>
+    <string name="Celebrity_Phone">名人图册</string>
+    <string name="Flans">粉丝</string>
+    <string name="GuanZhu">关注</string>
+    <string name="Invitation_TA">邀请TA</string>
+    <string name="LiveTvVedio">直播/视频</string>
+    <string name="No_NetWork"> 网络无连接，请检查网络!</string>
+    <string name="Person"> 人</string>
+    <string name="PlayHistory_NoPlay">你还没有观看记录</string>
+    <string name="PlayHistory_OneWeekHistory">一周以内观看记录</string>
+    <string name="PlayHistory_OneWeekHistoryAgo">一周以上观看记录</string>
+    <string name="PlayHistory_Title">播放历史</string>
+    <string name="Popularity">人气</string>
+    <string name="Reload_Network">点击！重新加载网络</string>
+    <string name="Specialty">特长:</string>
+    <string name="Students_Guarantee">学员保障</string>
+    <string name="UMAppUpdate">应用更新</string>
+    <string name="UMBreak_Network">未联网</string>
+    <string name="UMDialog_InstallAPK">最新版本已下载，是否安装？</string>
+    <string name="UMGprsCondition">（提示：非WIFI环境）</string>
+    <string name="UMIgnore">忽略该版</string>
+    <string name="UMNewVersion">版本号:</string>
+    <string name="UMNotNow">残忍拒绝</string>
+    <string name="UMTargetSize">新版本大小:</string>
+    <string name="UMToast_IsUpdating">正在更新中....</string>
+    <string name="UMUpdateContent">新版本功能包括：</string>
+    <string name="UMUpdateNow">立即更新</string>
+    <string name="UMUpdateSize">仅需要下载:</string>
+    <string name="UMUpdateTitle">目前有新版本，是否升级？</string>
+    <string name="about_email_content">service@huodongxing.com</string>
+    <string name="about_icon_customer">客服电话:</string>
+    <string name="about_icon_email">邮箱地址:</string>
+    <string name="about_icon_guide">新手指导</string>
+    <string name="about_icon_huodongxing_content">国内最好的活动报名及售票平台!</string>
+    <string name="about_icon_huodongxing_content2">全球最大中文活动平台</string>
+    <string name="about_icon_qq">加入QQ群:</string>
+    <string name="about_icon_version">版本检测</string>
+    <string name="about_icon_weibo">关于活动行微博</string>
+    <string name="about_icon_weixin">关注微信:</string>
+    <string name="about_qq_content">287935149</string>
+    <string name="about_sina_content">8@uxingzhe.com</string>
+    <string name="about_tel_content">4000 290 390</string>
+    <string name="about_weixin_content">V-Hans</string>
+    <string name="accu_push_details_btn">去参加</string>
+    <string name="accuvally_classfly_all">全部</string>
+    <string name="accuvally_classfly_business_meet">商务/会议</string>
+    <string name="accuvally_classfly_carve_out">创业/分享</string>
+    <string name="accuvally_classfly_cultural_salon">文化/沙龙</string>
+    <string name="accuvally_classfly_exhibition_party">展览/展会</string>
+    <string name="accuvally_classfly_life_socail">生活/社交</string>
+    <string name="accuvally_classfly_outdoor_gym">户外/健身</string>
+    <string name="accuvally_classfly_parent_children_interaction">亲子/互动</string>
+    <string name="accuvally_classfly_public_lecture">公益/讲座</string>
+    <string name="accuvally_classfly_show_other">演出其他</string>
+    <string name="accuvally_course_train">课程/培训</string>
+    <string name="accuvally_details_title">活动详情</string>
+    <string name="accuvally_manager_tab1">基本信息</string>
+    <string name="accuvally_manager_tab1_close">活动已关闭</string>
+    <string name="accuvally_manager_tab1_end_time">结束时间</string>
+    <string name="accuvally_manager_tab1_max">人数限制</string>
+    <string name="accuvally_manager_tab1_preview">活动预览</string>
+    <string name="accuvally_manager_tab1_submit">保存修改</string>
+    <string name="accuvally_manager_tab2">报名名单</string>
+    <string name="accuvally_manager_title">活动管理</string>
+    <string name="action_left">发起活动</string>
+    <string name="action_mid"/>
+    <string name="action_right">发起直播</string>
+    <string name="activity_feedback_str">意见反馈</string>
+    <string name="activity_find_password_head_title">找回密码</string>
+    <string name="activity_remind_str">活动设定</string>
+    <string name="activity_right_rigister_str">我要注册</string>
+    <string name="activity_right_rigister_str2">我已有账号</string>
+    <string name="add_accuvally_text1">聚会、会议、K歌各类活动轻松发起，尽在活动行</string>
+    <string name="add_accuvally_text10">输入人数限制</string>
+    <string name="add_accuvally_text11">选择活动结束时间</string>
+    <string name="add_accuvally_text12">同步发布到广场</string>
+    <string name="add_accuvally_text13">确定发布</string>
+    <string name="add_accuvally_text14">恭喜您!已发布成功</string>
+    <string name="add_accuvally_text15">确定</string>
+    <string name="add_accuvally_text16">选择开始时间</string>
+    <string name="add_accuvally_text17">选择结束时间</string>
+    <string name="add_accuvally_text18">取消</string>
+    <string name="add_accuvally_text19">组织发起一个活动</string>
+    <string name="add_accuvally_text2">输入标题</string>
+    <string name="add_accuvally_text20">热门活动</string>
+    <string name="add_accuvally_text3">选择时间</string>
+    <string name="add_accuvally_text4">输入活动详情，详细说明地点、事件</string>
+    <string name="add_accuvally_text5">添加图片</string>
+    <string name="add_accuvally_text6">添加表情</string>
+    <string name="add_accuvally_text7">提示：发布违法、反动互动信息或冒用他人、组织名义发起互动，将依据记录提交公安机关处理</string>
+    <string name="add_accuvally_text8">展开更多</string>
+    <string name="add_accuvally_text9">收起</string>
+    <string name="add_accuvally_text_address">输入地点</string>
+    <string name="add_accuvally_title">发布活动</string>
+    <string name="add_firend">邀请好友</string>
+    <string name="after_auth">一般来说第三方登录时，第三方平台已经为您完成用户身份校验，您可以放心让用户登录。\n\n但如果您需要判断用户是否为新用户，可以在授权操作完成后，将用户的信息通过字段“HashMap userInfo”携带给login方法。客户端通过“String userId”执行登录请求，如果服务端判定此userId为未注册用户，可以将userInfo发送给注册接口，获取用户在此平台上的昵称、头像等数据，然后执行注册</string>
+    <string name="all">全部</string>
+    <string name="anniversary_of_lifting_martial_law">解严纪念日</string>
+    <string name="announce_count">每天最多只能发送3次公告,今天已经发送%1$s次公告</string>
+    <string name="anti_aggression_day">反侵略日</string>
+    <string name="app_name">约吧</string>
+    <string name="app_tip">提示</string>
+    <string name="app_version">2.0.0</string>
+    <string name="arbor_day">植树节</string>
+    <string name="armed_forces_day">军人节</string>
+    <string name="attend_no_data_remind">您还没有参加任何活动哦 ^_^</string>
+    <string name="auth_cancel">授权操作已取消</string>
+    <string name="auth_complete">授权成功，正在跳转登录操作…</string>
+    <string name="auth_error">授权操作遇到错误，请阅读Logcat输出</string>
+    <string name="autumn_begins">立秋</string>
+    <string name="autumn_equinox">秋分</string>
+    <string name="bottom_home_category">分类</string>
+    <string name="bottom_home_txt">首页</string>
+    <string name="bottom_my_txt">我的</string>
+    <string name="bottom_setting_txt">更多</string>
+    <string name="bottom_square_txt">广场</string>
+    <string name="bottom_ticket_txt">票券</string>
+    <string name="buy_ticket_edit1">您的手机号*</string>
+    <string name="buy_ticket_edit2">请输入您收到的验证码*</string>
+    <string name="buy_ticket_first_title">验证购票人信息</string>
+    <string name="buy_ticket_second_title1">填写报名表单</string>
+    <string name="buy_ticket_text_title1">手机</string>
+    <string name="buy_ticket_text_title2">收到的验证码</string>
+    <string name="charts_title">主办方排行</string>
+    <string name="childrens_day">儿童节</string>
+    <string name="chinese_youth_day">青年节</string>
+    <string name="christmas_day">圣诞节</string>
+    <string name="circle_wel">去【 %1$s】的活动圈里，与其他参与者一起聊聊吧！</string>
+    <string name="classfly_title2">给我一些选择，还你更多惊喜</string>
+    <string name="classfly_title3">跳过</string>
+    <string name="classfly_title4">去看看</string>
+    <string name="classify_next">去看看</string>
+    <string name="classify_prompt">给我一些选择，还你更多惊喜！</string>
+    <string name="classify_skip">跳过</string>
+    <string name="classify_title">订阅活动类型</string>
+    <string name="clear_and_bright">清明</string>
+    <string name="cold_dews">寒露</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <string name="comment_content_hint">请输入评论内容</string>
+    <string name="comment_title">评论</string>
+    <string name="defult">默认</string>
+    <string name="details_Introduction">活动介绍</string>
+    <string name="details_Ticket">票种</string>
+    <string name="details_accu_org_message">场馆信息</string>
+    <string name="details_accu_phones">电话咨询</string>
+    <string name="details_accu_publish_address">www.huodongxing.com</string>
+    <string name="details_accu_publish_reminder">主办方发布活动请电脑登录</string>
+    <string name="details_all_click">查看全部</string>
+    <string name="details_comment">讨论</string>
+    <string name="details_comment_edit">我来说两句!</string>
+    <string name="details_dialog1_school_text">学校/单位</string>
+    <string name="details_dialog1_school_text2">职业</string>
+    <string name="details_dialog1_school_text3">爱好(多选)</string>
+    <string name="details_dialog1_title">核对并补充您的报名信息</string>
+    <string name="details_dialog2_text1">请验证账户信息</string>
+    <string name="details_dialog2_text2">验证手机</string>
+    <string name="details_dialog2_text3">获取验证码</string>
+    <string name="details_dialog2_text4">请输入手机号</string>
+    <string name="details_dialog2_text5">请输入验证码</string>
+    <string name="details_dialog2_text6">姓名</string>
+    <string name="details_dialog2_text7">昵称</string>
+    <string name="details_dialog2_text8">先生</string>
+    <string name="details_dialog2_text9">女士</string>
+    <string name="details_dialog_text1">请选择您要的票种</string>
+    <string name="details_dialog_text2">购票数量</string>
+    <string name="details_end">结束：</string>
+    <string name="details_introductions">秦始皇（公元前259年1月27日[3-5]—公元前210年），是秦庄襄王的中子，嬴姓，赵氏，名政，故又称赵政。</string>
+    <string name="details_landmarks">发布者：</string>
+    <string name="details_like">猜你喜欢</string>
+    <string name="details_next">下一步</string>
+    <string name="details_register">我要报名</string>
+    <string name="details_sponsor">主办方：</string>
+    <string name="details_start">开始：</string>
+    <string name="details_ticket_instructions">"电子票使用说明:
+ 1.本活动凭票入场,一人一票一次性,请勿复制或转寄他人;
+ 2.请下载至手机或打印携带,保持条码清晰完整;
+ 3.本活动由[活动行]提供票券服务,其拥有最终解释权。"</string>
+    <string name="details_top_title">活动详情</string>
+    <string name="di_zhi">地支</string>
+    <string name="dialog_light_name_hint">姓名</string>
+    <string name="dialog_light_phone_hint">手机号</string>
+    <string name="dialog_light_registration_btn">提交报名</string>
+    <string name="dialog_light_remark">备注</string>
+    <string name="dialog_new_version_content">"亲，发现重大新版本！
+ 全新的优雅设计、令人无法抗拒的愉悦操作及更加懂你的易用体验，马上下载尝鲜！"</string>
+    <string name="dialog_new_version_title">亲~有新版本</string>
+    <string name="dialog_push_details_content">活动行仅为您提供活动搜索，展示等服务。您所参加的活动全部信息请以相应的活动站信息为准。</string>
+    <string name="dialog_push_details_title">即将进入，数据正在准备中...</string>
+    <string name="dialog_push_details_title2">温馨提示</string>
+    <string name="dialog_share_message">短信</string>
+    <string name="dialog_share_qq">QQ空间</string>
+    <string name="dialog_share_sina">新浪微博</string>
+    <string name="dialog_share_title">分享到</string>
+    <string name="dialog_share_wx">微信</string>
+    <string name="dialog_share_wx_py">朋友圈</string>
+    <string name="double_seventh_day">七夕</string>
+    <string name="easter">复活节</string>
+    <string name="empty"/>
+    <string name="feedback_content">请留下您宝贵的意见</string>
+    <string name="feedback_email">手机/邮箱/QQ</string>
+    <string name="feedback_max_length">140</string>
+    <string name="feedback_max_length2">32</string>
+    <string name="feedback_submit">提交</string>
+    <string name="find_confirm_pass">确认您的新密码</string>
+    <string name="find_pass">设置您的新密码</string>
+    <string name="fools_day">愚人节</string>
+    <string name="getting_prepayid">正在获取预支付订单...</string>
+    <string name="grain_buds">小满</string>
+    <string name="grain_in_ear">芒种</string>
+    <string name="grain_rain">谷雨</string>
+    <string name="great_cold">大寒</string>
+    <string name="great_heat">大暑</string>
+    <string name="guide_btn">立即体验</string>
+    <string name="head">这里是HeadView</string>
+    <string name="heavy_snow">大雪</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hksar_establishment_day">香港特别行政区成立纪念日</string>
+    <string name="hoar_frost_falls">霜降</string>
+    <string name="home_item_linght">精彩活动</string>
+    <string name="home_item_org">推荐主办方</string>
+    <string name="home_item_org_content">来这里发现你喜欢的主办方</string>
+    <string name="home_tab_address">地址</string>
+    <string name="home_tab_checkbox_text">只看最热门</string>
+    <string name="home_tab_interest">兴趣</string>
+    <string name="home_tab_radiobutton_all">全部</string>
+    <string name="home_tab_radiobutton_gratis">免费</string>
+    <string name="home_tab_radiobutton_pay">付费</string>
+    <string name="home_tab_screening">筛选</string>
+    <string name="home_tab_time">时间</string>
+    <string name="if_register_needed">如果您需要注册功能…</string>
+    <string name="insects_awaken">惊蛰</string>
+    <string name="international_womens_day">情人节</string>
+    <string name="invalid_ticket_count">未完成订单</string>
+    <string name="jia_zi">甲子</string>
+    <string name="labour_day">元旦</string>
+    <string name="lantern_festival">元宵节</string>
+    <string name="light_snow">小雪</string>
+    <string name="load_fail">加载失败</string>
+    <string name="load_more_comments">加载更多</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="loading">正在加载...</string>
+    <string name="loading_no_data">"居然木有内容
+快去首页发现有趣的活动吧!"</string>
+    <string name="loading_no_wifi">网络有点不对劲</string>
+    <string name="location_cancel">否</string>
+    <string name="location_content1">活动行要使用你的地理位置，是否允许？</string>
+    <string name="location_content2">系统定位你在深圳，是否切换？</string>
+    <string name="location_sure">是</string>
+    <string name="location_title">提示</string>
+    <string name="login_btn">登录</string>
+    <string name="login_forget_pass"><u>忘记密码</u></string>
+    <string name="login_name">手机号</string>
+    <string name="login_pass">密码</string>
+    <string name="login_three_login">用第三方账号快速登录</string>
+    <string name="login_title">用活动行账号登录</string>
+    <string name="login_title_text">去注册</string>
+    <string name="login_with_other_plat">其他帐号登录</string>
+    <string name="login_with_qzone">用QQ空间登录</string>
+    <string name="login_with_wechat">用微信登录</string>
+    <string name="logining">使用%s帐号登录中…</string>
+    <string name="look_accu_details">更多活动详情</string>
+    <string name="lunar_ba">八</string>
+    <string name="lunar_chu">初</string>
+    <string name="lunar_chu_shi">初十</string>
+    <string name="lunar_er">廿</string>
+    <string name="lunar_er_shi">二十</string>
+    <string name="lunar_jiu">九</string>
+    <string name="lunar_leap">闰</string>
+    <string name="lunar_ling">零</string>
+    <string name="lunar_liu">六</string>
+    <string name="lunar_nian">年</string>
+    <string name="lunar_qi">七</string>
+    <string name="lunar_san">三</string>
+    <string name="lunar_san_shi">三十</string>
+    <string name="lunar_shi">十</string>
+    <string name="lunar_shi_er">十二</string>
+    <string name="lunar_shi_yi">十一</string>
+    <string name="lunar_si">四</string>
+    <string name="lunar_wu">五</string>
+    <string name="lunar_yi">一</string>
+    <string name="lunar_yue">月</string>
+    <string name="lunar_zheng">正</string>
+    <string name="map_title">地图</string>
+    <string name="my_accuvally_attend">我参加的</string>
+    <string name="my_accuvally_recommend">精彩推荐</string>
+    <string name="my_accuvally_upload">我发布的</string>
+    <string name="national_day">国庆节</string>
+    <string name="national_father_day">國父誕辰</string>
+    <string name="network_check">网络连接断开，请检查网络</string>
+    <string name="new_years_day">劳动节</string>
+    <string name="ok">确定</string>
+    <string name="organizers_details_follow">关注</string>
+    <string name="organizers_details_introduction">主办方简介</string>
+    <string name="organizers_details_title">主办方详情</string>
+    <string name="organizers_title">主办方</string>
+    <string name="partys_day">建党节</string>
+    <string formatted="false" name="pay_result_callback_msg">微信支付结果：%s</string>
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="paysuccess_text1">交易成功</string>
+    <string name="paysuccess_text2">交易失败</string>
+    <string name="paysuccess_text3">恭喜您！报名成功</string>
+    <string name="paysuccess_text4">您的交易失败</string>
+    <string name="paysuccess_text5">点击重试</string>
+    <string name="paysuccess_text6">你可能还喜欢</string>
+    <string name="paysuccess_text7">订单信息</string>
+    <string name="paysuccess_text_share">分享活动给小伙伴</string>
+    <string name="peace_day">和平紀念</string>
+    <string name="personal_Unbound">未绑定</string>
+    <string name="personal_baidu">百度</string>
+    <string name="personal_bind">绑定</string>
+    <string name="personal_bind_email_title">绑定邮箱</string>
+    <string name="personal_bind_phone_title">绑定手机号码</string>
+    <string name="personal_bind_promt1">绑定成功之后，你可以直接用手机号码登录</string>
+    <string name="personal_bind_promt2">绑定成功之后，你可以直接用邮箱登录</string>
+    <string name="personal_city">所在地区</string>
+    <string name="personal_douban">豆瓣</string>
+    <string name="personal_email">电子邮箱</string>
+    <string name="personal_head">头像</string>
+    <string name="personal_name">真实姓名</string>
+    <string name="personal_nickname">昵称</string>
+    <string name="personal_personality">个性签名</string>
+    <string name="personal_phonenumber">手机号码</string>
+    <string name="personal_qq">腾讯QQ</string>
+    <string name="personal_renren">人人网</string>
+    <string name="personal_sex">性别</string>
+    <string name="personal_sina">新浪微博</string>
+    <string name="personal_title">个人资料</string>
+    <string name="personal_update">修改密码</string>
+    <string name="personal_update_before_hint">请输入个性签名</string>
+    <string name="personal_update_city">选择城市</string>
+    <string name="personal_update_name">更改姓名</string>
+    <string name="personal_update_nickname">更改昵称</string>
+    <string name="personal_update_nickname_hint">请输入昵称</string>
+    <string name="personal_update_password_email_hint">请输入您的邮箱</string>
+    <string name="personal_update_password_new_hint">请输入新密码</string>
+    <string name="personal_update_password_phone_and_email_hint">请输入您的手机号码</string>
+    <string name="personal_update_password_phone_hint">请输入您的手机号码</string>
+    <string name="personal_update_password_title">修改密码</string>
+    <string name="personal_update_password_verification_hint">请输入验证码</string>
+    <string name="personal_update_photo_gallery">选择本地图片</string>
+    <string name="personal_update_photo_photograph">拍照</string>
+    <string name="personal_update_photo_title">选择头像</string>
+    <string name="personal_update_prompt1">请务必填写真实姓名，以便接收票券信息。</string>
+    <string name="personal_update_prompt2">好名字会让你的人气更高。</string>
+    <string name="personal_update_prompt3">保存</string>
+    <string name="personal_update_realname_hint">请输入真实姓名</string>
+    <string name="personal_update_sex_man">男</string>
+    <string name="personal_update_sex_women">女</string>
+    <string name="preservation">保存</string>
+    <string name="proj_name">ShareSDK_TPL</string>
+    <string name="publish_accuvally">发布活动</string>
+    <string name="publish_accuvally_adderss">填写详细地址</string>
+    <string name="publish_accuvally_content">活动详情</string>
+    <string name="publish_accuvally_delete_ticket">您确定要删除该票券吗？</string>
+    <string name="publish_accuvally_edit_ticket">编辑票券</string>
+    <string name="publish_accuvally_end_time">选择结束时间</string>
+    <string name="publish_accuvally_homepage_text">"您想发布什么样的活动？
+点击上传活动海报"</string>
+    <string name="publish_accuvally_info">基本信息</string>
+    <string name="publish_accuvally_limit_people_count">人数限制</string>
+    <string name="publish_accuvally_new_ticket">新建票券</string>
+    <string name="publish_accuvally_open_or_secret">是否私密</string>
+    <string name="publish_accuvally_people_count">0</string>
+    <string name="publish_accuvally_set_reminder">更多票券设置请到网站操作哦！</string>
+    <string name="publish_accuvally_start_time">选择开始时间</string>
+    <string name="publish_accuvally_statues">发布成功，请您耐心等待审核！</string>
+    <string name="publish_accuvally_table_remider">表单等功能操作请登录网页版进行操作</string>
+    <string name="publish_accuvally_text4">填写活动介绍</string>
+    <string name="publish_accuvally_ticket">活动票券</string>
+    <string name="publish_accuvally_ticket_alter_title">修改票券</string>
+    <string name="publish_accuvally_ticket_apply">是否审核</string>
+    <string name="publish_accuvally_ticket_count">票券数量</string>
+    <string name="publish_accuvally_ticket_new_title">新建票券</string>
+    <string name="publish_accuvally_ticket_price">票券价格</string>
+    <string name="publish_accuvally_ticket_title">票券名称</string>
+    <string name="publish_accuvally_title">活动标题</string>
+    <string name="publish_accuvally_type">活动类型</string>
+    <string name="publish_accuvally_type_title">类型、人数...</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">正在加载中</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_header_last_time">上次更新时间：</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新中</string>
+    <string name="pull_to_refresh_release_label">放开以刷新</string>
+    <string name="pull_to_refresh_tap_label">点击刷新</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="push_details_attend">去参加</string>
+    <string name="rc_called_accept">对方接受了通话请求</string>
+    <string name="rc_called_is_calling">对方正在通话中</string>
+    <string name="rc_called_not_accept">对方未接听</string>
+    <string name="rc_called_on_hook">对方已挂机</string>
+    <string name="rc_conversation_List_operation_failure">操作失败</string>
+    <string name="rc_conversation_list_app_public_service">应用公众服务</string>
+    <string name="rc_conversation_list_default_discussion_name">"讨论组"</string>
+    <string name="rc_conversation_list_dialog_cancel_top">取消置顶</string>
+    <string name="rc_conversation_list_dialog_remove">从会话列表中移除</string>
+    <string name="rc_conversation_list_dialog_set_top">置顶该会话</string>
+    <string name="rc_conversation_list_empty_prompt">"暂无聊天信息"</string>
+    <string name="rc_conversation_list_my_chatroom">我的聊天室</string>
+    <string name="rc_conversation_list_my_customer_service">客服列表</string>
+    <string name="rc_conversation_list_my_discussion">我的讨论组</string>
+    <string name="rc_conversation_list_my_group">我的群组</string>
+    <string name="rc_conversation_list_my_private_conversation">我的私人会话</string>
+    <string name="rc_conversation_list_not_connected">"尚未连接!"</string>
+    <string name="rc_conversation_list_popup_cancel_top">取消置顶</string>
+    <string name="rc_conversation_list_popup_set_top">已置顶</string>
+    <string name="rc_conversation_list_public_service">公众服务</string>
+    <string name="rc_conversation_list_system_conversation">系统消息</string>
+    <string name="rc_dialog_cancel">取消</string>
+    <string name="rc_dialog_item_message_copy">复制消息</string>
+    <string name="rc_dialog_item_message_delete">删除消息</string>
+    <string name="rc_dialog_ok">确定</string>
+    <string name="rc_discussion_nt_msg_for_add">"%1$s 邀请了%2$s位成员加入了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_added">"%1$s 邀请 %2$s 加入了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_exit">"%1$s 退出了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_is_open_invite_close">"%1$s 关闭了成员邀请"</string>
+    <string name="rc_discussion_nt_msg_for_is_open_invite_open">"%1$s 开放了成员邀请"</string>
+    <string name="rc_discussion_nt_msg_for_removed">"你被 %1$s 移出了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_rename">"%1$s 修改讨论组名称为 %2$s"</string>
+    <string name="rc_discussion_nt_msg_for_who_removed">"%1$s 被 %2$s 移出了讨论组"</string>
+    <string name="rc_discussion_nt_msg_for_you">"你"</string>
+    <string name="rc_exit_calling">是否退出通话界面？</string>
+    <string name="rc_file_not_exist">文件不存在</string>
+    <string name="rc_forbidden_in_chatroom">你已被禁言，不能发送消息</string>
+    <string name="rc_info_forbidden_to_talk">您当前在群组中被禁言</string>
+    <string name="rc_info_not_in_chatroom">你不在该聊天室</string>
+    <string name="rc_info_not_in_discussion">你不在该讨论组</string>
+    <string name="rc_info_not_in_group">你不在该群</string>
+    <string name="rc_input_send">发送</string>
+    <string name="rc_input_voice">按住 说话</string>
+    <string name="rc_kicked_from_chatroom">你已被踢出聊天室</string>
+    <string name="rc_message_content_draft">[草稿]</string>
+    <string name="rc_message_content_image">[图片]</string>
+    <string name="rc_message_content_location">[位置]</string>
+    <string name="rc_message_content_rich_text">[图文]</string>
+    <string name="rc_message_content_voice">[语音]</string>
+    <string name="rc_message_unknown">当前版本暂不支持查看此消息</string>
+    <string name="rc_message_unread_count">"···"</string>
+    <string name="rc_name">融云</string>
+    <string name="rc_network_error">网络连接错误</string>
+    <string name="rc_network_exception">网络异常请稍后再试</string>
+    <string name="rc_network_is_busy">网络繁忙</string>
+    <string name="rc_notice_connecting">正在连接服务器</string>
+    <string name="rc_notice_create_discussion">正在创建讨论组</string>
+    <string name="rc_notice_create_discussion_fail">创建讨论组失败</string>
+    <string name="rc_notice_data_is_loading">数据加载中</string>
+    <string name="rc_notice_disconnect">无法连接到服务器</string>
+    <string name="rc_notice_download_fail">下载失败!</string>
+    <string name="rc_notice_enter_chatroom">进入聊天室</string>
+    <string name="rc_notice_input_conversation_error">会话尚未创建</string>
+    <string name="rc_notice_load_data_fail">获取数据失败</string>
+    <string name="rc_notice_network_unavailable">当前网络不可用</string>
+    <string name="rc_notice_select_one_picture_at_last">请至少选择一张图片</string>
+    <string name="rc_notice_tick">该帐号已经在其他设备登录</string>
+    <string name="rc_notification_new_msg">%1$s发来了%2$d条消息</string>
+    <string name="rc_notification_new_plural_msg">%1$d个联系人发来了%2$d条消息</string>
+    <string name="rc_notification_ticker_text">您有了一条新消息</string>
+    <string name="rc_plugins_camera">相机</string>
+    <string name="rc_plugins_image">图片</string>
+    <string name="rc_plugins_location">位置</string>
+    <string name="rc_plugins_voip">语音通话</string>
+    <string name="rc_pub_service_info_account">公众号：%1$s</string>
+    <string name="rc_pub_service_info_description">功能介绍</string>
+    <string name="rc_pub_service_info_enter">进入公众号</string>
+    <string name="rc_pub_service_info_follow">关注</string>
+    <string name="rc_pub_service_info_unfollow">取消关注</string>
+    <string name="rc_read_all">阅读全文</string>
+    <string name="rc_rejected_by_blacklist_prompt">您的消息已经发出，但被对方拒收</string>
+    <string name="rc_send_format">发送(%1$s)</string>
+    <string name="rc_setting_clear_msg_fail">清空聊天失败</string>
+    <string name="rc_setting_clear_msg_name">清空聊天信息</string>
+    <string name="rc_setting_clear_msg_prompt">你确定要清空聊天消息吗?</string>
+    <string name="rc_setting_clear_msg_success">清空聊天成功</string>
+    <string name="rc_setting_conversation_notify">新消息通知</string>
+    <string name="rc_setting_conversation_notify_fail">设置新消息通知失败</string>
+    <string name="rc_setting_get_conversation_notify_fail">获取新消息通知失败</string>
+    <string name="rc_setting_name">设置</string>
+    <string name="rc_setting_set_top">置顶</string>
+    <string name="rc_setting_set_top_fail">设置置顶失败</string>
+    <string name="rc_voice_cancel">松开手指，取消发送</string>
+    <string name="rc_voice_dialog_cancel_send">松开手指，取消发送</string>
+    <string name="rc_voice_dialog_swipe">手指上滑，取消发送</string>
+    <string name="rc_voice_dialog_time_short">说话时间太短</string>
+    <string name="rc_voice_failure">录音失败！</string>
+    <string name="rc_voice_rec">手指上滑，取消发送</string>
+    <string name="rc_voice_short">录音时间太短</string>
+    <string name="rc_voip_cpu_error">很抱歉，该功能暂时不支持您的机型</string>
+    <string name="rc_waiting">等待中</string>
+    <string name="rc_yes">是</string>
+    <string name="rc_yesterday_format">昨天 %1$s</string>
+    <string name="recommend_content1">数十万Android软件和游戏供您下载</string>
+    <string name="recommend_content2">爱牙，你的全方位牙齿健康专家！</string>
+    <string name="recommend_content3">7x24小时有医生陪伴的孕育社区</string>
+    <string name="recommend_content4">活跃好友免费拨打，每日签到最多赠送4次免费拨打次数。</string>
+    <string name="recommend_content5">下一个-智能科技贴身助手</string>
+    <string name="recommend_content6">鱼阅，愉悦好心情，阅你所看</string>
+    <string name="recommend_title1">360手机助手</string>
+    <string name="recommend_title2">爱牙-牙齿健康必备</string>
+    <string name="recommend_title3">妈咪掌中宝</string>
+    <string name="recommend_title4">飞语网络电话</string>
+    <string name="recommend_title5">下一个</string>
+    <string name="recommend_title6">鱼阅</string>
+    <string name="recommend_url1">http://s.app818.cn/platformskip/689</string>
+    <string name="recommend_url2">http://s.51aiya.com/content/down/aiya14100150.apk</string>
+    <string name="recommend_url3">http://www.mmzzb.com/download/mmzzb.apk</string>
+    <string name="recommend_url4">http://gdown.baidu.com/data/wisegame/498d530481625ed8/feiyu_306100.apk</string>
+    <string name="recommend_url5">http://s.app818.cn/platformskip/689</string>
+    <string name="recommend_url6">http://api.yread.cn/version/downLastVersion/?name=huodongxing</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="register_confirm_button">确定</string>
+    <string name="register_forget">输入验证码</string>
+    <string name="register_nickname">设置您的昵称</string>
+    <string name="register_pass">设置您的密码</string>
+    <string name="register_pass_two">再次输入密码</string>
+    <string name="register_phone">输入您的手机号</string>
+    <string name="register_phone2">输入您的手机号/邮箱</string>
+    <string name="register_title">已有账号</string>
+    <string name="register_user">注册新用户</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="remider_update">软件更新提示</string>
+    <string name="remind1">当天提醒</string>
+    <string name="remind2">提前一天提醒</string>
+    <string name="remind3">提前两天提醒</string>
+    <string name="remind4">不提醒</string>
+    <string name="remind_title2">选择提醒时间</string>
+    <string name="remind_title3">请确保您已打开软件的提醒接收功能，我们将会在活动开始前及时的通知你唷！</string>
+    <string name="retrocession_day">光复节</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="search_accuvally">搜搜看，发现精彩活动</string>
+    <string name="search_city_name">请输入您要搜索的城市</string>
+    <string name="search_delete_history">清空搜索历史</string>
+    <string name="search_edittext_hint">试试手气，总有你想要的活动</string>
+    <string name="search_guangchang">去首页</string>
+    <string name="search_history">搜索历史</string>
+    <string name="search_history_nodata">暂无搜索历史</string>
+    <string name="search_hot">热门搜索</string>
+    <string name="search_nodata">"换个关键词试试
+或者
+去首页看看大家都在做什么？"</string>
+    <string name="search_prompt">搜索互联网/演出</string>
+    <string name="search_prompt_no_data">哎呀，没有更多了</string>
+    <string name="search_title">搜索</string>
+    <string name="select_accuvally">筛选好活动</string>
+    <string name="select_activity_condition">筛选</string>
+    <string name="select_activity_cost">费用</string>
+    <string name="select_activity_fee">收费</string>
+    <string name="select_activity_free">免费</string>
+    <string name="select_activity_hot_accuvally">热门活动</string>
+    <string name="select_activity_latest_week">最近一周</string>
+    <string name="select_activity_nearly_accuvally">附近活动</string>
+    <string name="select_activity_start">即将开始</string>
+    <string name="select_activity_today">今天</string>
+    <string name="select_activity_tomorrow">明天</string>
+    <string name="select_activity_weekend">周末</string>
+    <string name="select_sure">确定筛选</string>
+    <string name="service_telephone">客服电话:  4000-290-390</string>
+    <string name="setting_about_huodongxing">关于活动行</string>
+    <string name="setting_accu_remind">活动提醒</string>
+    <string name="setting_clear">清除缓存</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_icon_attend">已参加</string>
+    <string name="setting_icon_follow">关注的主办方</string>
+    <string name="setting_icon_like">已喜欢</string>
+    <string name="setting_icon_upload">已发布</string>
+    <string name="setting_login">登录</string>
+    <string name="setting_login_out">退出登录</string>
+    <string name="setting_message">消息设置</string>
+    <string name="setting_my_huodongxing">我的活动行</string>
+    <string name="setting_no_login">点击登录</string>
+    <string name="setting_no_signature">没有留下任何痕迹...</string>
+    <string name="setting_password">重设密码</string>
+    <string name="setting_recommend">精彩推荐</string>
+    <string name="setting_register">注册</string>
+    <string name="setting_scroe">亲，给个好评</string>
+    <string name="setting_synchronous">同步数据</string>
+    <string name="setting_synchronous2">登录后自动同步非登录下的操作数据</string>
+    <string name="setting_tab_history">浏览历史</string>
+    <string name="setting_tab_message">消息</string>
+    <string name="setting_title">设置</string>
+    <string name="setting_update_city">当前城市</string>
+    <string name="setting_update_classify">我的分类</string>
+    <string name="share_sdk">Share SDK</string>
+    <string name="slight_cold">小寒</string>
+    <string name="slight_heat">小暑</string>
+    <string name="smssdk_error_desc_400">无效请求</string>
+    <string name="smssdk_error_desc_401">token为空</string>
+    <string name="smssdk_error_desc_402">token不存在</string>
+    <string name="smssdk_error_desc_403">CRC32为空</string>
+    <string name="smssdk_error_desc_404">CRC32非法</string>
+    <string name="smssdk_error_desc_405">AppKey为空</string>
+    <string name="smssdk_error_desc_406">AppKey错误</string>
+    <string name="smssdk_error_desc_407">缺少数据</string>
+    <string name="smssdk_error_desc_408">无效的参数</string>
+    <string name="smssdk_error_desc_418">内部接口调用失败</string>
+    <string name="smssdk_error_desc_419">duid对应的token不存在</string>
+    <string name="smssdk_error_desc_450">权限不足</string>
+    <string name="smssdk_error_desc_451">User-Agent为空</string>
+    <string name="smssdk_error_desc_452">User-Agent格式错误</string>
+    <string name="smssdk_error_desc_453">解密错误</string>
+    <string name="smssdk_error_desc_454">数据格式错误</string>
+    <string name="smssdk_error_desc_455">签名无效</string>
+    <string name="smssdk_error_desc_456">手机号码错误</string>
+    <string name="smssdk_error_desc_457">非法手机号</string>
+    <string name="smssdk_error_desc_458">手机号码在黑名单中</string>
+    <string name="smssdk_error_desc_459">无appKey的控制数据</string>
+    <string name="smssdk_error_desc_460">无权限发送短信</string>
+    <string name="smssdk_error_desc_461">不支持该地区发送短信</string>
+    <string name="smssdk_error_desc_462">每分钟发送次数超限</string>
+    <string name="smssdk_error_desc_463">手机号码每天发送次数超限</string>
+    <string name="smssdk_error_desc_464">每台手机每天发送次数超限</string>
+    <string name="smssdk_error_desc_465">号码在App中每天发送短信的次数超限</string>
+    <string name="smssdk_error_desc_466">校验的验证码为空</string>
+    <string name="smssdk_error_desc_467">校验验证码请求频繁</string>
+    <string name="smssdk_error_desc_468">需要校验的验证码错误</string>
+    <string name="smssdk_error_desc_469">未开启web发送短信</string>
+    <string name="smssdk_error_desc_470">账户余额不足</string>
+    <string name="smssdk_error_desc_471">请求IP错误</string>
+    <string name="smssdk_error_desc_472">获取客户端平台错误</string>
+    <string name="smssdk_error_desc_473">服务端根据duid获取平台错误 </string>
+    <string name="smssdk_error_desc_474">没有打开服务端验证开关</string>
+    <string name="smssdk_error_desc_475">appKey的应用信息不存在</string>
+    <string name="smssdk_error_desc_476">当前appkey发送短信的数量超过限额</string>
+    <string name="smssdk_error_desc_477">当前手机号发送短信的数量超过限额</string>
+    <string name="smssdk_error_desc_478">当前手机号在当前应用内发送超过限额</string>
+    <string name="smssdk_error_desc_500">服务器内部错误</string>
+    <string name="smssdk_error_desc_600">API使用受限制</string>
+    <string name="smssdk_error_desc_601">短信发送受限</string>
+    <string name="smssdk_error_desc_602">无法发送此地区短信</string>
+    <string name="smssdk_error_desc_603">请填写正确的手机号码</string>
+    <string name="smssdk_error_desc_604">当前服务暂不支持此国家，请选择其它国家</string>
+    <string name="smssdk_error_desc_server_busy">服务器繁忙</string>
+    <string name="smssdk_error_detail_400">客户端请求不能被识别。</string>
+    <string name="smssdk_error_detail_401">请求的token为空。</string>
+    <string name="smssdk_error_detail_402">请求的token不存在。</string>
+    <string name="smssdk_error_detail_403">请求Header中的hash为空。</string>
+    <string name="smssdk_error_detail_404">请求Header中的hash非法。</string>
+    <string name="smssdk_error_detail_405">请求的AppKey为空。</string>
+    <string name="smssdk_error_detail_406">请求的AppKey不存在。</string>
+    <string name="smssdk_error_detail_407">请求提交的数据缺少必要的数据。</string>
+    <string name="smssdk_error_detail_408">无效的请求参数。</string>
+    <string name="smssdk_error_detail_418">内部接口调用失败。</string>
+    <string name="smssdk_error_detail_419">appKey_token对应的duid不存在</string>
+    <string name="smssdk_error_detail_450">无权执行该操作。</string>
+    <string name="smssdk_error_detail_451">所有访问服务器的接口，在请求的头部必须加入指定格式的User-Agent。</string>
+    <string name="smssdk_error_detail_452">请求头中的User-Agent格式错误。</string>
+    <string name="smssdk_error_detail_453">解密请求数据错误。</string>
+    <string name="smssdk_error_detail_454">请求传递的数据格式错误，服务器无法转换为JSON格式的数据。</string>
+    <string name="smssdk_error_detail_455">签名检验。</string>
+    <string name="smssdk_error_detail_456">提交的手机号码或者区号为空。</string>
+    <string name="smssdk_error_detail_457">提交的手机号格式不正确（包括手机的区号）。</string>
+    <string name="smssdk_error_detail_458">手机号码在发送黑名单中。</string>
+    <string name="smssdk_error_detail_459">获取appKey控制发送短信的数据失败。</string>
+    <string name="smssdk_error_detail_460">没有打开客户端发送短信的开关。</string>
+    <string name="smssdk_error_detail_461">没有开通给当前地区发送短信的功能。</string>
+    <string name="smssdk_error_detail_462">每分钟发送短信的数量超过限制。</string>
+    <string name="smssdk_error_detail_463">手机号码每天发送短信的次数超出限制。</string>
+    <string name="smssdk_error_detail_464">每台手机每天发送短信的次数超限。</string>
+    <string name="smssdk_error_detail_465">手机号码在APP中每天发送短信的数量超限。</string>
+    <string name="smssdk_error_detail_466">提交的校验验证码为空。</string>
+    <string name="smssdk_error_detail_467">验证失败3次，验证码失效，请重新请求</string>
+    <string name="smssdk_error_detail_468">用户提交校验的验证码错误。</string>
+    <string name="smssdk_error_detail_469">没有打开通过网页端发送短信的开关。</string>
+    <string name="smssdk_error_detail_470">账户的短信余额不足。</string>
+    <string name="smssdk_error_detail_471">通过服务端发送或验证短信的IP错误</string>
+    <string name="smssdk_error_detail_472">服务端根据duid获取平台错误。</string>
+    <string name="smssdk_error_detail_473">服务端根据duid获取平台错误 </string>
+    <string name="smssdk_error_detail_474">没有打开服务端验证开关</string>
+    <string name="smssdk_error_detail_475">appKey的应用信息不存在</string>
+    <string name="smssdk_error_detail_476">如果当前appkey对应的包名没有通过审核，每天次appkey+包名最多可以发送20条短信</string>
+    <string name="smssdk_error_detail_477">当前手机号码每天最多可发送短信10条，包括客户端发送和WebApi发送</string>
+    <string name="smssdk_error_detail_478">当前手机号码在当前应用下12小时内最多可发送文本验证码5条</string>
+    <string name="smssdk_error_detail_500">服务端程序报错。</string>
+    <string name="smssdk_error_detail_600">API使用受限制</string>
+    <string name="smssdk_error_detail_601">短信发送受限</string>
+    <string name="smssdk_error_detail_602">无法发送此地区短信</string>
+    <string name="smssdk_error_detail_603">请填写正确的手机号码</string>
+    <string name="smssdk_error_detail_604">当前服务暂不支持此国家，请选择其它国家</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="spring_begins">立春</string>
+    <string name="ssdk_alipay">支付宝好友</string>
+    <string name="ssdk_alipay_client_inavailable">目前您的支付宝版本过低或未安装，需要安装支付宝才能使用</string>
+    <string name="ssdk_baidutieba">百度贴吧</string>
+    <string name="ssdk_baidutieba_client_inavailable">目前您的百度贴吧版本过低或未安装，需要安装百度贴吧才能使用</string>
+    <string name="ssdk_bluetooth">蓝牙</string>
+    <string name="ssdk_douban">豆瓣</string>
+    <string name="ssdk_dropbox">Dropbox</string>
+    <string name="ssdk_email">邮件</string>
+    <string name="ssdk_evernote">印象笔记</string>
+    <string name="ssdk_facebook">Facebook</string>
+    <string name="ssdk_facebookmessenger">Facebook Messenger</string>
+    <string name="ssdk_facebookmessenger_client_inavailable">目前您的FacebookMessenger版本过低或未安装，需要安装才能使用</string>
+    <string name="ssdk_flickr">Flickr</string>
+    <string name="ssdk_foursquare">FourSquare</string>
+    <string name="ssdk_google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="ssdk_googleplus">Google+</string>
+    <string name="ssdk_instagram">Instagram</string>
+    <string name="ssdk_instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="ssdk_instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <string formatted="false" name="ssdk_instapager_login_html">
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">
+&lt;meta content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" id=\"viewport\" name=\"viewport\">
+&lt;meta content=\"yes\" name=\"apple-mobile-web-app-capable\">
+&lt;title>%s&lt;/title>
+&lt;style type=\"text/css\">
+body{margin:0;padding:0}
+.inputstyle {
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    width:100%%;
+    height:44px;
+    color:#000;
+    background:0;
+    border:0;
+    font-size:16px;
+    outline: none;
+    -webkit-appearance:none
+}
+
+.btn {
+    width:90%%;
+    height:44px;
+    line-height:44px;
+    background:#A0C035;
+    border:0;
+    border-radius:4px;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    margin-top:15px;
+    display:block
+}
+.btn:disabled {
+    background: #dddddd;
+}
+.error {
+    color:red;
+}
+&lt;/style>
+&lt;/head>
+
+&lt;body>
+&lt;script type=\"text/javascript\">
+function login(form){
+    var u=form[\"u\"].value,p=form[\"p\"].value;
+    if(!u || !p)
+        return false;
+    form[\"s\"].disabled = true;
+    return true;
+}
+&lt;/script>
+&lt;form style=\"margin-top:45px;\" action=\"%s\" metho=\"get\" onsubmit=\"return login(this);\">
+%s
+&lt;div style=\"padding-left:15px;border-top:1px solid #E3E3E5;border-bottom:1px solid #E3E3E5;\">
+ &lt;input type=\"hidden\" name=\"ID_SIGN\" value=\"OWELJSFPWECSFEW\"/>
+ &lt;input class=\"inputstyle\" id=\"u\" name=\"u\" type=\"text\" value=\"%s\" placeholder=\"%s\" style=\"border-bottom:1px solid #E3E3E5;\"/>
+ &lt;input class=\"inputstyle\" id=\"p\" name=\"p\" type=\"password\" placeholder=\"%s\"/>
+&lt;/div>
+&lt;p>&lt;input style=\"margin:0 auto;\" type=\"submit\" name=\"s\" value=\"  %s  \" class=\"btn\"/>&lt;/p>
+&lt;/form>
+&lt;/body>
+&lt;/html>
+</string>
+    <string name="ssdk_instapaper">Instapaper</string>
+    <string name="ssdk_instapaper_email">邮箱</string>
+    <string name="ssdk_instapaper_login">登录</string>
+    <string name="ssdk_instapaper_logining">登录中…</string>
+    <string name="ssdk_instapaper_pwd">密码</string>
+    <string name="ssdk_kaixin">开心网</string>
+    <string name="ssdk_kakaostory">KakaoStory</string>
+    <string name="ssdk_kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="ssdk_kakaotalk">KakaoTalk</string>
+    <string name="ssdk_kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="ssdk_laiwang">来往</string>
+    <string name="ssdk_laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
+    <string name="ssdk_laiwangmoments">来往动态</string>
+    <string name="ssdk_line">Line</string>
+    <string name="ssdk_line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="ssdk_linkedin">领英</string>
+    <string name="ssdk_mingdao">明道</string>
+    <string name="ssdk_mingdao_share_content">网页分享</string>
+    <string name="ssdk_neteasemicroblog">网易微博</string>
+    <string name="ssdk_oks_cancel">取消</string>
+    <string name="ssdk_oks_confirm">确定</string>
+    <string name="ssdk_oks_contacts">联系人</string>
+    <string name="ssdk_oks_multi_share">图文分享</string>
+    <string name="ssdk_oks_pull_to_refresh">下拉刷新</string>
+    <string name="ssdk_oks_refreshing">刷新中…</string>
+    <string name="ssdk_oks_release_to_refresh">松开刷新</string>
+    <string name="ssdk_oks_share">分享</string>
+    <string name="ssdk_oks_share_canceled">分享已取消</string>
+    <string name="ssdk_oks_share_completed">分享成功</string>
+    <string name="ssdk_oks_share_failed">分享失败</string>
+    <string name="ssdk_oks_sharing">分享操作正在后台进行…</string>
+    <string name="ssdk_pinterest">Pinterest</string>
+    <string name="ssdk_pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="ssdk_pocket">Pocket</string>
+    <string name="ssdk_qq">QQ</string>
+    <string name="ssdk_qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="ssdk_qzone">QQ空间</string>
+    <string name="ssdk_renren">人人网</string>
+    <string name="ssdk_share_to_baidutieba">分享到百度贴吧</string>
+    <string name="ssdk_share_to_mingdao">分享到明道</string>
+    <string name="ssdk_share_to_qq">分享到QQ</string>
+    <string name="ssdk_share_to_qzone">分享到QQ空间</string>
+    <string name="ssdk_share_to_qzone_default">来自%s的分享</string>
+    <string name="ssdk_shortmessage">信息</string>
+    <string name="ssdk_sinaweibo">新浪微博</string>
+    <string name="ssdk_sohumicroblog">搜狐微博</string>
+    <string name="ssdk_sohusuishenkan">搜狐随身看</string>
+    <string name="ssdk_tencentweibo">腾讯微博</string>
+    <string name="ssdk_tumblr">Tumblr</string>
+    <string name="ssdk_twitter">Twitter</string>
+    <string name="ssdk_use_login_button">请改用“登录”按钮</string>
+    <string name="ssdk_vkontakte">VK</string>
+    <string name="ssdk_website">http://www.mob.com</string>
+    <string name="ssdk_wechat">微信好友</string>
+    <string name="ssdk_wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="ssdk_wechatfavorite">微信收藏</string>
+    <string name="ssdk_wechatmoments">微信朋友圈</string>
+    <string name="ssdk_weibo_oauth_regiseter">应用授权</string>
+    <string name="ssdk_weibo_upload_content">分享图片</string>
+    <string name="ssdk_whatsapp">WhatsApp</string>
+    <string name="ssdk_whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <string name="ssdk_yixin">易信</string>
+    <string name="ssdk_yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="ssdk_yixinmoments">易信朋友圈</string>
+    <string name="ssdk_youdao">有道云笔记</string>
+    <string name="stopping_the_heat">处暑</string>
+    <string name="summer_begins">立夏</string>
+    <string name="summer_solstice">夏至</string>
+    <string name="sure_order_text1">订单确认</string>
+    <string name="sure_order_text10">付款说明</string>
+    <string name="sure_order_text11">支付宝支付</string>
+    <string name="sure_order_text12">推荐支付宝用户使用</string>
+    <string name="sure_order_text13">温馨提示：如果您没有支付宝账户，同样可以进入支付宝页面选择</string>
+    <string name="sure_order_text14">储蓄卡</string>
+    <string name="sure_order_text15">或者</string>
+    <string name="sure_order_text16">信用卡</string>
+    <string name="sure_order_text17">支付</string>
+    <string name="sure_order_text18">前往付款</string>
+    <string name="sure_order_text19">"1.付款完成后您将收到[]的电子票号,参加活动时请出示二维码凭证(手机开启或打印)或者短信.
+
+2.如果您需要支付电子票的发票,请于参加活动时向活动主办人索取.
+
+3.付款完成后如果没有收到电子票短信,请联系约吧客服"</string>
+    <string name="sure_order_text2">联系信息</string>
+    <string name="sure_order_text22">推荐微信用户使用</string>
+    <string name="sure_order_text3">(用于接收电子票)</string>
+    <string name="sure_order_text4">姓名：</string>
+    <string name="sure_order_text5">电话：</string>
+    <string name="sure_order_text6">邮箱：</string>
+    <string name="sure_order_text7">订单信息：</string>
+    <string name="sure_order_text8">温馨提示：请尽快完成付款，系统将会自动取消预订2天内尚未完成付款的票券！</string>
+    <string name="sure_order_text9">支付方式</string>
+    <string name="teachers_day">教师节</string>
+    <string name="test_details">秦始皇嬴政（前259年—前210年），出生于赵国首都邯郸，秦庄襄王之子，[1]十三岁继承王位，三十九岁称皇帝，在位三十七年。中国历史上著名的政治家、战略家、改革家，首位完成华夏大一统的铁腕政治人物，建造了首个多民族的中央集权国家，曾采用三皇之“皇”、五帝之“帝”构成“皇帝”的称号，是古今中外第一个称皇帝的封建王朝君主。秦始皇在中央创建皇帝制度，实行三公九卿，管理国家大事。地方上废除分封制，代以郡县制，同时又书同文，车同轨，统一度量衡。对外北击匈奴，南征百越，修筑万里长城，修筑灵渠，沟通水系。还把中国推向了大一统时代，为建立专制主义中央集权制度开创了新局面，对中国和世界历史产生了深远影响，奠定中国两千余年政治制度基本格局，他被明代思想家李贽誉为“千古一帝”。[</string>
+    <string name="the_armys_day">建军节</string>
+    <string name="the_double_ninth_festival">重阳节</string>
+    <string name="the_dragon_boat_festival">端午节</string>
+    <string name="the_laba_rice_porridge_festival">腊八</string>
+    <string name="the_mid_autumn_festival">中秋节</string>
+    <string name="the_rains">雨水</string>
+    <string name="the_spring_festival">春节</string>
+    <string name="tian_gan">天干</string>
+    <string name="title_activity_address_detail">AddressDetailActivity</string>
+    <string name="title_activity_menu_food">MenuFoodActivity</string>
+    <string name="title_comment">讨论</string>
+    <string name="title_entrepreneurship">创新创业</string>
+    <string name="title_free">免费</string>
+    <string name="title_hot">热门话题</string>
+    <string name="title_limited">限时优惠</string>
+    <string name="title_message">消息</string>
+    <string name="title_newactivity">最新活动</string>
+    <string name="title_passion">激情周末</string>
+    <string name="title_passion2">沙龙论坛</string>
+    <string name="title_special">专题精选</string>
+    <string name="title_special_details">专题详情</string>
+    <string name="title_ticket">票券</string>
+    <string name="tw_childrens_day">儿童节</string>
+    <string name="tw_youth_day">青年节</string>
+    <string name="umeng_common_action_cancel">取消</string>
+    <string name="umeng_common_action_continue">继续</string>
+    <string name="umeng_common_action_info_exist">正在下载中.</string>
+    <string name="umeng_common_action_pause">暂停</string>
+    <string name="umeng_common_download_failed">下载失败</string>
+    <string name="umeng_common_download_finish">下载完成，请点击安装</string>
+    <string name="umeng_common_download_notification_prefix">正在下载:</string>
+    <string name="umeng_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
+    <string name="umeng_common_network_break_alert">请连接网络后再尝试！</string>
+    <string name="umeng_common_patch_finish">更新完成，请点击安装</string>
+    <string name="umeng_common_pause_notification_prefix">暂停:</string>
+    <string name="umeng_common_silent_download_finish">新版本已经准备好，请点击安装</string>
+    <string name="umeng_common_start_download_notification">正在下载应用</string>
+    <string name="umeng_common_start_patch_notification">正在更新安装包</string>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_socialize_back">返回</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_comment">评论</string>
+    <string name="umeng_socialize_comment_detail">评论详情</string>
+    <string name="umeng_socialize_content_hint">说点啥…</string>
+    <string name="umeng_socialize_friends">关注的好友</string>
+    <string name="umeng_socialize_img_des"/>
+    <string name="umeng_socialize_laiwang_default_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能</string>
+    <string name="umeng_socialize_login">登录</string>
+    <string name="umeng_socialize_login_qq">QQ空间</string>
+    <string name="umeng_socialize_msg_hor">小时前</string>
+    <string name="umeng_socialize_msg_min">分钟前</string>
+    <string name="umeng_socialize_msg_sec">秒前</string>
+    <string name="umeng_socialize_near_At">最近@的好友</string>
+    <string name="umeng_socialize_network_break_alert">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_send">发布</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="umeng_socialize_share_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能，我们简化了社交平台的接入，为开发者提供坚实的基础服务。（一）支持各大主流社交平台， （二）支持图片、文字、gif动图、音频、视频；@好友，关注官方微博等功能。 （三）提供详尽的后台用户社交行为分析。www.umeng.com/social</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_socialize_text_authorize">授权</string>
+    <string name="umeng_socialize_text_choose_account">选择已有帐号登录</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧…</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_friend_list">好友列表</string>
+    <string name="umeng_socialize_text_laiwang_dynamic_key">来往动态</string>
+    <string name="umeng_socialize_text_laiwang_key">来往</string>
+    <string name="umeng_socialize_text_loading_message">载入中,请稍候...</string>
+    <string name="umeng_socialize_text_login_fail">登录失败了，请重试</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_tencent_no_connection">无法连接到腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_no_install">未安装腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">授权登录失败</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">版本不匹配，SSO只对微博客户端V3.8.1及以上的版本提供支持</string>
+    <string name="umeng_socialize_text_ucenter">个人中心</string>
+    <string name="umeng_socialize_text_unauthorize">未授权</string>
+    <string name="umeng_socialize_text_visitor">游客</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_share">分享中…</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_tip_blacklist">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed">登录失败…</string>
+    <string name="umeng_socialize_ucenter_login_title_guide">游客登录</string>
+    <string name="umeng_socialize_ucenter_login_title_platform">登录帐号</string>
+    <string name="united_nations_day">联合国日</string>
+    <string name="upload_accu_title">发布</string>
+    <string name="upload_comment">发表</string>
+    <string name="userid_found">用户信息已存在，正在跳转登录操作…</string>
+    <string name="valentines_day">情人节</string>
+    <string name="valid_ticket_count">已有票券</string>
+    <string name="vernal_equinox">春分</string>
+    <string name="vp_brightness">屏幕亮度</string>
+    <string name="vp_clarity">清晰度</string>
+    <string name="vp_continue_play">继续播放</string>
+    <string name="vp_volume">音量</string>
+    <string name="website_url">http://www.huodongxing.com</string>
+    <string name="white_dews">白露</string>
+    <string name="winter_begins">立冬</string>
+    <string name="winter_solstice">冬至</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_upload_accu">暂只能管理手机发布的活动，更多活动请在电脑进行管理哦！</string>
+    <string name="xlistview_upload_accu2">"暂只能管理手机发布的活动
+更多活动请在电脑进行管理哦！"</string>
+    <string name="yes_or_not_update">目前有新版本，是否升级？</string>
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/base_slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/transition_out</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/base_slide_right_out</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light"/>
+    <style name="AppTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@color/all_backgroud</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="BFYun"/>
+    <style name="BFYun.TextAppearance">
+        <item name="android:textColor">@color/vp_text_default</item>
+    </style>
+    <style name="BFYun.TextAppearance.Big">
+        <item name="android:textSize">@dimen/vp_text_size_big</item>
+    </style>
+    <style name="BFYun.TextAppearance.Big.GrayWhite">
+        <item name="android:textColor">@color/vp_color_text_graywhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Big.LightGray">
+        <item name="android:textColor">@color/vp_color_text_lightgray</item>
+    </style>
+    <style name="BFYun.TextAppearance.Big.WhiteGray">
+        <item name="android:textColor">@color/vp_color_text_whitegray</item>
+    </style>
+    <style name="BFYun.TextAppearance.Bigger">
+        <item name="android:textSize">@dimen/vp_text_size_bigger</item>
+    </style>
+    <style name="BFYun.TextAppearance.Bigger.GrayWhite">
+        <item name="android:textColor">@color/vp_color_text_graywhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Bigger.WhiteGray">
+        <item name="android:textColor">@color/vp_color_text_whitegray</item>
+    </style>
+    <style name="BFYun.TextAppearance.Biggest">
+        <item name="android:textSize">@dimen/vp_text_size_biggest</item>
+    </style>
+    <style name="BFYun.TextAppearance.Biggest.GrayWhite">
+        <item name="android:textColor">@color/vp_color_text_graywhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Middle">
+        <item name="android:textSize">@dimen/vp_text_size_middle</item>
+    </style>
+    <style name="BFYun.TextAppearance.Middle.GrayWhite">
+        <item name="android:textColor">@color/vp_color_text_graywhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Middle.LightWhite">
+        <item name="android:textColor">@color/vp_color_text_lightwhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Middle.WhiteGray">
+        <item name="android:textColor">@color/vp_color_text_whitegray</item>
+    </style>
+    <style name="BFYun.TextAppearance.Small">
+        <item name="android:textSize">@dimen/vp_text_size_small</item>
+    </style>
+    <style name="BFYun.TextAppearance.Small.GrayWhite">
+        <item name="android:textColor">@color/vp_color_text_graywhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Small.LightWhite">
+        <item name="android:textColor">@color/vp_color_text_lightwhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Small.WhiteGray">
+        <item name="android:textColor">@color/vp_color_text_whitegray</item>
+    </style>
+    <style name="BFYun.TextAppearance.Smaller">
+        <item name="android:textSize">@dimen/vp_text_size_smaller</item>
+    </style>
+    <style name="BFYun.TextAppearance.Smaller.GrayWhite">
+        <item name="android:textColor">@color/vp_color_text_graywhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Smaller.LightGray">
+        <item name="android:textColor">@color/vp_color_text_lightgray</item>
+    </style>
+    <style name="BFYun.TextAppearance.Smaller.LightWhite">
+        <item name="android:textColor">@color/vp_color_text_lightwhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Smallest">
+        <item name="android:textSize">@dimen/vp_text_size_smallest</item>
+    </style>
+    <style name="BFYun.TextAppearance.Smallest.GrayWhite">
+        <item name="android:textColor">@color/vp_color_text_graywhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Smallest.LightWhite">
+        <item name="android:textColor">@color/vp_color_text_lightwhite</item>
+    </style>
+    <style name="BFYun.TextAppearance.Tiny">
+        <item name="android:textSize">@dimen/vp_text_size_tiny</item>
+    </style>
+    <style name="BFYun.TextAppearance.Tiny.LightGray">
+        <item name="android:textColor">@color/vp_color_text_lightgray</item>
+    </style>
+    <style name="DefaultDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden|adjustPan</item>
+    </style>
+    <style name="Dialog_Fullscreen">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Notitle_Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="RCTheme" parent="@android:style/Theme.Light">
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@color/rc_text_color_primary</item>
+        <item name="android:textColorSecondary">@color/rc_text_color_secondary</item>
+        <item name="android:textColorTertiary">@color/rc_text_color_tertiary</item>
+        <item name="android:textColorPrimaryInverse">@color/rc_text_color_primary_inverse</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="RCTheme.Message.RichContent.TextView" parent="RCTheme.TextView">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/rc_text_color_secondary</item>
+    </style>
+    <style name="RCTheme.Message.TextView" parent="RCTheme.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/rc_text_color_primary</item>
+    </style>
+    <style name="RCTheme.Message.Username.TextView" parent="RCTheme.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/rc_message_user_name</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+    <style name="RCTheme.Notification" parent="RCTheme.TextView">
+        <item name="android:background">@color/rc_notification_bg</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:textColor">@color/rc_text_color_primary_inverse</item>
+    </style>
+    <style name="RCTheme.TextView" parent="android:Widget.TextView">
+
+    </style>
+    <style name="RCTheme.TextView.Large" parent="RCTheme.TextView">
+
+    </style>
+    <style name="RCTheme.TextView.Large.Inverse" parent="RCTheme.TextView.Large">
+        <item name="android:textColor">@color/rc_text_color_primary_inverse</item>
+    </style>
+    <style name="RCTheme.TextView.Medium" parent="RCTheme.TextView">
+
+    </style>
+    <style name="RCTheme.TextView.New" parent="RCTheme.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/rc_text_color_primary_inverse</item>
+        <item name="android:background">@drawable/rc_unread_count_bg</item>
+    </style>
+    <style name="RCTheme.TextView.Small" parent="RCTheme.TextView">
+
+    </style>
+    <style name="RcDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50.0dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+    <style name="TextView_dialog_operate">
+        <item name="android:textColor">@color/tvcolor_dialog_operate</item>
+    </style>
+    <style name="Transparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Widget"/>
+    <style name="Widget.TabPageIndicator" parent="@style/Widget">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@drawable/selector_home_type_textcolor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">22.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="custom_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/rc_photo_checkbox</item>
+    </style>
+    <style name="dateStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="default_edittext_style">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="dialogWindowAnim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+    <style name="live_text_title">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="notitleDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="personal_text_style">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+    </style>
+    <style name="preview_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/rc_preview_checkbox</item>
+    </style>
+    <style name="progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/abs__progress_medium_holo</item>
+    </style>
+    <style name="progress2" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/abs_progress_holo</item>
+    </style>
+    <style name="progressBarHorizontal_indeter" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">5.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/progressbar_mini</item>
+        <item name="android:minHeight">5.0dip</item>
+    </style>
+    <style name="scrshot_dlg_style" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>
